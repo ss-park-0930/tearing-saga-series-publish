@@ -73,7 +73,7 @@ npm run content:validate
 
 릴리즈 목록, 상세 정보, 배포일, 릴리즈 노트와 첨부 파일은 GitHub Release에서 자동으로 가져옵니다. 현재 두 배포 저장소에 공개 Release가 없으므로 사이트에는 빈 상태가 표시됩니다.
 
-패치 제작자는 `soaptree`이며, 버그 제보와 패치 관련 문의는 이메일
+패치 제작자는 `비누나무(soaptree)`이며, 버그 제보와 패치 관련 문의는 이메일
 `soaptree45@gmail.com`으로 받습니다.
 
 ## 주요 화면
