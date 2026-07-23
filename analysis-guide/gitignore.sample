@@ -1,0 +1,77 @@
+# Original and reference disk images: local only
+/disc/*
+!/disc/README.md
+
+# Analysis captures and generated artifacts
+/analytics/temp/
+/temp/
+/build/
+/release/
+
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.local.json
+local.config.*
+
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Ghidra
+*.gpr
+*.rep/
+*.lock
+/.ghidra/
+
+# Disc and binary images outside disc/
+*.iso
+*.bin
+*.cue
+*.img
+*.mdf
+*.mds
+*.chd
+*.ccd
+*.sub
+*.nrg
+*.cso
+*.zso
+*.isz
+*.p2s
+*.savestate
+*.state
+*.dmp
+*.dump
+
+# Virtual machine and sandbox images
+*.ova
+*.ovf
+*.vdi
+*.vhd
+*.vhdx
+*.vmdk
+*.qcow2
+*.vmem
+*.vmss
+*.vmsn
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Logs and editor backups
+*.log
+*.tmp
+*.bak
+*~

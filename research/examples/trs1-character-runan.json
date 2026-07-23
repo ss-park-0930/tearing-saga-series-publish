@@ -1,0 +1,15 @@
+{
+  "id": "trs1-character-fix000433",
+  "game": "trs1",
+  "type": "character",
+  "sourceKey": "FIX000433",
+  "canonicalJp": "リュナン",
+  "displayName": "リュナン",
+  "displayLanguage": "ja",
+  "provisionalKo": "류난",
+  "aliases": [
+    { "language": "ko", "name": "류난", "sourceId": "patch-translate" },
+    { "language": "en", "name": "Runan", "sourceId": "serenes-trs1" }
+  ],
+  "status": "japanese-canonical"
+}

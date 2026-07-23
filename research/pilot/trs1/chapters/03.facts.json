@@ -1,0 +1,135 @@
+{
+  "game": "trs1",
+  "subjectId": "trs1-chapter-03",
+  "generatedAt": "2026-07-15",
+  "relatedEntityIds": [
+    "trs1-character-fix000433",
+    "trs1-character-fix000434",
+    "trs1-character-fix000441",
+    "trs1-character-fix000445",
+    "trs1-weapon-fix000056",
+    "trs1-weapon-fix000095",
+    "trs1-item-fix000156",
+    "trs1-item-fix000173",
+    "trs1-item-fix000190",
+    "trs1-item-fix000192",
+    "trs1-item-fix000214",
+    "trs1-item-fix000224",
+    "trs1-skill-fix000836"
+  ],
+  "facts": [
+    {
+      "id": "trs1-chapter-03-terrain-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-03",
+      "field": "map.terrain",
+      "kind": "factual",
+      "value": "平地",
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map3.html", "locator": "マップ: ソラの港", "checkedAt": "2026-07-15" },
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "MAP3 heading", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "cross-checked", "agreementCount": 2, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-03-deployment-limit-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-03",
+      "field": "deployment.maxUnits",
+      "kind": "factual",
+      "value": { "rrpg": 8, "pegasusKnight": 10 },
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map3.html", "locator": "マップ: 10人まで出撃可能", "checkedAt": "2026-07-15" },
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "MAP3 strategy introduction", "checkedAt": "2026-07-15" }
+      ],
+      "verification": {
+        "status": "conflict",
+        "agreementCount": 0,
+        "reviewedByHuman": false,
+        "conflictNote": "RRPG는 8명, Pegasus Knight는 10명으로 기록한다. 실제 게임 또는 추출 데이터 확인이 필요하다."
+      }
+    },
+    {
+      "id": "trs1-chapter-03-victory-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-03",
+      "field": "objective.victory",
+      "kind": "factual",
+      "value": "敵ぜんめつ",
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map3.html", "locator": "攻略 > 勝利条件", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "collected", "agreementCount": 1, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-03-first-turn-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-03",
+      "field": "battle.firstSide",
+      "kind": "factual",
+      "value": "enemy",
+      "sources": [
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "MAP3 opening", "checkedAt": "2026-07-15" },
+        { "sourceId": "serenes-trs1", "url": "https://serenesforest.net/tearring-saga/general/walkthrough/part-1/", "locator": "Chapter 3 opening", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "cross-checked", "agreementCount": 2, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-03-reinforcements-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-03",
+      "field": "enemy.reinforcementTurn",
+      "kind": "factual",
+      "value": 3,
+      "context": "마을을 노리는 馬賊 4명",
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map3.html", "locator": "敵増援（3ターン目）", "checkedAt": "2026-07-15" },
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "MAP3 reinforcements", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "cross-checked", "agreementCount": 2, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-03-village-rewards-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-03",
+      "field": "rewards.villages",
+      "kind": "factual",
+      "value": ["ナイトのあかし", "再移動の書", "海の戦士（1장에서 미습득 시）", "スーパープルフ", "LUKプラス", "てつのやり（打倒数51）"],
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map3.html", "locator": "イベント: 民家a-g", "checkedAt": "2026-07-15" },
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "MAP3 民家", "checkedAt": "2026-07-15" },
+        { "sourceId": "kouryaku-red-trs1", "url": "https://tear-ring-saga.kouryaku.red/entry2.html", "locator": "MAP03 入手可能アイテム", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "cross-checked", "agreementCount": 3, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-03-narcus-event-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-03",
+      "field": "events.narcus",
+      "kind": "factual",
+      "value": { "visitor": "リュナン", "location": "民家g", "requiredForLaterEvents": true },
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map3.html", "locator": "イベント: 民家g", "checkedAt": "2026-07-15" },
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "MAP3 ナルサスイベント", "checkedAt": "2026-07-15" },
+        { "sourceId": "serenes-trs1", "url": "https://serenesforest.net/tearring-saga/general/walkthrough/part-1/", "locator": "Chapter 3 Narcus village", "checkedAt": "2026-07-15" },
+        { "sourceId": "kouryaku-red-trs1", "url": "https://tear-ring-saga.kouryaku.red/entry2.html", "locator": "MAP03 rightmost house", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "cross-checked", "agreementCount": 4, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-03-support-event-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-03",
+      "field": "postMap.garoJuliaSupport",
+      "kind": "factual",
+      "value": { "choice": "ああ……", "effect": "ガロ⇔ジュリア 지원 효과 증가" },
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map3.html", "locator": "クリア後: ジュリア、ガロ", "checkedAt": "2026-07-15" },
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "MAP3 clear event", "checkedAt": "2026-07-15" },
+        { "sourceId": "serenes-trs1", "url": "https://serenesforest.net/tearring-saga/general/walkthrough/part-1/", "locator": "Chapter 3 support choice", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "cross-checked", "agreementCount": 3, "reviewedByHuman": false }
+    }
+  ]
+}

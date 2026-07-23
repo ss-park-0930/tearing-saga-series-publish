@@ -1,0 +1,21 @@
+{
+  "id": "trs1-chapter-01-title-01",
+  "game": "trs1",
+  "subjectId": "trs1-chapter-01",
+  "field": "title.ko",
+  "kind": "factual",
+  "value": "웰트 상륙",
+  "context": "국내 게임잡지에서 이미지 검수된 장 제목",
+  "sources": [
+    {
+      "sourceId": "korean-magazine",
+      "locator": "magazine page 187, page_011.jpg, y=0..649",
+      "checkedAt": "2026-07-15"
+    }
+  ],
+  "verification": {
+    "status": "reviewed",
+    "agreementCount": 1,
+    "reviewedByHuman": true
+  }
+}

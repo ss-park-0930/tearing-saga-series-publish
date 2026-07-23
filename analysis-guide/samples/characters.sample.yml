@@ -1,0 +1,19 @@
+schema_version: 1
+characters:
+  - id: char.0001
+    name_term: term.person.0001
+    references: []
+    profile: ""
+    speech:
+      default:
+        register: formal
+        honorific: true
+        first_person: "저"
+        notes: ""
+      by_target:
+        - entity_id: group.party
+          term_id: term.group.party
+          relation: party_member
+          register: formal
+          honorific: true
+          notes: ""

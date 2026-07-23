@@ -1,0 +1,53 @@
+schema_version: 1
+id: plan.release
+title: "릴리스"
+status: not_started
+progress: 0
+owner: replace-owner
+phase: 8
+current_step: step.static-validation
+created_at: 2026-07-16T00:00:00+09:00
+updated_at: 2026-07-16T00:00:00+09:00
+summary: "선행 plan 완료 후 시작"
+depends_on: [plan.text_pipeline, plan.font_pipeline]
+related_results: []
+steps:
+  - id: step.static-validation
+    title: "전체 정적 검증"
+    status: not_started
+    progress: 0
+    weight: 30
+    required: true
+    depends_on: []
+    acceptance_criteria: ["모든 unit과 write region 검증이 통과한다."]
+    evidence: []
+    blockers: []
+    started_at: null
+    updated_at: 2026-07-16T00:00:00+09:00
+    completed_at: null
+  - id: step.runtime-qa
+    title: "정량 runtime QA"
+    status: not_started
+    progress: 0
+    weight: 40
+    required: true
+    depends_on: [step.static-validation]
+    acceptance_criteria: ["필수 runtime case와 coverage target이 통과한다."]
+    evidence: []
+    blockers: []
+    started_at: null
+    updated_at: 2026-07-16T00:00:00+09:00
+    completed_at: null
+  - id: step.package
+    title: "패치 배포물 생성"
+    status: not_started
+    progress: 0
+    weight: 30
+    required: true
+    depends_on: [step.runtime-qa]
+    acceptance_criteria: ["adapter 왕복 hash와 release ZIP 검증이 통과한다."]
+    evidence: []
+    blockers: []
+    started_at: null
+    updated_at: 2026-07-16T00:00:00+09:00
+    completed_at: null

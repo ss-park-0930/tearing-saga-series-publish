@@ -1,0 +1,36 @@
+schema_version: 1
+profiles:
+  - id: font.dialogue
+    scope: block_local
+    source:
+      path: src/assets/font/dialogue.ttf
+      face_index: 0
+      sha256: REPLACE_WITH_64_HEX_SHA256
+      license: REPLACE_SPDX_OR_LICENSE_NAME
+    rasterizer:
+      name: freetype
+      version: REPLACE_TESTED_VERSION
+      hinting: none
+      antialias: grayscale
+    metrics:
+      cell_width: 32
+      cell_height: 28
+      baseline: 22
+      ascent: 22
+      descent: 6
+      row_stride: 16
+    bitmap:
+      bit_depth: 4
+      nibble_order: low_first
+      row_order: top_to_bottom
+    mapping:
+      strategy: block_frequency
+      first_glyph_code: 101
+      fallback: error
+    budgets:
+      max_glyphs: 512
+      max_uncompressed_bytes: 458752
+      max_compressed_bytes: 131072
+    compression:
+      format: slz_v2
+      alignment: 16

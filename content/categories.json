@@ -1,0 +1,10 @@
+[
+  { "id": "getting-started", "label": "시작하기", "order": 10 },
+  { "id": "chapters", "label": "장별 공략", "order": 20 },
+  { "id": "characters", "label": "캐릭터", "order": 30 },
+  { "id": "equipment", "label": "장비·아이템", "order": 40 },
+  { "id": "skills", "label": "스킬", "order": 50 },
+  { "id": "classes", "label": "클래스", "order": 60 },
+  { "id": "secrets", "label": "비기·주의 요소", "order": 70 },
+  { "id": "data", "label": "데이터", "order": 80 }
+]

@@ -1,0 +1,248 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import {
+  releaseDetailHref,
+  releaseGames,
+  releases,
+  type ReleaseGame,
+  type ReleaseRecord,
+} from '../../lib/releases';
+
+export function getStaticPaths() {
+  return (Object.values(releaseGames) as ReleaseGame[]).map((game) => ({
+    params: { game: game.id },
+    props: {
+      game,
+      release: releases.find((release) => release.id === game.id),
+    },
+  }));
+}
+
+interface Props {
+  game: ReleaseGame;
+  release?: ReleaseRecord;
+}
+
+const { game, release } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const isTrs1 = game.id === 'trs1';
+const patchAsset =
+  release?.assets.find((asset) =>
+    isTrs1 ? asset.name.toLowerCase().endsWith('.ppf') : asset.name.toLowerCase().endsWith('.xdelta'),
+  ) ?? release?.assets[0];
+const patchFilename = patchAsset?.name ?? (isTrs1 ? '다운로드한-패치.ppf' : '다운로드한-패치.xdelta');
+---
+
+<SiteLayout
+  title={`${game.shortTitle} 패치 가이드`}
+  description={`${game.title} 한국어 패치 준비, 적용과 검증 방법`}
+  active={game.id}
+>
+  <div class="page-shell guide-page">
+    <nav class="breadcrumb" aria-label="현재 위치">
+      <a href={base}>홈</a><span>/</span><span>{game.shortTitle} 패치 가이드</span>
+    </nav>
+
+    <header class="page-header">
+      <p class="overline">{game.format}</p>
+      <h1>{game.shortTitle} 패치 가이드</h1>
+      <p>
+        {isTrs1
+          ? 'DuckStation에서 원본을 유지한 채 PPF를 불러오거나, BIN 사본에 패치를 직접 적용할 수 있습니다.'
+          : '원본 ISO를 보관하고, 사본을 기준으로 xdelta 패치를 적용하세요.'}
+      </p>
+    </header>
+
+    <section class="guide-section">
+      <h2>1. 필요한 원본</h2>
+      <dl class="simple-data-list">
+        <div><dt>제품 번호</dt><dd>{game.serial}</dd></div>
+        <div><dt>원본 형식</dt><dd>{isTrs1 ? '일본어판 BIN/CUE' : 'PlayStation 2 일본 통상판 ISO'}</dd></div>
+        {!isTrs1 && <div><dt>원본 크기</dt><dd>4,321,804,288바이트</dd></div>}
+        <div><dt>원본 SHA-256</dt><dd><code>{game.sourceSha256}</code></dd></div>
+      </dl>
+      <p class="notice-text">
+        해시가 다르면 패치를 적용하지 마세요. 원본은 별도로 보관하고, 직접 패치할 때는 반드시 사본을
+        사용하세요.
+      </p>
+    </section>
+
+    <section class="guide-section">
+      <h2>2. 원본 해시 확인</h2>
+      <p>PowerShell에서 원본 파일이 있는 폴더를 열고 다음 명령을 실행합니다.</p>
+      <pre><code>Get-FileHash "{isTrs1 ? 'TearRingSaga.bin' : 'berwick-saga-japan.iso'}" -Algorithm SHA256</code></pre>
+      <p>출력된 값이 위의 지원 원본 SHA-256과 정확히 같아야 합니다.</p>
+    </section>
+
+    <section class="guide-section">
+      <h2>3. 패치 파일 준비</h2>
+      <ol>
+        <li>릴리즈 목록에서 최신 GitHub Release를 열고 첨부된 패치 파일을 내려받습니다.</li>
+        <li>릴리즈에 SHA-256이 제공되어 있다면 내려받은 파일의 값과 같은지 확인합니다.</li>
+        <li>압축 파일이라면 먼저 별도 폴더에 풉니다.</li>
+      </ol>
+      {patchAsset ? (
+        <>
+          <p>현재 최신 릴리즈의 적용 대상 파일:</p>
+          <pre><code>Get-FileHash "{patchAsset.name}" -Algorithm SHA256</code></pre>
+          {patchAsset.sha256 && (
+            <>
+              <p>GitHub Release에 기록된 패치 파일 SHA-256:</p>
+              <code class="standalone-hash">{patchAsset.sha256}</code>
+            </>
+          )}
+        </>
+      ) : (
+        <p class="notice-text">
+          현재 공개된 GitHub Release가 없습니다. 릴리즈가 게시되기 전에는 임시 파일을 사용하지 마세요.
+        </p>
+      )}
+    </section>
+
+    <section class="guide-section">
+      <h2>4. 패치 적용</h2>
+      {isTrs1 ? (
+        <>
+          <p>
+            아래 방법 중 <strong>하나만</strong> 선택하세요. DuckStation 외장 적용과 BIN 직접 적용을 동시에
+            사용하면 패치가 중복 적용될 수 있습니다.
+          </p>
+
+          <h3>방법 A — DuckStation에서 PPF 불러오기</h3>
+          <p>
+            가장 간단한 방법입니다. DuckStation이 게임을 실행할 때 PPF를 자동으로 적용하므로 원본 BIN은
+            변경되지 않습니다.
+          </p>
+          <ol>
+            <li>원본 BIN/CUE와 PPF를 같은 폴더에 둡니다.</li>
+            <li>
+              PPF의 이름을 디스크 이미지와 같게 바꾸고 확장자만 <code>.ppf</code>로 둡니다.
+            </li>
+            <li>
+              DuckStation의 <strong>설정 → 콘솔 → CD-ROM 에뮬레이션</strong>에서
+              <strong>이미지 패치 적용</strong>(<span lang="en">Apply Image Patches</span>)을 켭니다.
+            </li>
+            <li>CUE 파일로 게임을 실행합니다. 원본 BIN은 그대로 유지됩니다.</li>
+          </ol>
+          <pre><code>{`TearRingSaga.bin
+TearRingSaga.cue
+TearRingSaga.ppf`}</code></pre>
+          <p>
+            위 예시에서는 내려받은 <code>{patchFilename}</code>을 <code>TearRingSaga.ppf</code>로
+            이름만 바꿉니다. CUE 안에서 참조하는 BIN 파일명은 변경하지 마세요.
+          </p>
+          <p class="notice-text">
+            메뉴 위치나 번역은 DuckStation 버전에 따라 조금 다를 수 있습니다. 한글이 나타나지 않으면
+            파일의 폴더와 기본 이름, 이미지 패치 적용 설정을 다시 확인하세요.
+          </p>
+
+          <h3>방법 B — PPF-O-Matic 3.0으로 BIN에 직접 적용</h3>
+          <ol>
+            <li>원본 BIN을 복사하고, 복사본을 작업 대상으로 준비합니다.</li>
+            <li>PPF-O-Matic 3.0에서 <strong>BIN file</strong>에 BIN 복사본을 선택합니다.</li>
+            <li>
+              <strong>Patch file</strong>에 <code>{patchFilename}</code>을 선택합니다.
+            </li>
+            <li><strong>Apply</strong>를 누르고 완료 메시지를 확인합니다.</li>
+          </ol>
+
+          <h3>방법 C — ApplyPPF 명령줄로 BIN에 직접 적용</h3>
+          <p>Windows, macOS, Linux에서 ApplyPPF 3 도구를 사용할 때의 기본 형식입니다.</p>
+          <pre><code>applyppf3 a "TearRingSaga.bin" "{patchFilename}"</code></pre>
+          <p>
+            <code>a</code>는 적용을 뜻합니다. 도구가 성공 메시지를 표시했는지 확인하세요.
+          </p>
+
+          <p class="notice-text">
+            방법 B·C는 BIN 파일 자체를 변경합니다. 이전 패치가 적용된 BIN에 새 버전을 덧씌우지 말고,
+            새 버전이 나올 때마다 보관해 둔 원본에서 다시 적용하세요.
+          </p>
+        </>
+      ) : (
+        <>
+          <p>
+            xdelta는 원본 ISO와 패치 파일을 읽어 새로운 ISO를 만듭니다. 이전 버전에서 만든 한국어판
+            ISO를 원본으로 사용하지 마세요.
+          </p>
+
+          <h3>방법 A — xdelta GUI 도구 사용</h3>
+          <ol>
+            <li>Delta Patcher 또는 xdelta UI처럼 xdelta3를 지원하는 도구를 준비합니다.</li>
+            <li><strong>Original file</strong>에 해시를 확인한 일본 통상판 ISO를 선택합니다.</li>
+            <li><strong>Patch file</strong>에 배포 ZIP 안의 <code>.xdelta</code> 파일을 선택합니다.</li>
+            <li>출력 파일을 새 이름으로 지정하고 패치를 적용합니다.</li>
+          </ol>
+
+          <h3>방법 B — xdelta3 명령줄 사용</h3>
+          <ol>
+            <li>첨부 파일을 풀고 xdelta3 3.1.0을 별도로 준비합니다.</li>
+            <li>원본 ISO, xdelta 파일과 xdelta3 실행 파일을 같은 폴더에 둡니다.</li>
+            <li>PowerShell에서 아래 명령을 실행합니다.</li>
+          </ol>
+          <pre><code>xdelta3.exe -d -s "berwick-saga-japan.iso" "{patchFilename}" "berwick-saga-korean.iso"</code></pre>
+          <p>GitHub Release의 첨부 파일에 xdelta3 실행 파일이 없다면 별도로 준비해야 합니다.</p>
+          <p class="notice-text">
+            출력 파일 이름은 원본과 다르게 지정하세요. 새 버전 패치도 항상 보관해 둔 원본 ISO에서 다시
+            적용해야 합니다.
+          </p>
+        </>
+      )}
+    </section>
+
+    <section class="guide-section">
+      <h2>5. 적용 결과 확인</h2>
+      {isTrs1 ? (
+        <>
+          <h3>DuckStation 외장 적용을 사용한 경우</h3>
+          <p>
+            원본 BIN이 바뀌지 않으므로 SHA-256도 원본 값 그대로입니다. 게임을 실행해 한국어가 표시되는지
+            확인하세요.
+          </p>
+          <h3>BIN에 직접 적용한 경우</h3>
+          <p>패치 도구의 성공 메시지를 확인하고, 릴리즈 노트에 완성본 해시가 제공되었다면 비교합니다.</p>
+          <pre><code>Get-FileHash "TearRingSaga.bin" -Algorithm SHA256</code></pre>
+        </>
+      ) : (
+        <>
+          <p>생성된 ISO의 SHA-256을 확인하고, 릴리즈 노트에 완성본 해시가 제공되었다면 비교합니다.</p>
+          <pre><code>Get-FileHash "berwick-saga-korean.iso" -Algorithm SHA256</code></pre>
+        </>
+      )}
+    </section>
+
+    <section class="guide-section">
+      <h2>6. 실행 전 주의사항</h2>
+      <ul>
+        {release?.prerelease && <li>현재 최신 버전은 GitHub에서 사전 배포로 표시되어 있습니다.</li>}
+        <li>새 버전은 이전 패치 결과물이 아니라 보관해 둔 깨끗한 원본에 적용하세요.</li>
+        <li>릴리즈 노트에 별도 주의사항이 있다면 먼저 확인하세요.</li>
+        {isTrs1 && (
+          <li>
+            BIN에 직접 적용했다면 같은 이름의 PPF를 옆에 두거나 DuckStation 외장 적용을 함께 사용하지
+            마세요.
+          </li>
+        )}
+        <li>게임 본편과 BIOS는 배포 파일에 포함되어 있지 않습니다.</li>
+      </ul>
+      {isTrs1 && (
+        <p>
+          DuckStation의 자동 PPF 적용 기능은{' '}
+          <a href="https://github.com/stenzek/duckstation" target="_blank" rel="noreferrer">
+            DuckStation 공식 저장소
+          </a>
+          에서도 지원 기능으로 안내하고 있습니다.
+        </p>
+      )}
+    </section>
+
+    <div class="page-actions">
+      <a
+        class="primary-button"
+        href={release ? releaseDetailHref(release, base) : `${base}${game.id}/releases/`}
+      >
+        {release ? '최신 릴리즈 보기' : '릴리즈 목록 보기'}
+      </a>
+      {isTrs1 && <a class="text-button" href={`${base}trs1/guides/`}>게임 공략 보기</a>}
+    </div>
+  </div>
+</SiteLayout>

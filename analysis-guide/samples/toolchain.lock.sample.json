@@ -1,0 +1,30 @@
+{
+  "schema_version": 2,
+  "profiles": {
+    "windows-x86_64": {
+      "os": {"name": "windows", "version": "REPLACE_TESTED_VERSION", "architecture": "x86_64", "locale": "ko-KR"},
+      "python": {"version": "3.12.4", "dependency_lock": "uv.lock", "dependency_lock_sha256": "REPLACE_WITH_64_HEX_SHA256"},
+      "java": {"vendor": "REPLACE_VENDOR", "version": "21.0.4"},
+      "ghidra": {
+        "version": "REPLACE_TESTED_VERSION",
+        "archive_sha256": "REPLACE_WITH_64_HEX_SHA256",
+        "processor_module": "MIPS",
+        "loader": "REPLACE_LOADER",
+        "analysis_options_sha256": "REPLACE_WITH_64_HEX_SHA256"
+      },
+      "patch_tools": {
+        "xdelta3": {"version": "3.1.0", "executable_sha256": "REPLACE_WITH_64_HEX_SHA256"},
+        "ppf": {"version": "REPLACE_TESTED_VERSION", "implementation_commit": "REPLACE_GIT_COMMIT"}
+      },
+      "font_tools": {
+        "freetype": {"version": "REPLACE_TESTED_VERSION"},
+        "pillow": {"version": "REPLACE_TESTED_VERSION"}
+      },
+      "emulators": {
+        "duckstation": {"version": "REPLACE_OR_NULL", "executable_sha256": "REPLACE_OR_NULL", "config_profile_sha256": "REPLACE_OR_NULL", "capabilities": ["gdb_register_read", "gdb_memory_read"]},
+        "pcsx2": {"version": "REPLACE_OR_NULL", "executable_sha256": "REPLACE_OR_NULL", "config_profile_sha256": "REPLACE_OR_NULL", "capabilities": ["pine_memory_read", "gui_debugger_manual"]}
+      },
+      "project_commit": "REPLACE_GIT_COMMIT"
+    }
+  }
+}

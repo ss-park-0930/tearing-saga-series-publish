@@ -1,0 +1,1734 @@
+{
+  "game": "trs2",
+  "entity": "characters",
+  "generatedAt": "2026-07-23T12:33:24.813Z",
+  "source": {
+    "patchProject": "D:/dev/berwick-saga-kor-patch",
+    "authority": "src/translate/glossary.yml"
+  },
+  "count": 73,
+  "terms": [
+    {
+      "id": "trs2-character-un083",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un083",
+      "canonicalJp": "リース",
+      "displayName": "리스",
+      "displayLanguage": "ko",
+      "provisionalKo": "리스",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "리스(リース)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "mixed_polite",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 2223
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un083",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un084",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un084",
+      "canonicalJp": "ウォード",
+      "displayName": "워드",
+      "displayLanguage": "ko",
+      "provisionalKo": "워드",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "워드(ウォード)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "わし",
+        "utteranceCount": 1311
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un084",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un085",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un085",
+      "canonicalJp": "エルバート",
+      "displayName": "엘버트",
+      "displayLanguage": "ko",
+      "provisionalKo": "엘버트",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "엘버트(エルバート)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 147
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un085",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un086",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un086",
+      "canonicalJp": "マーセル",
+      "displayName": "마셀",
+      "displayLanguage": "ko",
+      "provisionalKo": "마셀",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "마셀(マーセル)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "mixed_polite",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 115
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un086",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un087",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un087",
+      "canonicalJp": "アデル",
+      "displayName": "아델",
+      "displayLanguage": "ko",
+      "provisionalKo": "아델",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "아델(アデル)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 196
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un087",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un088",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un088",
+      "canonicalJp": "レオン",
+      "displayName": "레온",
+      "displayLanguage": "ko",
+      "provisionalKo": "레온",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "레온(レオン)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 162
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un088",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un089",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un089",
+      "canonicalJp": "シロック",
+      "displayName": "시록",
+      "displayLanguage": "ko",
+      "provisionalKo": "시록",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "시록(シロック)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 130
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un089",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un090",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un090",
+      "canonicalJp": "イストバル",
+      "displayName": "이스토발",
+      "displayLanguage": "ko",
+      "provisionalKo": "이스토발",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "이스토발(イストバル)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 197
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un090",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un096",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un096",
+      "canonicalJp": "アーサー",
+      "displayName": "아서",
+      "displayLanguage": "ko",
+      "provisionalKo": "아서",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "아서(アーサー)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "mixed_polite",
+        "honorific": true,
+        "firstPersonOriginal": "僕",
+        "utteranceCount": 161
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un096",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un097",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un097",
+      "canonicalJp": "ダウド",
+      "displayName": "다우드",
+      "displayLanguage": "ko",
+      "provisionalKo": "다우드",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "다우드(ダウド)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 80
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un097",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un098",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un098",
+      "canonicalJp": "バロウズ",
+      "displayName": "바로우즈",
+      "displayLanguage": "ko",
+      "provisionalKo": "바로우즈",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "바로우즈(バロウズ)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 125
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un098",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un099",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un099",
+      "canonicalJp": "パラミティース",
+      "displayName": "파라미티스",
+      "displayLanguage": "ko",
+      "provisionalKo": "파라미티스",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "파라미티스(パラミティース)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "formal",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 87
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un099",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un109",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un109",
+      "canonicalJp": "ディアン",
+      "displayName": "디안",
+      "displayLanguage": "ko",
+      "provisionalKo": "디안",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "디안(ディアン)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 69
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un109",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un110",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un110",
+      "canonicalJp": "シェルパ",
+      "displayName": "셰르파",
+      "displayLanguage": "ko",
+      "provisionalKo": "셰르파",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "셰르파(シェルパ)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 179
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un110",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un111",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un111",
+      "canonicalJp": "ファラミア",
+      "displayName": "파라미아",
+      "displayLanguage": "ko",
+      "provisionalKo": "파라미아",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "파라미아(ファラミア)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 58
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un111",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un113",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un113",
+      "canonicalJp": "ペルスヴェル",
+      "displayName": "페르스벨",
+      "displayLanguage": "ko",
+      "provisionalKo": "페르스벨",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "페르스벨(ペルスヴェル)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "僕",
+        "utteranceCount": 198
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un113",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un116",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un116",
+      "canonicalJp": "デリック",
+      "displayName": "데릭",
+      "displayLanguage": "ko",
+      "provisionalKo": "데릭",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "데릭(デリック)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": null,
+        "utteranceCount": 10
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un116",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un124",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un124",
+      "canonicalJp": "クリス",
+      "displayName": "크리스",
+      "displayLanguage": "ko",
+      "provisionalKo": "크리스",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "크리스(クリス)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "mixed_polite",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 204
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un124",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un125",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un125",
+      "canonicalJp": "リネット",
+      "displayName": "리넷",
+      "displayLanguage": "ko",
+      "provisionalKo": "리넷",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "리넷(リネット)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 94
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un125",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un126",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un126",
+      "canonicalJp": "シルウィス",
+      "displayName": "실위스",
+      "displayLanguage": "ko",
+      "provisionalKo": "실위스",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "실위스(シルウィス)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 111
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un126",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un127",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un127",
+      "canonicalJp": "アイギナ",
+      "displayName": "아이기나",
+      "displayLanguage": "ko",
+      "provisionalKo": "아이기나",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "아이기나(アイギナ)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "mixed_polite",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 163
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un127",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un128",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un128",
+      "canonicalJp": "アルヴィナ",
+      "displayName": "알비나",
+      "displayLanguage": "ko",
+      "provisionalKo": "알비나",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "알비나(アルヴィナ)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "formal",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 205
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un128",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un129",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un129",
+      "canonicalJp": "フェイ",
+      "displayName": "페이",
+      "displayLanguage": "ko",
+      "provisionalKo": "페이",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "페이(フェイ)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "formal",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 192
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un129",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un130",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un130",
+      "canonicalJp": "セネ",
+      "displayName": "세네",
+      "displayLanguage": "ko",
+      "provisionalKo": "세네",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "세네(セネ)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "我",
+        "utteranceCount": 260
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un130",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un131",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un131",
+      "canonicalJp": "イゼルナ",
+      "displayName": "이젤나",
+      "displayLanguage": "ko",
+      "provisionalKo": "이젤나",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "이젤나(イゼルナ)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "formal",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 208
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un131",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un132",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un132",
+      "canonicalJp": "エニード",
+      "displayName": "에니드",
+      "displayLanguage": "ko",
+      "provisionalKo": "에니드",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "에니드(エニード)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "mixed_polite",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 221
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un132",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un133",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un133",
+      "canonicalJp": "ラレンティア",
+      "displayName": "라렌티아",
+      "displayLanguage": "ko",
+      "provisionalKo": "라렌티아",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "라렌티아(ラレンティア)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "formal",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 192
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un133",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un134",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un134",
+      "canonicalJp": "ルヴィ",
+      "displayName": "루비",
+      "displayLanguage": "ko",
+      "provisionalKo": "루비",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "루비(ルヴィ)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "mixed_polite",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 184
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un134",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un135",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un135",
+      "canonicalJp": "サフィア",
+      "displayName": "사피아",
+      "displayLanguage": "ko",
+      "provisionalKo": "사피아",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "사피아(サフィア)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "mixed_polite",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 113
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un135",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un136",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un136",
+      "canonicalJp": "メイ",
+      "displayName": "메이",
+      "displayLanguage": "ko",
+      "provisionalKo": "메이",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "메이(メイ)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": null,
+        "utteranceCount": 0
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un136",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un137",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un137",
+      "canonicalJp": "シェンナ",
+      "displayName": "셴나",
+      "displayLanguage": "ko",
+      "provisionalKo": "셴나",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "셴나(シェンナ)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "formal",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 216
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un137",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un144",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un144",
+      "canonicalJp": "ウォロー",
+      "displayName": "워로",
+      "displayLanguage": "ko",
+      "provisionalKo": "워로",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "워로(ウォロー)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": null,
+        "utteranceCount": 0
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un144",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un147",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un147",
+      "canonicalJp": "アグザル",
+      "displayName": "아그잘",
+      "displayLanguage": "ko",
+      "provisionalKo": "아그잘",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "아그잘(アグザル)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 127
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un147",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un149",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un149",
+      "canonicalJp": "クレイマー",
+      "displayName": "크레이머",
+      "displayLanguage": "ko",
+      "provisionalKo": "크레이머",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "크레이머(クレイマー)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 98
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un149",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un150",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un150",
+      "canonicalJp": "オルウェン",
+      "displayName": "오르웬",
+      "displayLanguage": "ko",
+      "provisionalKo": "오르웬",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "오르웬(オルウェン)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "mixed_polite",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 80
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un150",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un152",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un152",
+      "canonicalJp": "クリフォード",
+      "displayName": "클리포드",
+      "displayLanguage": "ko",
+      "provisionalKo": "클리포드",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "클리포드(クリフォード)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 61
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un152",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un153",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un153",
+      "canonicalJp": "セディ",
+      "displayName": "세디",
+      "displayLanguage": "ko",
+      "provisionalKo": "세디",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "세디(セディ)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 125
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un153",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un306",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un306",
+      "canonicalJp": "ティアンナ",
+      "displayName": "티안나",
+      "displayLanguage": "ko",
+      "provisionalKo": "티안나",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "티안나(ティアンナ)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "mixed_polite",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 1319
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un306",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un342",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un342",
+      "canonicalJp": "ルミエール",
+      "displayName": "루미에르",
+      "displayLanguage": "ko",
+      "provisionalKo": "루미에르",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "루미에르(ルミエール)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "mixed_polite",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 149
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un342",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un343",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un343",
+      "canonicalJp": "マリーベル",
+      "displayName": "마리벨",
+      "displayLanguage": "ko",
+      "provisionalKo": "마리벨",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "마리벨(マリーベル)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "formal",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 144
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un343",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un345",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un345",
+      "canonicalJp": "アレックス",
+      "displayName": "알렉스",
+      "displayLanguage": "ko",
+      "provisionalKo": "알렉스",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "알렉스(アレックス)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "formal",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 89
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un345",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un346",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un346",
+      "canonicalJp": "ラウス",
+      "displayName": "라우스",
+      "displayLanguage": "ko",
+      "provisionalKo": "라우스",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "라우스(ラウス)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 92
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un346",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un349",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un349",
+      "canonicalJp": "ダントン",
+      "displayName": "단톤",
+      "displayLanguage": "ko",
+      "provisionalKo": "단톤",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "단톤(ダントン)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "formal",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 217
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un349",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un519",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un519",
+      "canonicalJp": "ケイ",
+      "displayName": "케이",
+      "displayLanguage": "ko",
+      "provisionalKo": "케이",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "케이(ケイ)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 81
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un519",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un529",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un529",
+      "canonicalJp": "グラーブ",
+      "displayName": "그라브",
+      "displayLanguage": "ko",
+      "provisionalKo": "그라브",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "그라브(グラーブ)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 111
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un529",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un552",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un552",
+      "canonicalJp": "ヴェスター",
+      "displayName": "베스터",
+      "displayLanguage": "ko",
+      "provisionalKo": "베스터",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "베스터(ヴェスター)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 386
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un552",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un1294",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un1294",
+      "canonicalJp": "ベルナード",
+      "displayName": "베르나드",
+      "displayLanguage": "ko",
+      "provisionalKo": "베르나드",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "베르나드(ベルナード)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 156
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un1294",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un577",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un577",
+      "canonicalJp": "バンミリオン",
+      "displayName": "반밀리온",
+      "displayLanguage": "ko",
+      "provisionalKo": "반밀리온",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "반밀리온(バンミリオン)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 271
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un577",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un616",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un616",
+      "canonicalJp": "カオス",
+      "displayName": "카오스",
+      "displayLanguage": "ko",
+      "provisionalKo": "카오스",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "카오스(カオス)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "わし",
+        "utteranceCount": 57
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un616",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un629",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un629",
+      "canonicalJp": "ゼフロス",
+      "displayName": "제프로스",
+      "displayLanguage": "ko",
+      "provisionalKo": "제프로스",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "제프로스(ゼフロス)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 100
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un629",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un692",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un692",
+      "canonicalJp": "ルーヴェル",
+      "displayName": "루벨",
+      "displayLanguage": "ko",
+      "provisionalKo": "루벨",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "루벨(ルーヴェル)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 95
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un692",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un710",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un710",
+      "canonicalJp": "クエスクリア",
+      "displayName": "쿠에스크리아",
+      "displayLanguage": "ko",
+      "provisionalKo": "쿠에스크리아",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "쿠에스크리아(クエスクリア)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "formal",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 130
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un710",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un886",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un886",
+      "canonicalJp": "ウォルケンス",
+      "displayName": "월켄스",
+      "displayLanguage": "ko",
+      "provisionalKo": "월켄스",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "월켄스(ウォルケンス)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 172
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un886",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un887",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un887",
+      "canonicalJp": "ヘルマン",
+      "displayName": "헤르만",
+      "displayLanguage": "ko",
+      "provisionalKo": "헤르만",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "헤르만(ヘルマン)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "mixed_polite",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 98
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un887",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un894",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un894",
+      "canonicalJp": "パドルフ",
+      "displayName": "파돌프",
+      "displayLanguage": "ko",
+      "provisionalKo": "파돌프",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "파돌프(パドルフ)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "mixed_polite",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 71
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un894",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un897",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un897",
+      "canonicalJp": "ロズオーク",
+      "displayName": "로즈오크",
+      "displayLanguage": "ko",
+      "provisionalKo": "로즈오크",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "로즈오크(ロズオーク)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "わし",
+        "utteranceCount": 336
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un897",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un949",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un949",
+      "canonicalJp": "サハリン",
+      "displayName": "사할린",
+      "displayLanguage": "ko",
+      "provisionalKo": "사할린",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "사할린(サハリン)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "わし",
+        "utteranceCount": 74
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un949",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un959",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un959",
+      "canonicalJp": "ソフィー",
+      "displayName": "소피",
+      "displayLanguage": "ko",
+      "provisionalKo": "소피",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "소피(ソフィー)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "mixed_polite",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 132
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un959",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un1207",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un1207",
+      "canonicalJp": "クランプ",
+      "displayName": "크램프",
+      "displayLanguage": "ko",
+      "provisionalKo": "크램프",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "크램프(クランプ)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 132
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un1207",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un1208",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un1208",
+      "canonicalJp": "ビアンカ",
+      "displayName": "비앙카",
+      "displayLanguage": "ko",
+      "provisionalKo": "비앙카",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "비앙카(ビアンカ)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "mixed_polite",
+        "honorific": true,
+        "firstPersonOriginal": null,
+        "utteranceCount": 123
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un1208",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un1256",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un1256",
+      "canonicalJp": "セシリー",
+      "displayName": "세실리",
+      "displayLanguage": "ko",
+      "provisionalKo": "세실리",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "세실리(セシリー)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 82
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un1256",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un1347",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un1347",
+      "canonicalJp": "エルスハイマー",
+      "displayName": "에르스하이머",
+      "displayLanguage": "ko",
+      "provisionalKo": "에르스하이머",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "에르스하이머(エルスハイマー)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "formal",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 138
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un1347",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un1348",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un1348",
+      "canonicalJp": "バーゼルフォン",
+      "displayName": "바젤폰",
+      "displayLanguage": "ko",
+      "provisionalKo": "바젤폰",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "바젤폰(バーゼルフォン)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "mixed_polite",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 131
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un1348",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un1351",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un1351",
+      "canonicalJp": "マリス",
+      "displayName": "마리스",
+      "displayLanguage": "ko",
+      "provisionalKo": "마리스",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "마리스(マリス)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "僕",
+        "utteranceCount": 58
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un1351",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un1385",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un1385",
+      "canonicalJp": "ジェノス",
+      "displayName": "제노스",
+      "displayLanguage": "ko",
+      "provisionalKo": "제노스",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "제노스(ジェノス)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "mixed_polite",
+        "honorific": true,
+        "firstPersonOriginal": "私",
+        "utteranceCount": 61
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un1385",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un1538",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un1538",
+      "canonicalJp": "アルムート",
+      "displayName": "알무트",
+      "displayLanguage": "ko",
+      "provisionalKo": "알무트",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "알무트(アルムート)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "僕",
+        "utteranceCount": 111
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un1538",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-un1539",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "un1539",
+      "canonicalJp": "エノク",
+      "displayName": "에녹",
+      "displayLanguage": "ko",
+      "provisionalKo": "에녹",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "에녹(エノク)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": {
+        "register": "plain",
+        "honorific": false,
+        "firstPersonOriginal": "俺",
+        "utteranceCount": 89
+      },
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.unit.un1539",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-pias",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "pias",
+      "canonicalJp": "ピアス",
+      "displayName": "피어스",
+      "displayLanguage": "ko",
+      "provisionalKo": "피어스",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "피어스(ピアス)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": null,
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.pias",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-faisal",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "faisal",
+      "canonicalJp": "ファイサル",
+      "displayName": "파이살",
+      "displayLanguage": "ko",
+      "provisionalKo": "파이살",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "파이살(ファイサル)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": null,
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.faisal",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-barnstol",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "barnstol",
+      "canonicalJp": "バーンストル",
+      "displayName": "반스토르",
+      "displayLanguage": "ko",
+      "provisionalKo": "반스토르",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "반스토르(バーンストル)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": null,
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.barnstol",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-urbanus",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "urbanus",
+      "canonicalJp": "ウルバヌス",
+      "displayName": "우르바누스",
+      "displayLanguage": "ko",
+      "provisionalKo": "우르바누스",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "우르바누스(ウルバヌス)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": null,
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.urbanus",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-anastasia",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "anastasia",
+      "canonicalJp": "アナスタシア",
+      "displayName": "아나스타시아",
+      "displayLanguage": "ko",
+      "provisionalKo": "아나스타시아",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "아나스타시아(アナスタシア)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": null,
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.anastasia",
+        "status": "approved"
+      }
+    },
+    {
+      "id": "trs2-character-leia",
+      "game": "trs2",
+      "type": "character",
+      "sourceKey": "leia",
+      "canonicalJp": "レイア",
+      "displayName": "레이아",
+      "displayLanguage": "ko",
+      "provisionalKo": "레이아",
+      "status": "approved-patch-translation",
+      "koreanStatus": "approved",
+      "introduction": "레이아(レイア)의 이름은 베르위크 사가 한글패치 승인 용어집과 일본어 원문 대사 corpus를 기준으로 확정했습니다.",
+      "profile": null,
+      "evidence": {
+        "source": "src/translate/glossary.yml",
+        "termId": "term.person.leia",
+        "status": "approved"
+      }
+    }
+  ]
+}

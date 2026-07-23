@@ -1,0 +1,54 @@
+schema_version: 2
+id: scene.chapter01.0001
+domain: scene
+title: "첫 번째 만남"
+block: block.script.002298.0001
+disk_id: disc-1
+basis: event_script
+confidence: confirmed
+lines:
+  # 일반 모드: 번역자는 translation만 편집한다.
+  - id: scene.chapter01.0001.0001
+    source: {block: block.script.002298.0001, line: line.script.002298.0001.0001, item_id: 1, source_order: 0, playback_order: 3}
+    speaker_attribution: {entity_id: char.0001, term_id: term.person.0001, original_name: "原語名", translated_name: "한국어 이름", basis: event_script, confidence: high}
+    attribution_status: confirmed
+    targets:
+      - {entity_id: group.party, term_id: term.group.party, original_name: null, translated_name: "파티 전체", relation: party_member, basis: inferred, confidence: medium, primary: true}
+    terms: [term.person.0001]
+    original_preview: |-
+      第一行
+      第二行
+    translation:
+      pages:
+        - lines:
+            - "첫 번째 번역 줄"
+            - "한국어 이름의 두 번째 줄"
+        - lines:
+            - "다음 페이지의 번역 줄"
+    status: draft
+    notes: "일반 번역은 translation.pages[].lines[]만 수정한다."
+
+  # 고급 모드: 제어 코드 위치를 직접 지정해야 할 때만 translation_tokens를 사용한다.
+  - id: scene.chapter01.0001.0002
+    source: {block: block.script.002298.0001, line: line.script.002298.0001.0002, item_id: 2, source_order: 1, playback_order: 4}
+    speaker_attribution: {entity_id: char.0001, term_id: term.person.0001, original_name: "原語名", translated_name: "한국어 이름", basis: event_script, confidence: high}
+    attribution_status: confirmed
+    targets: []
+    terms: [term.person.0001]
+    original_preview: "制御コードを含む台詞"
+    translation_tokens:
+      - {value: "첫 번째 줄"}
+      - {code_id: ctrl.newline}
+      - {term_id: term.person.0001, form: default}
+      - {value: "의 두 번째 줄"}
+      - code_id: ctrl.scale
+        parameters:
+          - {type: f32le, value: 0.85}
+          - {type: f32le, value: 0.85}
+        raw_bytes: "8a 80 9a 99 59 3f 9a 99 59 3f"
+      - {code_id: ctrl.page_continue}
+      - {value: "다음 페이지"}
+      - {code_id: ctrl.page_end}
+      - {code_id: ctrl.end}
+    status: draft
+    notes: "translation과 translation_tokens를 한 line에 함께 쓰지 않는다."

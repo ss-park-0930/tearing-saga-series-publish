@@ -1,0 +1,54 @@
+---
+import SiteLayout from '../../layouts/SiteLayout.astro';
+import { allEntities } from '../../lib/entities';
+
+const base = import.meta.env.BASE_URL;
+const characters = allEntities.filter((entity) => entity.game === 'trs2' && entity.type === 'character').length;
+const items = allEntities.filter((entity) => entity.game === 'trs2' && entity.type === 'item').length;
+---
+
+<SiteLayout
+  title="베르위크 사가"
+  description="베르위크 사가 한글패치 승인 용어를 바탕으로 정리한 캐릭터와 장비·아이템 데이터"
+  active="trs2"
+>
+  <section class="series-hero series-hero-trs2">
+    <div class="guide-shell hero-grid">
+      <div>
+        <p class="eyebrow">Berwick Saga · PlayStation 2</p>
+        <h1>라즈베리아의 인물과<br />장비 기록을 엽니다</h1>
+        <p class="hero-copy">
+          한글패치 프로젝트에서 승인한 명칭을 기준으로 캐릭터와 장비·아이템을 먼저 정리했습니다.
+          장별 공략은 신뢰할 수 있는 근거 자료가 확보된 뒤 작성합니다.
+        </p>
+      </div>
+      <dl class="progress-card">
+        <div><dt>캐릭터</dt><dd>{characters}</dd></div>
+        <div><dt>장비·아이템</dt><dd>{items}</dd></div>
+        <div><dt>표기 기준</dt><dd>한국어 승인</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <div class="guide-shell series-dashboard">
+    <section class="series-intro-card">
+      <p class="eyebrow">Patch-backed catalog</p>
+      <h2>검수된 이름부터 차근차근</h2>
+      <p>
+        캐릭터 이름은 승인 용어집, 장비·아이템 이름은 승인된 게임 이름 테이블에서 가져왔습니다.
+        아직 능력치와 획득 위치를 뒷받침할 공략 데이터가 없으므로 확인되지 않은 설명은 만들지 않았습니다.
+      </p>
+    </section>
+    <div class="category-feature-grid">
+      <a class="category-feature character" href={`${base}trs2/catalog/characters/`}>
+        <span>01</span><h2>캐릭터</h2><p>{characters}명 · 승인 한국어명과 일본어 원문</p>
+      </a>
+      <a class="category-feature item" href={`${base}trs2/catalog/items/`}>
+        <span>02</span><h2>장비·아이템</h2><p>{items}개 · 무기, 방패, 도구 통합 목록</p>
+      </a>
+      <div class="category-feature muted-feature">
+        <span>03</span><h2>장별 공략</h2><p>근거 자료 확보 전까지 준비 중입니다.</p>
+      </div>
+    </div>
+  </div>
+</SiteLayout>

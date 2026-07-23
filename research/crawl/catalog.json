@@ -1,0 +1,64 @@
+{
+  "generatedAt": "2026-07-15T13:11:52.932Z",
+  "storageMode": "metadata-only",
+  "sources": [
+    {
+      "sourceId": "rrpg-trs1",
+      "pageCount": 1,
+      "linkCount": 33,
+      "categoryCounts": {
+        "chapters": 9,
+        "characters": 8,
+        "classes": 2,
+        "data": 1,
+        "equipment": 8,
+        "getting-started": 1,
+        "secrets": 1,
+        "skills": 3
+      },
+      "errors": []
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "pageCount": 1,
+      "linkCount": 141,
+      "categoryCounts": {
+        "chapters": 100,
+        "characters": 10,
+        "classes": 5,
+        "data": 3,
+        "equipment": 14,
+        "getting-started": 3,
+        "secrets": 4,
+        "skills": 2
+      },
+      "errors": []
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "pageCount": 1,
+      "linkCount": 24,
+      "categoryCounts": {
+        "chapters": 2,
+        "characters": 4,
+        "classes": 4,
+        "equipment": 11,
+        "getting-started": 1,
+        "skills": 2
+      },
+      "errors": []
+    },
+    {
+      "sourceId": "kouryaku-red-trs1",
+      "pageCount": 1,
+      "linkCount": 14,
+      "categoryCounts": {
+        "chapters": 8,
+        "characters": 3,
+        "equipment": 2,
+        "getting-started": 1
+      },
+      "errors": []
+    }
+  ]
+}

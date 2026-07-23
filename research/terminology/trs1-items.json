@@ -1,0 +1,1534 @@
+{
+  "game": "trs1",
+  "entity": "items",
+  "generatedAt": "2026-07-23T12:33:24.813Z",
+  "source": {
+    "patchProject": "D:/dev/tear-ring-saga-korean",
+    "authority": "src/translate/block/strings.jsonl",
+    "glossary": "src/translate/glossary.yml",
+    "canonicalPolicy": "최종 패치 전까지 일본어 원문을 기준명으로 유지하고 최신 한국어 번역은 검수 상태와 함께 표시"
+  },
+  "count": 76,
+  "terms": [
+    {
+      "id": "trs1-item-fix000152",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000152",
+      "canonicalJp": "やくそう",
+      "displayName": "やくそう",
+      "displayLanguage": "ja",
+      "provisionalKo": "약초",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "やくそう의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000153",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000153",
+      "canonicalJp": "いやしのかじつ",
+      "displayName": "いやしのかじつ",
+      "displayLanguage": "ja",
+      "provisionalKo": "치유의 열매",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "いやしのかじつ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000154",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000154",
+      "canonicalJp": "いやしのしずく",
+      "displayName": "いやしのしずく",
+      "displayLanguage": "ja",
+      "provisionalKo": "치유의 물방울",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "いやしのしずく의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000155",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000155",
+      "canonicalJp": "おまもり",
+      "displayName": "おまもり",
+      "displayLanguage": "ja",
+      "provisionalKo": "부적",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "おまもり의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000156",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000156",
+      "canonicalJp": "ナイトのあかし",
+      "displayName": "ナイトのあかし",
+      "displayLanguage": "ja",
+      "provisionalKo": "기사의 증표",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ナイトのあかし의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000157",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000157",
+      "canonicalJp": "ゆうしゃのあかし",
+      "displayName": "ゆうしゃのあかし",
+      "displayLanguage": "ja",
+      "provisionalKo": "용사의 증표",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ゆうしゃのあかし의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000158",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000158",
+      "canonicalJp": "せいじゃのあかし",
+      "displayName": "せいじゃのあかし",
+      "displayLanguage": "ja",
+      "provisionalKo": "성자의 증표",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "せいじゃのあかし의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000159",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000159",
+      "canonicalJp": "とびらのカギ",
+      "displayName": "とびらのカギ",
+      "displayLanguage": "ja",
+      "provisionalKo": "문의 열쇠",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "とびらのカギ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000160",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000160",
+      "canonicalJp": "??のカギ",
+      "displayName": "??のカギ",
+      "displayLanguage": "ja",
+      "provisionalKo": "??의 열쇠",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "??のカギ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000161",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000161",
+      "canonicalJp": "{259}ギルドのカギ",
+      "displayName": "{259}ギルドのカギ",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}길드의 열쇠",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}ギルドのカギ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000162",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000162",
+      "canonicalJp": "カナンエムブレム",
+      "displayName": "カナンエムブレム",
+      "displayLanguage": "ja",
+      "provisionalKo": "카난 엠블럼",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "カナンエムブレム의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000163",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000163",
+      "canonicalJp": "リーバエムブレム",
+      "displayName": "リーバエムブレム",
+      "displayLanguage": "ja",
+      "provisionalKo": "리바 엠블럼",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "リーバエムブレム의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000164",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000164",
+      "canonicalJp": "サリアエムブレム",
+      "displayName": "サリアエムブレム",
+      "displayLanguage": "ja",
+      "provisionalKo": "사리아 엠블럼",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "サリアエムブレム의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000165",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000165",
+      "canonicalJp": "レダエムブレム",
+      "displayName": "レダエムブレム",
+      "displayLanguage": "ja",
+      "provisionalKo": "레다 엠블럼",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "レダエムブレム의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000166",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000166",
+      "canonicalJp": "リングオブカナン",
+      "displayName": "リングオブカナン",
+      "displayLanguage": "ja",
+      "provisionalKo": "카난의 반지",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "リングオブカナン의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000167",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000167",
+      "canonicalJp": "リングオブリーヴ",
+      "displayName": "リングオブリーヴ",
+      "displayLanguage": "ja",
+      "provisionalKo": "리브의 반지",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "リングオブリーヴ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000168",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000168",
+      "canonicalJp": "リングオブサリア",
+      "displayName": "リングオブサリア",
+      "displayLanguage": "ja",
+      "provisionalKo": "사리아의 반지",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "リングオブサリア의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000169",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000169",
+      "canonicalJp": "リングオブレダ",
+      "displayName": "リングオブレダ",
+      "displayLanguage": "ja",
+      "provisionalKo": "레다의 반지",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "リングオブレダ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000170",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000170",
+      "canonicalJp": "POWプラス",
+      "displayName": "POWプラス",
+      "displayLanguage": "ja",
+      "provisionalKo": "POW 플러스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "POWプラス의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000171",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000171",
+      "canonicalJp": "SKLプラス",
+      "displayName": "SKLプラス",
+      "displayLanguage": "ja",
+      "provisionalKo": "SKL 플러스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "SKLプラス의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000172",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000172",
+      "canonicalJp": "AGIプラス",
+      "displayName": "AGIプラス",
+      "displayLanguage": "ja",
+      "provisionalKo": "AGI 상승",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "AGIプラス의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000173",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000173",
+      "canonicalJp": "LUKプラス",
+      "displayName": "LUKプラス",
+      "displayLanguage": "ja",
+      "provisionalKo": "LUK 증가",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "LUKプラス의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000174",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000174",
+      "canonicalJp": "DEFプラス",
+      "displayName": "DEFプラス",
+      "displayLanguage": "ja",
+      "provisionalKo": "DEF 플러스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "DEFプラス의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000175",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000175",
+      "canonicalJp": "MAGプラス",
+      "displayName": "MAGプラス",
+      "displayLanguage": "ja",
+      "provisionalKo": "MAG 플러스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "MAGプラス의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000176",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000176",
+      "canonicalJp": "MHPプラス",
+      "displayName": "MHPプラス",
+      "displayLanguage": "ja",
+      "provisionalKo": "MHP 상승",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "MHPプラス의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000177",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000177",
+      "canonicalJp": "MOVプラス",
+      "displayName": "MOVプラス",
+      "displayLanguage": "ja",
+      "provisionalKo": "MOV 증가",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "MOVプラス의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000178",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000178",
+      "canonicalJp": "{259}めがみのたて",
+      "displayName": "{259}めがみのたて",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}여신의 방패",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}めがみのたて의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000179",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000179",
+      "canonicalJp": "{259}サリアの聖書",
+      "displayName": "{259}サリアの聖書",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}사리아의 성서",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}サリアの聖書의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000180",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000180",
+      "canonicalJp": "{259}リーヴェの聖書",
+      "displayName": "{259}リーヴェの聖書",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}리베의 성서",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}リーヴェの聖書의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000181",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000181",
+      "canonicalJp": "{259}ドラゴンメイル",
+      "displayName": "{259}ドラゴンメイル",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}드래곤 메일",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}ドラゴンメイル의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000182",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000182",
+      "canonicalJp": "{259}聖竜のウロコ",
+      "displayName": "{259}聖竜のウロコ",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}성룡의 비늘",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}聖竜のウロコ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000183",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000183",
+      "canonicalJp": "もんしょう",
+      "displayName": "もんしょう",
+      "displayLanguage": "ja",
+      "provisionalKo": "문장",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "もんしょう의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000184",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000184",
+      "canonicalJp": "{259}ほのおのたて",
+      "displayName": "{259}ほのおのたて",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}불꽃의 방패",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}ほのおのたて의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000185",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000185",
+      "canonicalJp": "{259}いかづちのたて",
+      "displayName": "{259}いかづちのたて",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}번개의 방패",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}いかづちのたて의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000186",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000186",
+      "canonicalJp": "{259}かぜのたて",
+      "displayName": "{259}かぜのたて",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}바람의 방패",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}かぜのたて의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000187",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000187",
+      "canonicalJp": "ぎんのたて",
+      "displayName": "ぎんのたて",
+      "displayLanguage": "ja",
+      "provisionalKo": "은방패",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ぎんのたて의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000188",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000188",
+      "canonicalJp": "はがねのたて",
+      "displayName": "はがねのたて",
+      "displayLanguage": "ja",
+      "provisionalKo": "강철방패",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "はがねのたて의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000189",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000189",
+      "canonicalJp": "てつのたて",
+      "displayName": "てつのたて",
+      "displayLanguage": "ja",
+      "provisionalKo": "철방패",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "てつのたて의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000190",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000190",
+      "canonicalJp": "かわのたて",
+      "displayName": "かわのたて",
+      "displayLanguage": "ja",
+      "provisionalKo": "가죽방패",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "かわのたて의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000191",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000191",
+      "canonicalJp": "まほうのたて",
+      "displayName": "まほうのたて",
+      "displayLanguage": "ja",
+      "provisionalKo": "마법방패",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "まほうのたて의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000192",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000192",
+      "canonicalJp": "きんかのふくろ",
+      "displayName": "きんかのふくろ",
+      "displayLanguage": "ja",
+      "provisionalKo": "금화 주머니",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "きんかのふくろ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000193",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000193",
+      "canonicalJp": "リペアハンマー",
+      "displayName": "リペアハンマー",
+      "displayLanguage": "ja",
+      "provisionalKo": "리페어 해머",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "リペアハンマー의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000194",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000194",
+      "canonicalJp": "{259}ダクリュオン",
+      "displayName": "{259}ダクリュオン",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}다크류온",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}ダクリュオン의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000195",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000195",
+      "canonicalJp": "{25A}エリクサー",
+      "displayName": "{25A}エリクサー",
+      "displayLanguage": "ja",
+      "provisionalKo": "{25A}영약",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{25A}エリクサー의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_ui_glyph_reduction_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000196",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000196",
+      "canonicalJp": "はしのカギ",
+      "displayName": "はしのカギ",
+      "displayLanguage": "ja",
+      "provisionalKo": "다리 열쇠",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "はしのカギ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000197",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000197",
+      "canonicalJp": "{259}天馬の笛",
+      "displayName": "{259}天馬の笛",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}천마의 피리",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}天馬の笛의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000198",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000198",
+      "canonicalJp": "{259}ソウルブレード",
+      "displayName": "{259}ソウルブレード",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}소울 블레이드",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}ソウルブレード의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000199",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000199",
+      "canonicalJp": "{259}ダンシングソル",
+      "displayName": "{259}ダンシングソル",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}무도 솔",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}ダンシングソル의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_ui_glyph_reduction_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000200",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000200",
+      "canonicalJp": "{259}ライフソーサー",
+      "displayName": "{259}ライフソーサー",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}라이프 소서",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}ライフソーサー의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000201",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000201",
+      "canonicalJp": "{259}アーマーキル",
+      "displayName": "{259}アーマーキル",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}아머 킬",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}アーマーキル의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000202",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000202",
+      "canonicalJp": "{259}スターダスト",
+      "displayName": "{259}スターダスト",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}스타더스트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}スターダスト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000203",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000203",
+      "canonicalJp": "{259}イニシアチブ",
+      "displayName": "{259}イニシアチブ",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}선제",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}イニシアチブ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_ui_glyph_reduction_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000204",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000204",
+      "canonicalJp": "{259}パワーシールド",
+      "displayName": "{259}パワーシールド",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}파워 실드",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}パワーシールド의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000205",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000205",
+      "canonicalJp": "{259}インディード",
+      "displayName": "{259}インディード",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}인디드",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}インディード의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000206",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000206",
+      "canonicalJp": "{259}バイタリティ",
+      "displayName": "{259}バイタリティ",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}바이탈리티",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}バイタリティ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000207",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000207",
+      "canonicalJp": "{259}Dクラッシュ",
+      "displayName": "{259}Dクラッシュ",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}D 크래시",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}Dクラッシュ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000208",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000208",
+      "canonicalJp": "{259}フライングソル",
+      "displayName": "{259}フライングソル",
+      "displayLanguage": "ja",
+      "provisionalKo": "{259}비행 솔",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "{259}フライングソル의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_ui_glyph_reduction_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000209",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000209",
+      "canonicalJp": "盗賊の書",
+      "displayName": "盗賊の書",
+      "displayLanguage": "ja",
+      "provisionalKo": "도적의 서",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "盗賊の書의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000210",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000210",
+      "canonicalJp": "ワープの書",
+      "displayName": "ワープの書",
+      "displayLanguage": "ja",
+      "provisionalKo": "워프의 서",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ワープの書의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000211",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000211",
+      "canonicalJp": "やましい心",
+      "displayName": "やましい心",
+      "displayLanguage": "ja",
+      "provisionalKo": "떳떳하지 못한 마음",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "やましい心의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000212",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000212",
+      "canonicalJp": "カギ開けの書",
+      "displayName": "カギ開けの書",
+      "displayLanguage": "ja",
+      "provisionalKo": "자물쇠따기의 서",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "カギ開けの書의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000213",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000213",
+      "canonicalJp": "猛撃の書",
+      "displayName": "猛撃の書",
+      "displayLanguage": "ja",
+      "provisionalKo": "맹격의 서",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "猛撃の書의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000214",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000214",
+      "canonicalJp": "再移動の書",
+      "displayName": "再移動の書",
+      "displayLanguage": "ja",
+      "provisionalKo": "재이동의 서",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "再移動の書의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000215",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000215",
+      "canonicalJp": "素質の書",
+      "displayName": "素質の書",
+      "displayLanguage": "ja",
+      "provisionalKo": "소질의 서",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "素質の書의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000216",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000216",
+      "canonicalJp": "魔物じてん",
+      "displayName": "魔物じてん",
+      "displayLanguage": "ja",
+      "provisionalKo": "마물 사전",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "魔物じてん의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000217",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000217",
+      "canonicalJp": "森のひみつ",
+      "displayName": "森のひみつ",
+      "displayLanguage": "ja",
+      "provisionalKo": "숲의 비밀",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "森のひみつ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000218",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000218",
+      "canonicalJp": "草原のひみつ",
+      "displayName": "草原のひみつ",
+      "displayLanguage": "ja",
+      "provisionalKo": "초원의 비밀",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "草原のひみつ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000219",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000219",
+      "canonicalJp": "山のひみつ",
+      "displayName": "山のひみつ",
+      "displayLanguage": "ja",
+      "provisionalKo": "산의 비밀",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "山のひみつ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000220",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000220",
+      "canonicalJp": "うみがスキ",
+      "displayName": "うみがスキ",
+      "displayLanguage": "ja",
+      "provisionalKo": "바다가 좋아",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "うみがスキ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000221",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000221",
+      "canonicalJp": "辺境のひみつ",
+      "displayName": "辺境のひみつ",
+      "displayLanguage": "ja",
+      "provisionalKo": "변경의 비밀",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "辺境のひみつ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000222",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000222",
+      "canonicalJp": "砂漠のひみつ",
+      "displayName": "砂漠のひみつ",
+      "displayLanguage": "ja",
+      "provisionalKo": "사막의 비밀",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "砂漠のひみつ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000223",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000223",
+      "canonicalJp": "城のひみつ",
+      "displayName": "城のひみつ",
+      "displayLanguage": "ja",
+      "provisionalKo": "성의 비밀",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "城のひみつ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000224",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000224",
+      "canonicalJp": "スーパープルフ",
+      "displayName": "スーパープルフ",
+      "displayLanguage": "ja",
+      "provisionalKo": "슈퍼 프루프",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "スーパープルフ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000225",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000225",
+      "canonicalJp": "ランのてかがみ",
+      "displayName": "ランのてかがみ",
+      "displayLanguage": "ja",
+      "provisionalKo": "란의 손거울",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ランのてかがみ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000226",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000226",
+      "canonicalJp": "WLVプラス",
+      "displayName": "WLVプラス",
+      "displayLanguage": "ja",
+      "provisionalKo": "WLV 증가",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "WLVプラス의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-item-fix000227",
+      "game": "trs1",
+      "type": "item",
+      "sourceKey": "FIX000227",
+      "canonicalJp": "飛竜の笛",
+      "displayName": "飛竜の笛",
+      "displayLanguage": "ja",
+      "provisionalKo": "비룡의 피리",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "飛竜の笛의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    }
+  ]
+}

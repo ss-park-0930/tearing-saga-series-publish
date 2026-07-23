@@ -1,0 +1,59 @@
+schema_version: 2
+coverage_targets:
+  static_units_percent: 100
+  static_write_regions_percent: 100
+  every_domain_renderer_pair: true
+  every_font_profile: true
+cases:
+  - id: runtime.boot.disc1
+    required: true
+    disk_id: disc-1
+    save_state: null
+    environment:
+      emulator: duckstation
+      toolchain_profile: windows-x86_64
+      config_profile_sha256: REPLACE_WITH_64_HEX_SHA256
+    coverage:
+      domains: [system, graphic]
+      renderers: [boot_title]
+      font_profiles: [font.system]
+      features: [boot, new_game]
+      risks: [first_screen]
+      covered_units: [system.boot.title]
+      covered_write_regions: [region.boot.title]
+    entry_steps: ["게임을 부팅한다."]
+    expected:
+      - "타이틀 화면이 표시된다."
+      - "한국어 글자가 깨지지 않는다."
+    result: not_run
+    skip_reason: null
+    evidence: []
+    tested_at: null
+    tested_by: null
+  - id: runtime.scene.max-budget
+    required: true
+    disk_id: disc-1
+    save_state: "analytics/temp/emulator/duckstation/max-budget.savestate"
+    environment:
+      emulator: duckstation
+      toolchain_profile: windows-x86_64
+      config_profile_sha256: REPLACE_WITH_64_HEX_SHA256
+    coverage:
+      domains: [scene]
+      renderers: [dialogue_blue]
+      font_profiles: [font.dialogue]
+      features: [line_break, page_break, save_load]
+      risks: [max_render_width, max_glyph_count, max_compressed_slot]
+      covered_units: [scene.chapter01.0001]
+      covered_write_regions: [region.block.002298.text, region.block.002298.font]
+    entry_steps:
+      - "저장 상태를 불러온다."
+      - "대상 NPC와 대화한다."
+    expected:
+      - "승인된 token 순서와 페이지가 표시된다."
+      - "대화 종료 후 진행할 수 있다."
+    result: not_run
+    skip_reason: null
+    evidence: []
+    tested_at: null
+    tested_by: null

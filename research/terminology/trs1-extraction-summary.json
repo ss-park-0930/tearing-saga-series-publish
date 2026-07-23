@@ -1,0 +1,43 @@
+{
+  "generatedAt": "2026-07-15T13:34:25.206Z",
+  "translationRoot": "D:\\dev\\tear-ring-saga-korean\\translate",
+  "entities": {
+    "weapons": {
+      "total": 127,
+      "displayLanguage": "ja",
+      "koreanCandidateCounts": {
+        "image-review-required": 127
+      }
+    },
+    "items": {
+      "total": 76,
+      "displayLanguage": "ja",
+      "koreanCandidateCounts": {
+        "image-review-required": 76
+      }
+    },
+    "classes": {
+      "total": 101,
+      "displayLanguage": "ja",
+      "koreanCandidateCounts": {
+        "image-review-required": 101
+      }
+    },
+    "characters": {
+      "total": 179,
+      "displayLanguage": "ja",
+      "koreanCandidateCounts": {
+        "confirmed-patch-usage": 34,
+        "patch-candidate": 7,
+        "image-review-required": 138
+      }
+    },
+    "skills": {
+      "total": 32,
+      "displayLanguage": "ja",
+      "koreanCandidateCounts": {
+        "image-review-required": 32
+      }
+    }
+  }
+}

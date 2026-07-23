@@ -1,0 +1,121 @@
+{
+  "game": "trs1",
+  "subjectId": "trs1-chapter-01",
+  "generatedAt": "2026-07-15",
+  "relatedEntityIds": [
+    "trs1-character-fix000433",
+    "trs1-character-fix000434",
+    "trs1-character-fix000435",
+    "trs1-character-fix000436",
+    "trs1-character-fix000437",
+    "trs1-character-fix000438",
+    "trs1-character-fix000448",
+    "trs1-character-fix000471",
+    "trs1-character-fix000472",
+    "trs1-character-fix000475",
+    "trs1-character-fix000476",
+    "trs1-character-fix000477",
+    "trs1-weapon-fix000025",
+    "trs1-item-fix000152",
+    "trs1-item-fix000155",
+    "trs1-item-fix000190",
+    "trs1-item-fix000226",
+    "trs1-skill-fix000836"
+  ],
+  "facts": [
+    {
+      "id": "trs1-chapter-01-terrain-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-01",
+      "field": "map.terrain",
+      "kind": "factual",
+      "value": "平地",
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map1.html", "locator": "マップ: ソラの港", "checkedAt": "2026-07-15" },
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "MAP1 heading", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "cross-checked", "agreementCount": 2, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-01-victory-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-01",
+      "field": "objective.victory",
+      "kind": "factual",
+      "value": "敵ぜんめつ",
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map1.html", "locator": "攻略 > 勝利条件", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "collected", "agreementCount": 1, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-01-initial-units-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-01",
+      "field": "units.initialPlayable",
+      "kind": "factual",
+      "value": ["リュナン", "アーキス", "クライス", "ガロ"],
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map1.html", "locator": "初期配置", "checkedAt": "2026-07-15" },
+        { "sourceId": "serenes-trs1", "url": "https://serenesforest.net/tearring-saga/general/walkthrough/part-1/", "locator": "Chapter 1 opening", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "cross-checked", "agreementCount": 2, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-01-bridge-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-01",
+      "field": "events.bridgeLowersTurn",
+      "kind": "factual",
+      "value": 5,
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map1.html", "locator": "イベント: 5ターン目", "checkedAt": "2026-07-15" },
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "MAP1 strategy", "checkedAt": "2026-07-15" },
+        { "sourceId": "kouryaku-red-trs1", "url": "https://tear-ring-saga.kouryaku.red/entry2.html", "locator": "MAP01 turn 5", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "cross-checked", "agreementCount": 3, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-01-recruitment-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-01",
+      "field": "recruitment.sashaAndKate",
+      "kind": "factual",
+      "value": { "talker": "リュナン", "target": "サーシャ", "joins": ["サーシャ", "ケイト"] },
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map1.html", "locator": "TALK ME リュナン→サーシャ", "checkedAt": "2026-07-15" },
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "MAP1 加入", "checkedAt": "2026-07-15" },
+        { "sourceId": "serenes-trs1", "url": "https://serenesforest.net/tearring-saga/general/walkthrough/part-1/", "locator": "Chapter 1 Sasha and Kate", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "cross-checked", "agreementCount": 3, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-01-village-rewards-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-01",
+      "field": "rewards.villages",
+      "kind": "factual",
+      "value": ["てつの剣（打倒数51）", "WLVプラス", "海の戦士", "おまもり", "かわのたて", "やくそう"],
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map1.html", "locator": "イベント: 民家a-g", "checkedAt": "2026-07-15" },
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "MAP1 民家", "checkedAt": "2026-07-15" },
+        { "sourceId": "kouryaku-red-trs1", "url": "https://tear-ring-saga.kouryaku.red/entry2.html", "locator": "MAP01 入手可能アイテム", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "cross-checked", "agreementCount": 3, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-01-verge-choice-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-01",
+      "field": "postMap.vergeChoice",
+      "kind": "factual",
+      "value": { "chooseOne": ["リー", "エゼキエル", "ナロン", "ルカ"], "automaticJoins": ["ラフィン", "エステル"] },
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map1.html", "locator": "クリア後: 新しい仲間", "checkedAt": "2026-07-15" },
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "ヴェルジェ", "checkedAt": "2026-07-15" },
+        { "sourceId": "serenes-trs1", "url": "https://serenesforest.net/tearring-saga/general/walkthrough/part-1/", "locator": "Chapter 1 Verge choice", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "cross-checked", "agreementCount": 3, "reviewedByHuman": false }
+    }
+  ]
+}

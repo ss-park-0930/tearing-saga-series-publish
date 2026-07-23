@@ -1,0 +1,37 @@
+{
+  "game": "trs1",
+  "canonicalSource": "japanese-game-data-until-patch-final",
+  "rule": "패치 완료 전에는 fixed_executable의 일본어 원문을 기준 표기로 사용한다. 현재 한국어 번역과 잡지 표기는 나중에 대조할 후보로만 보존한다.",
+  "queues": [
+    {
+      "entity": "skills",
+      "scanFiles": ["page_005.jpg"],
+      "status": "image-review-required",
+      "output": "research/terminology/trs1-skills.json"
+    },
+    {
+      "entity": "weapons-and-magic",
+      "scanFiles": ["page_006.jpg", "page_007.jpg"],
+      "status": "image-review-required",
+      "output": "research/terminology/trs1-equipment.json"
+    },
+    {
+      "entity": "items",
+      "scanFiles": ["page_008.jpg"],
+      "status": "image-review-required",
+      "output": "research/terminology/trs1-items.json"
+    },
+    {
+      "entity": "characters",
+      "scanFiles": ["page_009.jpg"],
+      "status": "image-review-required",
+      "output": "research/terminology/trs1-characters.json"
+    },
+    {
+      "entity": "classes",
+      "scanFiles": ["page_010.jpg"],
+      "status": "image-review-required",
+      "output": "research/terminology/trs1-classes.json"
+    }
+  ]
+}

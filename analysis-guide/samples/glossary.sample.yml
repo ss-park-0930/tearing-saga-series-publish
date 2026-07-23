@@ -1,0 +1,45 @@
+schema_version: 1
+source_language: ja
+target_language: ko
+terms:
+  - id: term.person.0001
+    category: person
+    original: "原語名"
+    reading: "げんごめい"
+    translation: "한국어 이름"
+    aliases: []
+    references: []
+    status: approved
+    notes: ""
+  - id: term.group.party
+    category: participant
+    original: null
+    translation: "파티 전체"
+    aliases: []
+    references: []
+    status: approved
+    notes: ""
+  - id: term.participant.unknown
+    category: participant
+    original: null
+    translation: "대상 미확인"
+    aliases: []
+    references: []
+    status: approved
+    notes: ""
+  - id: term.participant.self
+    category: participant
+    original: null
+    translation: "자기 자신"
+    aliases: []
+    references: []
+    status: approved
+    notes: ""
+  - id: term.participant.system
+    category: participant
+    original: null
+    translation: "시스템"
+    aliases: []
+    references: []
+    status: approved
+    notes: ""

@@ -1,0 +1,35 @@
+schema_version: 2
+control_codes:
+  - id: ctrl.newline
+    token_type: line_break
+    raw_bytes: "80 80"
+    parameters: []
+    movement: fixed_order
+  - id: ctrl.page_continue
+    token_type: page_break
+    raw_bytes: "82 80 81 80"
+    parameters: []
+    movement: fixed_order
+  - id: ctrl.page_end
+    token_type: page_break
+    raw_bytes: "82 80"
+    parameters: []
+    movement: fixed_order
+  - id: ctrl.wait
+    token_type: control
+    opcode_bytes: "80"
+    parameters:
+      - {name: frames, type: u8}
+    movement: within_page
+  - id: ctrl.scale
+    token_type: control
+    opcode_bytes: "8a 80"
+    parameters:
+      - {name: x_scale, type: f32le}
+      - {name: y_scale, type: f32le}
+    movement: fixed_position
+  - id: ctrl.end
+    token_type: terminator
+    raw_bytes: "00"
+    parameters: []
+    movement: fixed_order

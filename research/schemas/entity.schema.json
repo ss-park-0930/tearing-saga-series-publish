@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tear-ring-saga.local/schemas/entity.schema.json",
+  "title": "TearRing Saga guide entity",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "game", "type", "sourceKey", "canonicalJp", "displayName", "displayLanguage", "status"],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^(trs1|trs2)-(character|weapon|item|class|skill)-[a-z0-9-]+$"
+    },
+    "game": { "enum": ["trs1", "trs2"] },
+    "type": { "enum": ["character", "weapon", "item", "class", "skill"] },
+    "sourceKey": { "type": "string", "minLength": 1 },
+    "canonicalJp": { "type": "string", "minLength": 1 },
+    "displayName": { "type": "string", "minLength": 1 },
+    "displayLanguage": { "enum": ["ja", "ko"] },
+    "provisionalKo": { "type": ["string", "null"] },
+    "aliases": {
+      "type": "array",
+      "uniqueItems": true,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["language", "name"],
+        "properties": {
+          "language": { "enum": ["ja", "ko", "en"] },
+          "name": { "type": "string", "minLength": 1 },
+          "sourceId": { "type": "string" }
+        }
+      }
+    },
+    "koreanStatus": {
+      "enum": ["confirmed-patch-usage", "patch-candidate", "image-review-required", "manual-override"]
+    },
+    "evidence": { "type": "object" },
+    "status": { "enum": ["japanese-canonical", "korean-final"] }
+  }
+}

@@ -1,0 +1,2034 @@
+{
+  "game": "trs1",
+  "entity": "classes",
+  "generatedAt": "2026-07-23T12:33:24.813Z",
+  "source": {
+    "patchProject": "D:/dev/tear-ring-saga-korean",
+    "authority": "src/translate/block/strings.jsonl",
+    "glossary": "src/translate/glossary.yml",
+    "canonicalPolicy": "최종 패치 전까지 일본어 원문을 기준명으로 유지하고 최신 한국어 번역은 검수 상태와 함께 표시"
+  },
+  "count": 101,
+  "terms": [
+    {
+      "id": "trs1-class-fix000228",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000228",
+      "canonicalJp": "ハイドナイト",
+      "displayName": "ハイドナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "하이드 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ハイドナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000230",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000230",
+      "canonicalJp": "マージナイト",
+      "displayName": "マージナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "메이지 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "マージナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000231",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000231",
+      "canonicalJp": "まどうし",
+      "displayName": "まどうし",
+      "displayLanguage": "ja",
+      "provisionalKo": "마도사",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "まどうし의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000232",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000232",
+      "canonicalJp": "トルバドール",
+      "displayName": "トルバドール",
+      "displayLanguage": "ja",
+      "provisionalKo": "트루바두르",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "トルバドール의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000234",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000234",
+      "canonicalJp": "パラディン",
+      "displayName": "パラディン",
+      "displayLanguage": "ja",
+      "provisionalKo": "팔라딘",
+      "status": "japanese-canonical",
+      "koreanStatus": "approved",
+      "introduction": "パラディン의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "source_backed_terminology_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.class.paladin",
+        "glossaryStatus": "approved"
+      }
+    },
+    {
+      "id": "trs1-class-fix000236",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000236",
+      "canonicalJp": "ルークナイト",
+      "displayName": "ルークナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "루크 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "approved",
+      "introduction": "ルークナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "source_backed_terminology_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.class.rook_knight",
+        "glossaryStatus": "approved"
+      }
+    },
+    {
+      "id": "trs1-class-fix000238",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000238",
+      "canonicalJp": "キングスナイト",
+      "displayName": "キングスナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "킹스 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "キングスナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000240",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000240",
+      "canonicalJp": "コマンドナイト",
+      "displayName": "コマンドナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "커맨더 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "approved",
+      "introduction": "コマンドナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "source_backed_terminology_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.class.commander_knight",
+        "glossaryStatus": "approved"
+      }
+    },
+    {
+      "id": "trs1-class-fix000242",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000242",
+      "canonicalJp": "ゴールドナイト",
+      "displayName": "ゴールドナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "골드 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ゴールドナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000244",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000244",
+      "canonicalJp": "ブラックナイト",
+      "displayName": "ブラックナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "블랙 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ブラックナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000246",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000246",
+      "canonicalJp": "アローナイト",
+      "displayName": "アローナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "애로 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "アローナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000248",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000248",
+      "canonicalJp": "ホースメン",
+      "displayName": "ホースメン",
+      "displayLanguage": "ja",
+      "provisionalKo": "호스맨",
+      "status": "japanese-canonical",
+      "koreanStatus": "approved",
+      "introduction": "ホースメン의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "source_backed_terminology_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.class.horsemen",
+        "glossaryStatus": "approved"
+      }
+    },
+    {
+      "id": "trs1-class-fix000250",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000250",
+      "canonicalJp": "マムルーク",
+      "displayName": "マムルーク",
+      "displayLanguage": "ja",
+      "provisionalKo": "맘루크",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "マムルーク의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000254",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000254",
+      "canonicalJp": "アイアンナイト",
+      "displayName": "アイアンナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "아이언 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "アイアンナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000256",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000256",
+      "canonicalJp": "ドラゴンナイト",
+      "displayName": "ドラゴンナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "드래곤 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ドラゴンナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000258",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000258",
+      "canonicalJp": "ダークナイト",
+      "displayName": "ダークナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "다크 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ダークナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000260",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000260",
+      "canonicalJp": "ペガサスナイト",
+      "displayName": "ペガサスナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "페가수스 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ペガサスナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000264",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000264",
+      "canonicalJp": "ドラゴンロード",
+      "displayName": "ドラゴンロード",
+      "displayLanguage": "ja",
+      "provisionalKo": "드래곤 로드",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ドラゴンロード의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000266",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000266",
+      "canonicalJp": "ペガサスライダー",
+      "displayName": "ペガサスライダー",
+      "displayLanguage": "ja",
+      "provisionalKo": "페가수스 라이더",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ペガサスライダー의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000267",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000267",
+      "canonicalJp": "ドラゴンライダー",
+      "displayName": "ドラゴンライダー",
+      "displayLanguage": "ja",
+      "provisionalKo": "드래곤 라이더",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ドラゴンライダー의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000268",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000268",
+      "canonicalJp": "スピアライダー",
+      "displayName": "スピアライダー",
+      "displayLanguage": "ja",
+      "provisionalKo": "스피어 라이더",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "スピアライダー의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000269",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000269",
+      "canonicalJp": "ボウライダー",
+      "displayName": "ボウライダー",
+      "displayLanguage": "ja",
+      "provisionalKo": "보우 라이더",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ボウライダー의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000270",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000270",
+      "canonicalJp": "アクスライダー",
+      "displayName": "アクスライダー",
+      "displayLanguage": "ja",
+      "provisionalKo": "액스 라이더",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "アクスライダー의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000271",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000271",
+      "canonicalJp": "ダークライダー",
+      "displayName": "ダークライダー",
+      "displayLanguage": "ja",
+      "provisionalKo": "다크 라이더",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ダークライダー의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000272",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000272",
+      "canonicalJp": "しさい",
+      "displayName": "しさい",
+      "displayLanguage": "ja",
+      "provisionalKo": "사제",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "しさい의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000273",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000273",
+      "canonicalJp": "ガードナイト",
+      "displayName": "ガードナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "가드 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ガードナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000274",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000274",
+      "canonicalJp": "ボウナイト",
+      "displayName": "ボウナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "보우 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ボウナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000275",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000275",
+      "canonicalJp": "スピアナイト",
+      "displayName": "スピアナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "스피어 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "スピアナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000276",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000276",
+      "canonicalJp": "レディナイト",
+      "displayName": "レディナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "레이디 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "レディナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000277",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000277",
+      "canonicalJp": "アクスナイト",
+      "displayName": "アクスナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "액스 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "アクスナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000278",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000278",
+      "canonicalJp": "サージェント",
+      "displayName": "サージェント",
+      "displayLanguage": "ja",
+      "provisionalKo": "서전트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "サージェント의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000279",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000279",
+      "canonicalJp": "ボウマスター",
+      "displayName": "ボウマスター",
+      "displayLanguage": "ja",
+      "provisionalKo": "보우 마스터",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ボウマスター의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000280",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000280",
+      "canonicalJp": "プリンス",
+      "displayName": "プリンス",
+      "displayLanguage": "ja",
+      "provisionalKo": "프린스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "プリンス의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000281",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000281",
+      "canonicalJp": "プリンセス",
+      "displayName": "プリンセス",
+      "displayLanguage": "ja",
+      "provisionalKo": "프린세스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "プリンセス의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000282",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000282",
+      "canonicalJp": "アーマーナイト",
+      "displayName": "アーマーナイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "아머 나이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "アーマーナイト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000283",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000283",
+      "canonicalJp": "ジェネラル",
+      "displayName": "ジェネラル",
+      "displayLanguage": "ja",
+      "provisionalKo": "제네럴",
+      "status": "japanese-canonical",
+      "koreanStatus": "approved",
+      "introduction": "ジェネラル의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_ui_glyph_reduction_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.class.general",
+        "glossaryStatus": "approved"
+      }
+    },
+    {
+      "id": "trs1-class-fix000285",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000285",
+      "canonicalJp": "デューク",
+      "displayName": "デューク",
+      "displayLanguage": "ja",
+      "provisionalKo": "듀크",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "デューク의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000286",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000286",
+      "canonicalJp": "エンペラー",
+      "displayName": "エンペラー",
+      "displayLanguage": "ja",
+      "provisionalKo": "엠퍼러",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "エンペラー의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000287",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000287",
+      "canonicalJp": "ウッドシューター",
+      "displayName": "ウッドシューター",
+      "displayLanguage": "ja",
+      "provisionalKo": "우드 슈터",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ウッドシューター의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000288",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000288",
+      "canonicalJp": "ソルジャー",
+      "displayName": "ソルジャー",
+      "displayLanguage": "ja",
+      "provisionalKo": "솔저",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ソルジャー의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000289",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000289",
+      "canonicalJp": "アーチャー",
+      "displayName": "アーチャー",
+      "displayLanguage": "ja",
+      "provisionalKo": "아처",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "アーチャー의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000290",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000290",
+      "canonicalJp": "スナイパー",
+      "displayName": "スナイパー",
+      "displayLanguage": "ja",
+      "provisionalKo": "스나이퍼",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "スナイパー의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000291",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000291",
+      "canonicalJp": "ダークソルジャー",
+      "displayName": "ダークソルジャー",
+      "displayLanguage": "ja",
+      "provisionalKo": "다크 솔저",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ダークソルジャー의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000292",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000292",
+      "canonicalJp": "クインクレイン",
+      "displayName": "クインクレイン",
+      "displayLanguage": "ja",
+      "provisionalKo": "퀸크레인",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "クインクレイン의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000293",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000293",
+      "canonicalJp": "ストーンヘッジ",
+      "displayName": "ストーンヘッジ",
+      "displayLanguage": "ja",
+      "provisionalKo": "스톤 헤지",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ストーンヘッジ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_repeated_ui_consistency_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000294",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000294",
+      "canonicalJp": "ナイトロード",
+      "displayName": "ナイトロード",
+      "displayLanguage": "ja",
+      "provisionalKo": "나이트 로드",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ナイトロード의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000295",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000295",
+      "canonicalJp": "ロード",
+      "displayName": "ロード",
+      "displayLanguage": "ja",
+      "provisionalKo": "로드",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ロード의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000296",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000296",
+      "canonicalJp": "ハイドハンター",
+      "displayName": "ハイドハンター",
+      "displayLanguage": "ja",
+      "provisionalKo": "하이드 헌터",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ハイドハンター의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000308",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000308",
+      "canonicalJp": "レダプリンセス",
+      "displayName": "レダプリンセス",
+      "displayLanguage": "ja",
+      "provisionalKo": "레다 프린세스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "レダプリンセス의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000311",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000311",
+      "canonicalJp": "ゆうしゃ",
+      "displayName": "ゆうしゃ",
+      "displayLanguage": "ja",
+      "provisionalKo": "용사",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ゆうしゃ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000312",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000312",
+      "canonicalJp": "ソードマスター",
+      "displayName": "ソードマスター",
+      "displayLanguage": "ja",
+      "provisionalKo": "소드 마스터",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ソードマスター의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000314",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000314",
+      "canonicalJp": "ウォーリア",
+      "displayName": "ウォーリア",
+      "displayLanguage": "ja",
+      "provisionalKo": "워리어",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ウォーリア의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000316",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000316",
+      "canonicalJp": "ボウヒーロー",
+      "displayName": "ボウヒーロー",
+      "displayLanguage": "ja",
+      "provisionalKo": "보우 히어로",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ボウヒーロー의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000317",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000317",
+      "canonicalJp": "ようへい",
+      "displayName": "ようへい",
+      "displayLanguage": "ja",
+      "provisionalKo": "용병",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ようへい의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000319",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000319",
+      "canonicalJp": "けんし",
+      "displayName": "けんし",
+      "displayLanguage": "ja",
+      "provisionalKo": "검사",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "けんし의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000320",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000320",
+      "canonicalJp": "せんし",
+      "displayName": "せんし",
+      "displayLanguage": "ja",
+      "provisionalKo": "전사",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "せんし의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000321",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000321",
+      "canonicalJp": "おのせんし",
+      "displayName": "おのせんし",
+      "displayLanguage": "ja",
+      "provisionalKo": "도끼 전사",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "おのせんし의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000322",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000322",
+      "canonicalJp": "ゆみせんし",
+      "displayName": "ゆみせんし",
+      "displayLanguage": "ja",
+      "provisionalKo": "활 전사",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ゆみせんし의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000323",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000323",
+      "canonicalJp": "とうぞく",
+      "displayName": "とうぞく",
+      "displayLanguage": "ja",
+      "provisionalKo": "도적",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "とうぞく의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000325",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000325",
+      "canonicalJp": "おどりこ",
+      "displayName": "おどりこ",
+      "displayLanguage": "ja",
+      "provisionalKo": "무희",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "おどりこ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000326",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000326",
+      "canonicalJp": "ハンター",
+      "displayName": "ハンター",
+      "displayLanguage": "ja",
+      "provisionalKo": "헌터",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ハンター의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000327",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000327",
+      "canonicalJp": "とうもく",
+      "displayName": "とうもく",
+      "displayLanguage": "ja",
+      "provisionalKo": "두목",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "とうもく의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000328",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000328",
+      "canonicalJp": "さんぞく",
+      "displayName": "さんぞく",
+      "displayLanguage": "ja",
+      "provisionalKo": "산적",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "さんぞく의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000329",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000329",
+      "canonicalJp": "かいぞく",
+      "displayName": "かいぞく",
+      "displayLanguage": "ja",
+      "provisionalKo": "해적",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "かいぞく의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000330",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000330",
+      "canonicalJp": "ばんぞく",
+      "displayName": "ばんぞく",
+      "displayLanguage": "ja",
+      "provisionalKo": "야만족",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ばんぞく의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000332",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000332",
+      "canonicalJp": "ばぞく",
+      "displayName": "ばぞく",
+      "displayLanguage": "ja",
+      "provisionalKo": "마적",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ばぞく의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000333",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000333",
+      "canonicalJp": "せいじょ",
+      "displayName": "せいじょ",
+      "displayLanguage": "ja",
+      "provisionalKo": "성녀",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "せいじょ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000334",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000334",
+      "canonicalJp": "けんじゃ",
+      "displayName": "けんじゃ",
+      "displayLanguage": "ja",
+      "provisionalKo": "현자",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "けんじゃ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000335",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000335",
+      "canonicalJp": "しんかん",
+      "displayName": "しんかん",
+      "displayLanguage": "ja",
+      "provisionalKo": "신관",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "しんかん의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000337",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000337",
+      "canonicalJp": "シスター",
+      "displayName": "シスター",
+      "displayLanguage": "ja",
+      "provisionalKo": "시스터",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "シスター의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000339",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000339",
+      "canonicalJp": "デアボリスト",
+      "displayName": "デアボリスト",
+      "displayLanguage": "ja",
+      "provisionalKo": "데아볼리스트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "デアボリスト의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000340",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000340",
+      "canonicalJp": "あんこくしさい",
+      "displayName": "あんこくしさい",
+      "displayLanguage": "ja",
+      "provisionalKo": "암흑 사제",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "あんこくしさい의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000341",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000341",
+      "canonicalJp": "あんこくまどうし",
+      "displayName": "あんこくまどうし",
+      "displayLanguage": "ja",
+      "provisionalKo": "암흑 마도사",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "あんこくまどうし의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000343",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000343",
+      "canonicalJp": "きとうし",
+      "displayName": "きとうし",
+      "displayLanguage": "ja",
+      "provisionalKo": "기도사",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "きとうし의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000344",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000344",
+      "canonicalJp": "ようじゅつし",
+      "displayName": "ようじゅつし",
+      "displayLanguage": "ja",
+      "provisionalKo": "요술사",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ようじゅつし의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000345",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000345",
+      "canonicalJp": "まじょ",
+      "displayName": "まじょ",
+      "displayLanguage": "ja",
+      "provisionalKo": "마녀",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "まじょ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000346",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000346",
+      "canonicalJp": "オーガ",
+      "displayName": "オーガ",
+      "displayLanguage": "ja",
+      "provisionalKo": "오거",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "オーガ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000347",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000347",
+      "canonicalJp": "アークオーガ",
+      "displayName": "アークオーガ",
+      "displayLanguage": "ja",
+      "provisionalKo": "아크 오거",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "アークオーガ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000348",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000348",
+      "canonicalJp": "ゾンビ",
+      "displayName": "ゾンビ",
+      "displayLanguage": "ja",
+      "provisionalKo": "좀비",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ゾンビ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000349",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000349",
+      "canonicalJp": "グレイスマミー",
+      "displayName": "グレイスマミー",
+      "displayLanguage": "ja",
+      "provisionalKo": "그레이스 미라",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "グレイスマミー의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000350",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000350",
+      "canonicalJp": "スケルトン",
+      "displayName": "スケルトン",
+      "displayLanguage": "ja",
+      "provisionalKo": "스켈레톤",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "スケルトン의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000351",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000351",
+      "canonicalJp": "メイルスケルトン",
+      "displayName": "メイルスケルトン",
+      "displayLanguage": "ja",
+      "provisionalKo": "메일 스켈레톤",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "メイルスケルトン의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000352",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000352",
+      "canonicalJp": "オープス",
+      "displayName": "オープス",
+      "displayLanguage": "ja",
+      "provisionalKo": "오푸스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "オープス의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000353",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000353",
+      "canonicalJp": "アークオープス",
+      "displayName": "アークオープス",
+      "displayLanguage": "ja",
+      "provisionalKo": "아크 오푸스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "アークオープス의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000354",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000354",
+      "canonicalJp": "ハーピィ",
+      "displayName": "ハーピィ",
+      "displayLanguage": "ja",
+      "provisionalKo": "하피",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ハーピィ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000355",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000355",
+      "canonicalJp": "ガーゴイル",
+      "displayName": "ガーゴイル",
+      "displayLanguage": "ja",
+      "provisionalKo": "가고일",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ガーゴイル의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000356",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000356",
+      "canonicalJp": "ゴーレム",
+      "displayName": "ゴーレム",
+      "displayLanguage": "ja",
+      "provisionalKo": "골렘",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ゴーレム의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000357",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000357",
+      "canonicalJp": "ストンゴーレム",
+      "displayName": "ストンゴーレム",
+      "displayLanguage": "ja",
+      "provisionalKo": "스톤 골렘",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ストンゴーレム의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000358",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000358",
+      "canonicalJp": "ドラゴンゾンビ",
+      "displayName": "ドラゴンゾンビ",
+      "displayLanguage": "ja",
+      "provisionalKo": "드래곤 좀비",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ドラゴンゾンビ의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000359",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000359",
+      "canonicalJp": "ナーガドラゴン",
+      "displayName": "ナーガドラゴン",
+      "displayLanguage": "ja",
+      "provisionalKo": "나가 드래곤",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ナーガドラゴン의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000360",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000360",
+      "canonicalJp": "ダークドラゴン",
+      "displayName": "ダークドラゴン",
+      "displayLanguage": "ja",
+      "provisionalKo": "다크 드래곤",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ダークドラゴン의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000361",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000361",
+      "canonicalJp": "スカイドラゴン",
+      "displayName": "スカイドラゴン",
+      "displayLanguage": "ja",
+      "provisionalKo": "스카이 드래곤",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "スカイドラゴン의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000362",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000362",
+      "canonicalJp": "ミストドラゴン",
+      "displayName": "ミストドラゴン",
+      "displayLanguage": "ja",
+      "provisionalKo": "미스트 드래곤",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ミストドラゴン의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000363",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000363",
+      "canonicalJp": "イビルドラゴン",
+      "displayName": "イビルドラゴン",
+      "displayLanguage": "ja",
+      "provisionalKo": "이블 드래곤",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "イビルドラゴン의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000364",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000364",
+      "canonicalJp": "ファイアドラゴン",
+      "displayName": "ファイアドラゴン",
+      "displayLanguage": "ja",
+      "provisionalKo": "파이어 드래곤",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ファイアドラゴン의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000366",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000366",
+      "canonicalJp": "チルドレン",
+      "displayName": "チルドレン",
+      "displayLanguage": "ja",
+      "provisionalKo": "칠드런",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "チルドレン의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000368",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000368",
+      "canonicalJp": "クォーター",
+      "displayName": "クォーター",
+      "displayLanguage": "ja",
+      "provisionalKo": "쿼터",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "クォーター의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000369",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000369",
+      "canonicalJp": "クイーン",
+      "displayName": "クイーン",
+      "displayLanguage": "ja",
+      "provisionalKo": "퀸",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "クイーン의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000370",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000370",
+      "canonicalJp": "キング",
+      "displayName": "キング",
+      "displayLanguage": "ja",
+      "provisionalKo": "킹",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "キング의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000371",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000371",
+      "canonicalJp": "女神",
+      "displayName": "女神",
+      "displayLanguage": "ja",
+      "provisionalKo": "여신",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "女神의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-class-fix000372",
+      "game": "trs1",
+      "type": "class",
+      "sourceKey": "FIX000372",
+      "canonicalJp": "船",
+      "displayName": "船",
+      "displayLanguage": "ja",
+      "provisionalKo": "배",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "船의 명칭은 게임 고정 문자열에서 확인했으며, 한국어 표기는 패치 검수 상태와 함께 제공합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    }
+  ]
+}

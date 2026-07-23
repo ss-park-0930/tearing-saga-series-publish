@@ -1,0 +1,104 @@
+---
+import { getCollection } from 'astro:content';
+import GuideLayout from '../../../layouts/GuideLayout.astro';
+
+const entries = (await getCollection('trs1Chapters')).sort((a, b) =>
+  a.data.chapter.localeCompare(b.data.chapter, undefined, { numeric: true }) ||
+  a.data.route.localeCompare(b.data.route),
+);
+const base = import.meta.env.BASE_URL;
+const publishedCount = entries.filter((entry) => entry.data.status !== 'outline').length;
+
+const statusLabel = {
+  outline: '목차 준비',
+  draft: '초안',
+  review: '검수 중',
+  published: '검수 완료',
+};
+---
+
+<GuideLayout title="1편 공략" description="티어링 사가 1편의 장별 공략, 캐릭터, 아이템과 스킬 데이터">
+  <section class="guide-hero">
+    <div class="guide-shell hero-grid">
+      <div>
+        <p class="eyebrow">TearRing Saga · PlayStation</p>
+        <h1>유토나 대륙의 전장을<br />한 장씩 정리합니다</h1>
+        <p class="hero-copy">
+          여러 공략의 사실을 교차 확인하고, 게임 원문의 이름으로 다시 쓴 장별 가이드입니다.
+          현재 1~3장은 파일럿 초안이며 나머지 장은 순서대로 채웁니다.
+        </p>
+      </div>
+      <dl class="progress-card">
+        <div><dt>전체 장</dt><dd>{entries.length}</dd></div>
+        <div><dt>내용 작성</dt><dd>{publishedCount}</dd></div>
+        <div><dt>표기 기준</dt><dd>日本語</dd></div>
+      </dl>
+    </div>
+  </section>
+
+  <div class="guide-shell guide-layout">
+    <aside class="category-panel" aria-label="공략 카테고리">
+      <p class="panel-label">공략 카테고리</p>
+      <a class="category-link active" href={`${base}trs1/guides/`}>
+        <span>장별 공략</span><strong>{entries.length}</strong>
+      </a>
+      <a class="category-link" href={`${base}trs1/catalog/characters/`}><span>캐릭터</span><strong>179</strong></a>
+      <a class="category-link" href={`${base}trs1/catalog/equipment/`}><span>무기·마법</span><strong>127</strong></a>
+      <a class="category-link" href={`${base}trs1/catalog/items/`}><span>아이템</span><strong>76</strong></a>
+      <a class="category-link" href={`${base}trs1/catalog/classes/`}><span>클래스</span><strong>101</strong></a>
+      <a class="category-link" href={`${base}trs1/catalog/skills/`}><span>스킬</span><strong>32</strong></a>
+      <span class="category-link disabled"><span>비기·시스템</span><small>준비 중</small></span>
+    </aside>
+
+    <section class="guide-list-panel" aria-labelledby="chapter-list-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Chapter guide</p>
+          <h2 id="chapter-list-title">장별 공략</h2>
+        </div>
+        <label class="search-box">
+          <span class="visually-hidden">장 제목 검색</span>
+          <input id="guide-search" type="search" placeholder="장 번호 또는 제목 검색" autocomplete="off" />
+        </label>
+      </div>
+
+      <p id="search-result" class="search-result" aria-live="polite"></p>
+      <div id="chapter-grid" class="chapter-grid">
+        {entries.map((entry) => (
+          <a
+            class:list={['chapter-card', { available: entry.data.status !== 'outline' }]}
+            href={`${base}trs1/${entry.data.slug.toLowerCase()}/`}
+            data-search={`${entry.data.chapter} ${entry.data.title} ${entry.data.titleJp}`.toLowerCase()}
+          >
+            <span class="chapter-number">{entry.data.chapter}</span>
+            <span class="chapter-copy">
+              <strong>{entry.data.title.replace(/^.+?\s-\s/, '')}</strong>
+              <small lang="ja">{entry.data.titleJp}</small>
+            </span>
+            <span class:list={['status-badge', `status-${entry.data.status}`]}>{statusLabel[entry.data.status]}</span>
+          </a>
+        ))}
+      </div>
+      <p id="empty-result" class="empty-result" hidden>일치하는 장이 없습니다.</p>
+    </section>
+  </div>
+
+  <script>
+    const input = document.querySelector('#guide-search');
+    const cards = [...document.querySelectorAll('#chapter-grid [data-search]')];
+    const result = document.querySelector('#search-result');
+    const empty = document.querySelector('#empty-result');
+
+    input?.addEventListener('input', () => {
+      const keyword = input.value.trim().toLowerCase();
+      let visible = 0;
+      cards.forEach((card) => {
+        const matches = card.dataset.search.includes(keyword);
+        card.hidden = !matches;
+        if (matches) visible += 1;
+      });
+      result.textContent = keyword ? `${visible}개의 장을 찾았습니다.` : '';
+      empty.hidden = visible !== 0;
+    });
+  </script>
+</GuideLayout>

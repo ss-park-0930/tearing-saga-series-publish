@@ -1,0 +1,150 @@
+{
+  "sourceId": "serenes-trs1",
+  "name": "Serenes Forest TearRing Saga",
+  "language": "en",
+  "role": "english-cross-check",
+  "trustTier": 3,
+  "pages": [
+    {
+      "fetchedAt": "2026-07-15T13:11:57.370Z",
+      "status": 200,
+      "robots": {
+        "allowed": true,
+        "robotsUrl": "https://serenesforest.net/robots.txt",
+        "status": 200,
+        "matchedRule": null
+      },
+      "url": "https://serenesforest.net/tearring-saga/",
+      "title": "TearRing Saga: Utna Heroes Saga - Serenes Forest",
+      "description": "",
+      "headings": [
+        {
+          "level": 2,
+          "text": "TearRing Saga: Utna Heroes Saga"
+        }
+      ],
+      "links": [
+        {
+          "label": "Introduction",
+          "url": "https://serenesforest.net/tearring-saga/general/introduction/",
+          "category": "getting-started"
+        },
+        {
+          "label": "Walkthrough",
+          "url": "https://serenesforest.net/tearring-saga/general/walkthrough/",
+          "category": "chapters"
+        },
+        {
+          "label": "Introduction",
+          "url": "https://serenesforest.net/tearring-saga/characters/introduction/",
+          "category": "characters"
+        },
+        {
+          "label": "Recruitment",
+          "url": "https://serenesforest.net/tearring-saga/characters/recruitment/",
+          "category": "characters"
+        },
+        {
+          "label": "Base Stats",
+          "url": "https://serenesforest.net/tearring-saga/characters/base-stats/",
+          "category": "characters"
+        },
+        {
+          "label": "Starting Items",
+          "url": "https://serenesforest.net/tearring-saga/characters/starting-items/",
+          "category": "equipment"
+        },
+        {
+          "label": "Growth Rates",
+          "url": "https://serenesforest.net/tearring-saga/characters/growth-rates/",
+          "category": "characters"
+        },
+        {
+          "label": "Learnt Skills",
+          "url": "https://serenesforest.net/tearring-saga/characters/learnt-skills/",
+          "category": "skills"
+        },
+        {
+          "label": "Class Change",
+          "url": "https://serenesforest.net/tearring-saga/characters/class-change/",
+          "category": "classes"
+        },
+        {
+          "label": "Introduction",
+          "url": "https://serenesforest.net/tearring-saga/classes/introduction/",
+          "category": "classes"
+        },
+        {
+          "label": "Base Stats",
+          "url": "https://serenesforest.net/tearring-saga/classes/base-stats/",
+          "category": "classes"
+        },
+        {
+          "label": "Maximum Stats",
+          "url": "https://serenesforest.net/tearring-saga/classes/maximum-stats/",
+          "category": "classes"
+        },
+        {
+          "label": "Swords",
+          "url": "https://serenesforest.net/tearring-saga/inventory/swords/",
+          "category": "equipment"
+        },
+        {
+          "label": "Lances",
+          "url": "https://serenesforest.net/tearring-saga/inventory/lances/",
+          "category": "equipment"
+        },
+        {
+          "label": "Axes",
+          "url": "https://serenesforest.net/tearring-saga/inventory/axes/",
+          "category": "equipment"
+        },
+        {
+          "label": "Bows",
+          "url": "https://serenesforest.net/tearring-saga/inventory/bows/",
+          "category": "equipment"
+        },
+        {
+          "label": "Fire / Thunder / Wind",
+          "url": "https://serenesforest.net/tearring-saga/inventory/fire-thunder-wind/",
+          "category": "equipment"
+        },
+        {
+          "label": "Light / Dark / Breath",
+          "url": "https://serenesforest.net/tearring-saga/inventory/light-dark-breath/",
+          "category": "equipment"
+        },
+        {
+          "label": "Staves",
+          "url": "https://serenesforest.net/tearring-saga/inventory/staves/",
+          "category": "equipment"
+        },
+        {
+          "label": "Items",
+          "url": "https://serenesforest.net/tearring-saga/inventory/items/",
+          "category": "equipment"
+        },
+        {
+          "label": "Item Locations",
+          "url": "https://serenesforest.net/tearring-saga/miscellaneous/item-locations/",
+          "category": "equipment"
+        },
+        {
+          "label": "Rare Item Locations",
+          "url": "https://serenesforest.net/tearring-saga/miscellaneous/rare-item-locations/",
+          "category": "equipment"
+        },
+        {
+          "label": "Skills",
+          "url": "https://serenesforest.net/tearring-saga/miscellaneous/skills/",
+          "category": "skills"
+        },
+        {
+          "label": "World Map",
+          "url": "https://serenesforest.net/tearring-saga/miscellaneous/world-map/",
+          "category": "chapters"
+        }
+      ]
+    }
+  ]
+}

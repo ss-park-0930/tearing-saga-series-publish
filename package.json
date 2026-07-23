@@ -1,0 +1,24 @@
+{
+  "name": "tear-ring-saga-publish",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "predev": "npm run release:sync",
+    "dev": "astro dev",
+    "prebuild": "npm run release:sync",
+    "build": "astro build",
+    "preview": "astro preview",
+    "content:import-chapters": "node scripts/import-magazine-chapters.mjs",
+    "content:generate-pilot": "node scripts/generate-pilot-guides.mjs",
+    "patches:import": "node scripts/import-patch-project-data.mjs",
+    "release:sync": "node scripts/sync-github-releases.mjs",
+    "terminology:extract": "node scripts/extract-translation-terminology.mjs",
+    "research:crawl": "node scripts/crawl-source-indexes.mjs",
+    "research:validate": "node scripts/validate-research-data.mjs",
+    "content:validate": "node scripts/validate-content.mjs"
+  },
+  "dependencies": {
+    "astro": "^7.0.9",
+    "js-yaml": "^4.1.0"
+  }
+}

@@ -1,0 +1,120 @@
+{
+  "schema_version": 2,
+  "id": "replace-project-id",
+  "title": "Replace Project Title",
+  "version": "0.1.0",
+  "source_language": "ja",
+  "target_language": "ko",
+  "platform": "ps1",
+  "source_text_policy": "private_repository",
+  "disks": [
+    {
+      "id": "disc-1",
+      "label": "Disc 1",
+      "serial": "REPLACE_SERIAL",
+      "region": "japan",
+      "edition": "original",
+      "descriptor": {
+        "path": "disc/original/disc-1.cue",
+        "accepted_hashes": [{"algorithm": "sha256", "value": "REPLACE_CUE_SHA256"}]
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "type": "data",
+          "path": "disc/original/disc-1-track01.bin",
+          "mode": "mode2-form1",
+          "pregap": "00:00:00",
+          "indexes": [{"number": 1, "lba": 0}],
+          "sector_format": {
+            "physical_sector_size": 2352,
+            "user_data_offset": 24,
+            "user_data_size": 2048
+          },
+          "accepted_hashes": [{"algorithm": "sha256", "value": "REPLACE_TRACK_SHA256"}]
+        },
+        {
+          "number": 2,
+          "type": "audio",
+          "path": "disc/original/disc-1-track02.bin",
+          "mode": "audio",
+          "pregap": "00:02:00",
+          "indexes": [{"number": 1, "lba": 123456}],
+          "sector_format": {"physical_sector_size": 2352, "user_data_offset": 0, "user_data_size": 2352},
+          "accepted_hashes": [{"algorithm": "sha256", "value": "REPLACE_AUDIO_TRACK_SHA256"}]
+        }
+      ],
+      "accepted_hashes": [{"algorithm": "sha256-disc-set-v1", "value": "REPLACE_CANONICAL_DISC_SET_SHA256"}],
+      "dependencies": [
+        {
+          "id": "dependency.base-patch.disc1",
+          "role": "build_base",
+          "required_for": ["build", "release"],
+          "apply_order": 10,
+          "adapter": "ppf",
+          "artifact": {
+            "path": "disc/reference/base-patch-disc1.ppf",
+            "accepted_hashes": [{"algorithm": "sha256", "value": "REPLACE_PATCH_SHA256"}]
+          },
+          "input_accepted_hashes": [{"algorithm": "sha256-disc-set-v1", "value": "REPLACE_CANONICAL_DISC_SET_SHA256"}],
+          "expected_output_hashes": [{"algorithm": "sha256", "value": "REPLACE_BASE_OUTPUT_SHA256"}]
+        }
+      ],
+      "patch": {
+        "adapter": "ppf",
+        "apply_order": 20,
+        "output": "release/replace-project-v{version}-disc-1.ppf",
+        "sector_integrity": "recalculate_edc_ecc"
+      }
+    },
+    {
+      "id": "disc-2",
+      "label": "Disc 2",
+      "serial": "REPLACE_SERIAL",
+      "region": "japan",
+      "edition": "original",
+      "descriptor": {
+        "path": "disc/original/disc-2.cue",
+        "accepted_hashes": [{"algorithm": "sha256", "value": "REPLACE_CUE_SHA256"}]
+      },
+      "tracks": [
+        {
+          "number": 1,
+          "type": "data",
+          "path": "disc/original/disc-2-track01.bin",
+          "mode": "mode2-form1",
+          "pregap": "00:00:00",
+          "indexes": [{"number": 1, "lba": 0}],
+          "sector_format": {"physical_sector_size": 2352, "user_data_offset": 24, "user_data_size": 2048},
+          "accepted_hashes": [{"algorithm": "sha256", "value": "REPLACE_TRACK_SHA256"}]
+        }
+      ],
+      "accepted_hashes": [{"algorithm": "sha256-disc-set-v1", "value": "REPLACE_CANONICAL_DISC_SET_SHA256"}],
+      "dependencies": [],
+      "patch": {
+        "adapter": "ppf",
+        "apply_order": 10,
+        "output": "release/replace-project-v{version}-disc-2.ppf",
+        "sector_integrity": "recalculate_edc_ecc"
+      }
+    }
+  ],
+  "fonts_config": "src/config/fonts.yml",
+  "control_codes_config": "src/config/control_codes.yml",
+  "paths": {
+    "analytics_result": "analytics/result",
+    "analytics_temp": "analytics/temp",
+    "reference": "src/reference",
+    "reference_raw": "analytics/temp/reference",
+    "translations": "src/translate",
+    "translation_raw": "analytics/temp/translation/raw",
+    "translation_original": "src/translate/original",
+    "blocks": "src/translate/block",
+    "patch_plan": "build/patch-plan",
+    "work_plans": "plan",
+    "reports": "build/reports",
+    "temp": "temp",
+    "build": "build",
+    "release": "release"
+  }
+}

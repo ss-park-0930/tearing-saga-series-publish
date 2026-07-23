@@ -1,0 +1,51 @@
+---
+import SiteLayout from '../../../layouts/SiteLayout.astro';
+import { allEntities, entityTypeLabels, type GameEntity } from '../../../lib/entities';
+
+export function getStaticPaths() {
+  return allEntities
+    .filter((entity) => entity.game === 'trs2')
+    .map((entity) => ({ params: { id: entity.id }, props: { entity } }));
+}
+
+interface Props {
+  entity: GameEntity;
+}
+
+const { entity } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const category = entity.type === 'character' ? 'characters' : 'items';
+---
+
+<SiteLayout
+  title={entity.displayName}
+  description={`베르위크 사가 ${entityTypeLabels[entity.type]} ${entity.displayName}의 한글패치 승인 표기`}
+  active="trs2"
+>
+  <div class="guide-shell entity-detail-shell">
+    <nav class="breadcrumb" aria-label="현재 위치">
+      <a href={`${base}trs2/`}>베르위크 사가</a>
+      <span aria-hidden="true">/</span>
+      <a href={`${base}trs2/catalog/${category}/`}>{entityTypeLabels[entity.type]}</a>
+      <span aria-hidden="true">/</span><span>{entity.displayName}</span>
+    </nav>
+    <article class="entity-detail-card">
+      <p class="eyebrow">{entityTypeLabels[entity.type]} · Approved translation</p>
+      <h1>{entity.displayName}</h1>
+      <p class="original-name" lang="ja">{entity.canonicalJp}</p>
+      <p class="entity-introduction">{entity.introduction}</p>
+      <div class="notice-card approved-notice">
+        이 한국어명은 베르위크 사가 한글패치 프로젝트에서 승인된 표기입니다.
+        성능·획득 위치·평가는 별도 근거를 확보한 뒤 추가합니다.
+      </div>
+      <dl class="entity-meta-list">
+        <div><dt>분류</dt><dd>{entityTypeLabels[entity.type]}</dd></div>
+        <div><dt>승인 한국어명</dt><dd>{entity.displayName}</dd></div>
+        <div><dt>일본어 원문</dt><dd lang="ja">{entity.canonicalJp}</dd></div>
+        <div><dt>검수 상태</dt><dd>{entity.koreanStatus}</dd></div>
+        {entity.profile?.utteranceCount && <div><dt>말투 분석 대사</dt><dd>{entity.profile.utteranceCount}개</dd></div>}
+        <div><dt>원문 키</dt><dd><code>{entity.sourceKey}</code></dd></div>
+      </dl>
+    </article>
+  </div>
+</SiteLayout>

@@ -1,0 +1,117 @@
+---
+import SiteLayout from '../../../layouts/SiteLayout.astro';
+import {
+  allEntities,
+  entityHref,
+  entityTypeLabels,
+  type GameEntity,
+  type GameId,
+} from '../../../lib/entities';
+import { catalogCategories, type CatalogCategory } from '../../../lib/catalog';
+
+export function getStaticPaths() {
+  return (Object.entries(catalogCategories) as [GameId, CatalogCategory[]][]).flatMap(([game, entries]) =>
+    entries.map((category) => ({
+      params: { game, category: category.slug },
+      props: {
+        game,
+        category,
+        entities: allEntities.filter((entity) => entity.game === game && entity.type === category.type),
+      },
+    })),
+  );
+}
+
+interface Props {
+  game: GameId;
+  category: CatalogCategory;
+  entities: GameEntity[];
+}
+
+const { game, category, entities } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const gameTitle = game === 'trs1' ? '티어링 사가' : '베르위크 사가';
+const homeHref = game === 'trs1' ? `${base}trs1/guides/` : `${base}trs2/`;
+---
+
+<SiteLayout
+  title={`${gameTitle} ${category.title}`}
+  description={`${gameTitle} ${category.description}`}
+  active={game}
+>
+  <section class:list={['catalog-hero', `catalog-${game}`]}>
+    <div class="guide-shell">
+      <nav class="breadcrumb" aria-label="현재 위치">
+        <a href={homeHref}>{gameTitle}</a><span aria-hidden="true">/</span><span>{category.title}</span>
+      </nav>
+      <p class="eyebrow">{game === 'trs1' ? 'Japanese canonical data' : 'Approved Korean patch data'}</p>
+      <h1>{category.title}</h1>
+      <p>{category.description}. 현재 {entities.length}개 항목을 제공합니다.</p>
+    </div>
+  </section>
+
+  <div class="guide-shell catalog-layout">
+    <aside class="category-panel" aria-label={`${gameTitle} 데이터 카테고리`}>
+      <p class="panel-label">데이터 카테고리</p>
+      {catalogCategories[game].map((entry) => (
+        <a
+          class:list={['category-link', { active: entry.slug === category.slug }]}
+          href={`${base}${game}/catalog/${entry.slug}/`}
+        >
+          <span>{entry.title}</span>
+          <strong>{allEntities.filter((entity) => entity.game === game && entity.type === entry.type).length}</strong>
+        </a>
+      ))}
+      {game === 'trs1' && <a class="category-link" href={`${base}trs1/guides/`}><span>장별 공략</span><small>41장</small></a>}
+      {game === 'trs2' && <span class="category-link disabled"><span>장별 공략</span><small>자료 없음</small></span>}
+    </aside>
+
+    <section aria-labelledby="catalog-title">
+      <div class="section-heading">
+        <div>
+          <p class="eyebrow">Game catalog</p>
+          <h2 id="catalog-title">{category.title} 목록</h2>
+        </div>
+        <label class="search-box">
+          <span class="visually-hidden">이름 검색</span>
+          <input id="catalog-search" type="search" placeholder="일본어·한국어 이름 검색" autocomplete="off" />
+        </label>
+      </div>
+      <p id="search-result" class="search-result" aria-live="polite"></p>
+      <div id="catalog-grid" class="catalog-grid">
+        {entities.map((entity) => (
+          <a
+            class="catalog-card"
+            href={entityHref(entity.id, base)}
+            data-search={`${entity.displayName} ${entity.canonicalJp} ${entity.provisionalKo ?? ''}`.toLowerCase()}
+          >
+            <small>{entityTypeLabels[entity.type]}</small>
+            <strong lang={entity.displayLanguage}>{entity.displayName}</strong>
+            {game === 'trs1'
+              ? entity.provisionalKo && <span>한국어 후보 · {entity.provisionalKo}</span>
+              : <span lang="ja">{entity.canonicalJp}</span>}
+          </a>
+        ))}
+      </div>
+      <p id="empty-result" class="empty-result" hidden>일치하는 항목이 없습니다.</p>
+    </section>
+  </div>
+
+  <script>
+    const input = document.querySelector<HTMLInputElement>('#catalog-search');
+    const cards = [...document.querySelectorAll<HTMLElement>('#catalog-grid [data-search]')];
+    const result = document.querySelector<HTMLElement>('#search-result');
+    const empty = document.querySelector<HTMLElement>('#empty-result');
+    input?.addEventListener('input', () => {
+      const keyword = input.value.trim().toLowerCase();
+      let visible = 0;
+      cards.forEach((card) => {
+        const matches = card.dataset.search?.includes(keyword) ?? false;
+        card.hidden = !matches;
+        if (matches) visible += 1;
+      });
+      if (result) result.textContent = keyword ? `${visible}개 항목을 찾았습니다.` : '';
+      if (empty) empty.hidden = visible !== 0;
+    });
+  </script>
+</SiteLayout>

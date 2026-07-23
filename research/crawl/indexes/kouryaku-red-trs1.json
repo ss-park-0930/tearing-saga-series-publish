@@ -1,0 +1,124 @@
+{
+  "sourceId": "kouryaku-red-trs1",
+  "name": "티어링 사가 공략 kouryaku.red",
+  "language": "ja",
+  "role": "secondary-walkthrough-cross-check",
+  "trustTier": 3,
+  "pages": [
+    {
+      "fetchedAt": "2026-07-15T13:11:59.073Z",
+      "status": 200,
+      "robots": {
+        "allowed": true,
+        "robotsUrl": "https://tear-ring-saga.kouryaku.red/robots.txt",
+        "status": 404,
+        "matchedRule": null
+      },
+      "url": "https://tear-ring-saga.kouryaku.red/",
+      "title": "ティアリングサーガの攻略サイト！",
+      "description": "当サイトはティアリングサーガの攻略サイトです。60人以上の魅力的なキャラクターが存在しており、どのキャラクターを育てていくかも楽しみの一つですからね。",
+      "headings": [
+        {
+          "level": 1,
+          "text": "ティアリングサーガ 攻略"
+        },
+        {
+          "level": 2,
+          "text": "ティアリングサーガの攻略サイト！"
+        },
+        {
+          "level": 2,
+          "text": "ティアリングサーガの攻略サイト！"
+        },
+        {
+          "level": 3,
+          "text": "攻略について"
+        },
+        {
+          "level": 3,
+          "text": "その他データ"
+        },
+        {
+          "level": 3,
+          "text": "攻略について"
+        },
+        {
+          "level": 3,
+          "text": "その他データ"
+        }
+      ],
+      "links": [
+        {
+          "label": "基本事項",
+          "url": "https://tear-ring-saga.kouryaku.red/entry1.html",
+          "category": "getting-started"
+        },
+        {
+          "label": "攻略チャート MAP1～5",
+          "url": "https://tear-ring-saga.kouryaku.red/entry2.html",
+          "category": "chapters"
+        },
+        {
+          "label": "攻略チャート MAP6～10",
+          "url": "https://tear-ring-saga.kouryaku.red/entry3.html",
+          "category": "chapters"
+        },
+        {
+          "label": "攻略チャート MAP11～15",
+          "url": "https://tear-ring-saga.kouryaku.red/entry4.html",
+          "category": "chapters"
+        },
+        {
+          "label": "攻略チャート MAP16～20",
+          "url": "https://tear-ring-saga.kouryaku.red/entry5.html",
+          "category": "chapters"
+        },
+        {
+          "label": "攻略チャート MAP21～25",
+          "url": "https://tear-ring-saga.kouryaku.red/entry6.html",
+          "category": "chapters"
+        },
+        {
+          "label": "攻略チャート MAP26～30",
+          "url": "https://tear-ring-saga.kouryaku.red/entry7.html",
+          "category": "chapters"
+        },
+        {
+          "label": "攻略チャート MAP31～35",
+          "url": "https://tear-ring-saga.kouryaku.red/entry8.html",
+          "category": "chapters"
+        },
+        {
+          "label": "攻略チャート MAP36～40",
+          "url": "https://tear-ring-saga.kouryaku.red/entry9.html",
+          "category": "chapters"
+        },
+        {
+          "label": "ユニットその１",
+          "url": "https://tear-ring-saga.kouryaku.red/entry10.html",
+          "category": "characters"
+        },
+        {
+          "label": "ユニットその２",
+          "url": "https://tear-ring-saga.kouryaku.red/entry11.html",
+          "category": "characters"
+        },
+        {
+          "label": "ユニットその３",
+          "url": "https://tear-ring-saga.kouryaku.red/entry12.html",
+          "category": "characters"
+        },
+        {
+          "label": "ショップデータ",
+          "url": "https://tear-ring-saga.kouryaku.red/entry13.html",
+          "category": "equipment"
+        },
+        {
+          "label": "サイトマップ",
+          "url": "https://tear-ring-saga.kouryaku.red/sitemap.html",
+          "category": "equipment"
+        }
+      ]
+    }
+  ]
+}

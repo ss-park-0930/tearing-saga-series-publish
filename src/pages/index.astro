@@ -1,0 +1,80 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { getLatestRelease, releaseDetailHref, releaseGames } from '../lib/releases';
+
+const base = import.meta.env.BASE_URL;
+const trs1Release = getLatestRelease('trs1');
+const trs2Release = getLatestRelease('trs2');
+const formatDate = (date: string) =>
+  new Intl.DateTimeFormat('ko-KR', { dateStyle: 'long', timeZone: 'Asia/Seoul' }).format(
+    new Date(`${date}T00:00:00+09:00`),
+  );
+---
+
+<SiteLayout
+  title="한국어 패치 배포"
+  description="티어링 사가와 베르위크 사가 한국어 패치 배포 및 적용 가이드"
+  active="home"
+>
+  <div class="home-shell">
+    <header class="home-intro">
+      <p class="overline">Korean patch distribution</p>
+      <h1>티어링 사가 시리즈<br />한국어 패치</h1>
+      <p>최신 배포 버전과 패치 적용 방법을 작품별로 확인할 수 있습니다.</p>
+    </header>
+
+    <div class="home-game-list">
+      <section class="home-game-card">
+        <p class="overline">{releaseGames.trs1.platform}</p>
+        <h2>{releaseGames.trs1.title}</h2>
+        {trs1Release ? (
+          <p>
+            현재 배포: {trs1Release.version} · {trs1Release.releaseLabel}
+            {` · ${formatDate(trs1Release.releasedAt)}`}
+          </p>
+        ) : (
+          <p>현재 공개된 릴리즈가 없습니다.</p>
+        )}
+        <div class="home-buttons">
+          {trs1Release ? (
+            <a class="primary-button" href={releaseDetailHref(trs1Release, base)}>
+              최신 배포 버전 받기
+            </a>
+          ) : (
+            <span class="disabled-button" aria-disabled="true">공개 릴리즈 준비 중</span>
+          )}
+          <a class="secondary-button" href={`${base}trs1/patch-guide/`}>패치 가이드 보기</a>
+        </div>
+        <a class="small-link" href={`${base}trs1/releases/`}>전체 릴리즈 목록</a>
+      </section>
+
+      <section class="home-game-card">
+        <p class="overline">{releaseGames.trs2.platform}</p>
+        <h2>{releaseGames.trs2.title}</h2>
+        {trs2Release ? (
+          <p>
+            현재 배포: {trs2Release.version} · {trs2Release.releaseLabel}
+            {` · ${formatDate(trs2Release.releasedAt)}`}
+          </p>
+        ) : (
+          <p>현재 공개된 릴리즈가 없습니다.</p>
+        )}
+        <div class="home-buttons">
+          {trs2Release ? (
+            <a class="primary-button" href={releaseDetailHref(trs2Release, base)}>
+              최신 배포 버전 받기
+            </a>
+          ) : (
+            <span class="disabled-button" aria-disabled="true">공개 릴리즈 준비 중</span>
+          )}
+          <a class="secondary-button" href={`${base}trs2/patch-guide/`}>패치 가이드 보기</a>
+        </div>
+        <a class="small-link" href={`${base}trs2/releases/`}>전체 릴리즈 목록</a>
+      </section>
+    </div>
+
+    <p class="home-footnote">
+      게임 본편, 디스크 이미지와 BIOS는 제공하지 않습니다. 직접 소유한 정품에서 만든 이미지에만 패치를 적용하세요.
+    </p>
+  </div>
+</SiteLayout>

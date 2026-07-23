@@ -1,0 +1,116 @@
+---
+import SiteLayout from '../../../layouts/SiteLayout.astro';
+import {
+  releaseGames,
+  releases,
+  type ReleaseGame,
+  type ReleaseRecord,
+} from '../../../lib/releases';
+
+export function getStaticPaths() {
+  return releases.map((release) => ({
+    params: { game: release.id, version: release.slug },
+    props: { game: releaseGames[release.id], release },
+  }));
+}
+
+interface Props {
+  game: ReleaseGame;
+  release: ReleaseRecord;
+}
+
+const { game, release } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const formatBytes = (bytes: number) => `${(bytes / 1024 / 1024).toFixed(1)} MB`;
+const formatDate = (date: string) =>
+  new Intl.DateTimeFormat('ko-KR', { dateStyle: 'long', timeZone: 'Asia/Seoul' }).format(
+    new Date(`${date}T00:00:00+09:00`),
+  );
+---
+
+<SiteLayout
+  title={`${game.shortTitle} ${release.version}`}
+  description={`${game.title} 한국어 패치 ${release.version} 릴리즈와 다운로드`}
+  active={game.id}
+>
+  <div class="page-shell release-detail-page">
+    <nav class="breadcrumb" aria-label="현재 위치">
+      <a href={base}>홈</a><span>/</span>
+      <a href={`${base}${game.id}/releases/`}>{game.shortTitle} 릴리즈</a><span>/</span>
+      <span>{release.version}</span>
+    </nav>
+
+    <header class="page-header">
+      <span class="status-label">{release.releaseLabel}</span>
+      <h1>{release.title}</h1>
+      <p>{game.title} · {game.platform} · {game.serial} · {formatDate(release.releasedAt)} 배포</p>
+    </header>
+
+    <section class="simple-panel" aria-labelledby="download-title">
+      <h2 id="download-title">첨부 파일</h2>
+      <dl class="simple-data-list">
+        <div><dt>태그</dt><dd>{release.version}</dd></div>
+        <div><dt>배포일</dt><dd>{formatDate(release.releasedAt)}</dd></div>
+        <div><dt>패치 형식</dt><dd>{game.format}</dd></div>
+      </dl>
+      {release.assets.length > 0 ? (
+        <div class="release-assets">
+          {release.assets.map((asset) => (
+            <div class="release-asset-item">
+              <div>
+                <strong>{asset.name}</strong>
+                <p>{formatBytes(asset.size)} · 다운로드 {asset.downloadCount.toLocaleString('ko-KR')}회</p>
+                {asset.sha256 && <code>SHA-256 {asset.sha256}</code>}
+              </div>
+              <a class="primary-button" href={asset.url}>다운로드</a>
+            </div>
+          ))}
+        </div>
+      ) : (
+        <p class="empty-copy">이 GitHub Release에는 첨부된 패치 파일이 없습니다.</p>
+      )}
+    </section>
+
+    {release.body && (
+      <section class="simple-panel" aria-labelledby="notes-title">
+        <h2 id="notes-title">릴리즈 노트</h2>
+        <div class="release-notes">{release.body}</div>
+      </section>
+    )}
+
+    {release.prerelease && (
+      <section class="simple-panel warning-panel" aria-labelledby="warning-title">
+        <h2 id="warning-title">사전 배포 버전</h2>
+        <p>이 버전은 GitHub에서 사전 배포로 표시되어 있습니다. 릴리즈 노트의 주의사항을 확인하세요.</p>
+      </section>
+    )}
+
+    <section class="simple-panel" aria-labelledby="support-title">
+      <h2 id="support-title">지원 원본</h2>
+      <dl class="hash-list">
+        <div><dt>제품 번호</dt><dd>{game.serial}</dd></div>
+        <div><dt>원본 SHA-256</dt><dd><code>{game.sourceSha256}</code></dd></div>
+      </dl>
+    </section>
+
+    <section class="simple-panel" aria-labelledby="contact-title">
+      <h2 id="contact-title">패치 제작 및 문의</h2>
+      <dl class="simple-data-list">
+        <div><dt>패치 제작</dt><dd>soaptree</dd></div>
+        <div>
+          <dt>문의</dt>
+          <dd><a href="mailto:soaptree45@gmail.com">soaptree45@gmail.com</a></dd>
+        </div>
+      </dl>
+      <p class="contact-help">
+        버그 제보나 패치 관련 문의는 이메일
+        <a href="mailto:soaptree45@gmail.com">soaptree45@gmail.com</a>으로 보내 주세요. 버그를
+        제보할 때는 작품명, 패치 버전, 발생한 증상과 재현 방법을 함께 적어 주세요.
+      </p>
+    </section>
+
+    <div class="page-actions">
+      <a class="secondary-button" href={`${base}${game.id}/patch-guide/`}>패치 적용 방법 보기</a>
+    </div>
+  </div>
+</SiteLayout>

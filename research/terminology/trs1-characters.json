@@ -1,0 +1,3594 @@
+{
+  "game": "trs1",
+  "entity": "characters",
+  "generatedAt": "2026-07-23T12:33:24.813Z",
+  "source": {
+    "patchProject": "D:/dev/tear-ring-saga-korean",
+    "authority": "src/translate/block/strings.jsonl",
+    "glossary": "src/translate/glossary.yml",
+    "canonicalPolicy": "최종 패치 전까지 일본어 원문을 기준명으로 유지하고 최신 한국어 번역은 검수 상태와 함께 표시"
+  },
+  "count": 179,
+  "terms": [
+    {
+      "id": "trs1-character-fix000433",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000433",
+      "canonicalJp": "リュナン",
+      "displayName": "リュナン",
+      "displayLanguage": "ja",
+      "provisionalKo": "류난",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "リュナン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_e95e631a20fc",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000434",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000434",
+      "canonicalJp": "ガロ",
+      "displayName": "ガロ",
+      "displayLanguage": "ja",
+      "provisionalKo": "가로",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ガロ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_70a6febde963",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000435",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000435",
+      "canonicalJp": "クライス",
+      "displayName": "クライス",
+      "displayLanguage": "ja",
+      "provisionalKo": "크라이츠",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "クライス의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_6e93aa59dd13",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000436",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000436",
+      "canonicalJp": "アーキス",
+      "displayName": "アーキス",
+      "displayLanguage": "ja",
+      "provisionalKo": "아키스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "アーキス의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_f5998ab4be1a",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000437",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000437",
+      "canonicalJp": "サーシャ",
+      "displayName": "サーシャ",
+      "displayLanguage": "ja",
+      "provisionalKo": "사샤",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "サーシャ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_a5cfbc0035be",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000438",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000438",
+      "canonicalJp": "ケイト",
+      "displayName": "ケイト",
+      "displayLanguage": "ja",
+      "provisionalKo": "케이트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ケイト의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_a94af694bf83",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000439",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000439",
+      "canonicalJp": "マルジュ",
+      "displayName": "マルジュ",
+      "displayLanguage": "ja",
+      "provisionalKo": "마르쥬",
+      "status": "japanese-canonical",
+      "koreanStatus": "source_backed",
+      "introduction": "マルジュ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_378584f487a5",
+        "glossaryStatus": "source_backed"
+      }
+    },
+    {
+      "id": "trs1-character-fix000440",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000440",
+      "canonicalJp": "バーツ",
+      "displayName": "バーツ",
+      "displayLanguage": "ja",
+      "provisionalKo": "바츠",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "バーツ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_edc00acd214f",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000441",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000441",
+      "canonicalJp": "ジュリア",
+      "displayName": "ジュリア",
+      "displayLanguage": "ja",
+      "provisionalKo": "쥬리아",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ジュリア의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_6e93255b14ca",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000442",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000442",
+      "canonicalJp": "エンテ",
+      "displayName": "エンテ",
+      "displayLanguage": "ja",
+      "provisionalKo": "엔테",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "エンテ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_eb0f9a8da3ad",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000443",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000443",
+      "canonicalJp": "ライネル",
+      "displayName": "ライネル",
+      "displayLanguage": "ja",
+      "provisionalKo": "라이넬",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ライネル의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_d0ecada957f0",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000444",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000444",
+      "canonicalJp": "ジーク",
+      "displayName": "ジーク",
+      "displayLanguage": "ja",
+      "provisionalKo": "지크",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ジーク의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_a101ce11bce3",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000445",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000445",
+      "canonicalJp": "ナルサス",
+      "displayName": "ナルサス",
+      "displayLanguage": "ja",
+      "provisionalKo": "나르사스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ナルサス의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_a9633c771787",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000446",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000446",
+      "canonicalJp": "ヴェガ",
+      "displayName": "ヴェガ",
+      "displayLanguage": "ja",
+      "provisionalKo": "베가",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ヴェガ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_12b4609bbfe0",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000447",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000447",
+      "canonicalJp": "マーテル",
+      "displayName": "マーテル",
+      "displayLanguage": "ja",
+      "provisionalKo": "마텔",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "マーテル의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_4d894d9d127e",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000448",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000448",
+      "canonicalJp": "ナロン",
+      "displayName": "ナロン",
+      "displayLanguage": "ja",
+      "provisionalKo": "나론",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ナロン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000449",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000449",
+      "canonicalJp": "トムス",
+      "displayName": "トムス",
+      "displayLanguage": "ja",
+      "provisionalKo": "톰스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "トムス의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000450",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000450",
+      "canonicalJp": "ロジャー",
+      "displayName": "ロジャー",
+      "displayLanguage": "ja",
+      "provisionalKo": "로저",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ロジャー의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_dc0e2044a9ad",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000451",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000451",
+      "canonicalJp": "ノートン",
+      "displayName": "ノートン",
+      "displayLanguage": "ja",
+      "provisionalKo": "노턴",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ノートン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_6884acc30b28",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000452",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000452",
+      "canonicalJp": "カトリ",
+      "displayName": "カトリ",
+      "displayLanguage": "ja",
+      "provisionalKo": "카트리",
+      "status": "japanese-canonical",
+      "koreanStatus": "source_backed",
+      "introduction": "カトリ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_d483e5569ff9",
+        "glossaryStatus": "source_backed"
+      }
+    },
+    {
+      "id": "trs1-character-fix000453",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000453",
+      "canonicalJp": "メル",
+      "displayName": "メル",
+      "displayLanguage": "ja",
+      "provisionalKo": "멜",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "メル의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_b30ad37dac8a",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000454",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000454",
+      "canonicalJp": "メリエル",
+      "displayName": "メリエル",
+      "displayLanguage": "ja",
+      "provisionalKo": "메리엘",
+      "status": "japanese-canonical",
+      "koreanStatus": "source_backed",
+      "introduction": "メリエル의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_60c71bee54e6",
+        "glossaryStatus": "source_backed"
+      }
+    },
+    {
+      "id": "trs1-character-fix000455",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000455",
+      "canonicalJp": "レニー",
+      "displayName": "レニー",
+      "displayLanguage": "ja",
+      "provisionalKo": "레니",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "レニー의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000456",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000456",
+      "canonicalJp": "ビルフォード",
+      "displayName": "ビルフォード",
+      "displayLanguage": "ja",
+      "provisionalKo": "빌포드",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ビルフォード의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000457",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000457",
+      "canonicalJp": "レオンハート",
+      "displayName": "レオンハート",
+      "displayLanguage": "ja",
+      "provisionalKo": "레온하트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "レオンハート의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_f176afe0bbda",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000458",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000458",
+      "canonicalJp": "テオ",
+      "displayName": "テオ",
+      "displayLanguage": "ja",
+      "provisionalKo": "테오",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "テオ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000459",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000459",
+      "canonicalJp": "シロウ",
+      "displayName": "シロウ",
+      "displayLanguage": "ja",
+      "provisionalKo": "시로",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "シロウ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000460",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000460",
+      "canonicalJp": "ミンツ",
+      "displayName": "ミンツ",
+      "displayLanguage": "ja",
+      "provisionalKo": "민츠",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ミンツ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_9800e2a816be",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000461",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000461",
+      "canonicalJp": "ゼノ",
+      "displayName": "ゼノ",
+      "displayLanguage": "ja",
+      "provisionalKo": "제노",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ゼノ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_d3ce26e94c0e",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000462",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000462",
+      "canonicalJp": "レネ",
+      "displayName": "レネ",
+      "displayLanguage": "ja",
+      "provisionalKo": "레네",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "レネ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_abe8107e96a9",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000463",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000463",
+      "canonicalJp": "レティーナ",
+      "displayName": "レティーナ",
+      "displayLanguage": "ja",
+      "provisionalKo": "레티나",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "レティーナ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000464",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000464",
+      "canonicalJp": "バド",
+      "displayName": "バド",
+      "displayLanguage": "ja",
+      "provisionalKo": "바드",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "バド의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_8e24333c4ae5",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000465",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000465",
+      "canonicalJp": "サン",
+      "displayName": "サン",
+      "displayLanguage": "ja",
+      "provisionalKo": "산",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "サン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000466",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000466",
+      "canonicalJp": "フラウ",
+      "displayName": "フラウ",
+      "displayLanguage": "ja",
+      "provisionalKo": "프라우",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "フラウ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_c66af48e8b87",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000467",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000467",
+      "canonicalJp": "リシュエル",
+      "displayName": "リシュエル",
+      "displayLanguage": "ja",
+      "provisionalKo": "리슈엘",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "リシュエル의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_cb30e3b1f58e",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000468",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000468",
+      "canonicalJp": "リィナ",
+      "displayName": "リィナ",
+      "displayLanguage": "ja",
+      "provisionalKo": "리나",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "リィナ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_3e19f520092e",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000469",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000469",
+      "canonicalJp": "ホームズ",
+      "displayName": "ホームズ",
+      "displayLanguage": "ja",
+      "provisionalKo": "홈즈",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ホームズ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_67bdad95e6aa",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000470",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000470",
+      "canonicalJp": "シゲン",
+      "displayName": "シゲン",
+      "displayLanguage": "ja",
+      "provisionalKo": "시게",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "シゲン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_ui_glyph_reduction_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_8bf13ccf5a46",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000471",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000471",
+      "canonicalJp": "リー",
+      "displayName": "リー",
+      "displayLanguage": "ja",
+      "provisionalKo": "리",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "リー의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000472",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000472",
+      "canonicalJp": "エステル",
+      "displayName": "エステル",
+      "displayLanguage": "ja",
+      "provisionalKo": "에스텔",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "エステル의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_29374ef80332",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000473",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000473",
+      "canonicalJp": "シャロン",
+      "displayName": "シャロン",
+      "displayLanguage": "ja",
+      "provisionalKo": "샤론",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "シャロン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_013089e36402",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000474",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000474",
+      "canonicalJp": "ヨシュア",
+      "displayName": "ヨシュア",
+      "displayLanguage": "ja",
+      "provisionalKo": "요슈아",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ヨシュア의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000475",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000475",
+      "canonicalJp": "エゼキエル",
+      "displayName": "エゼキエル",
+      "displayLanguage": "ja",
+      "provisionalKo": "에제키엘",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "エゼキエル의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000476",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000476",
+      "canonicalJp": "ルカ",
+      "displayName": "ルカ",
+      "displayLanguage": "ja",
+      "provisionalKo": "루카",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ルカ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_f4c56edde4ad",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000477",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000477",
+      "canonicalJp": "ラフィン",
+      "displayName": "ラフィン",
+      "displayLanguage": "ja",
+      "provisionalKo": "라핀",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ラフィン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_3b75e6edc72c",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000478",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000478",
+      "canonicalJp": "テップスター",
+      "displayName": "テップスター",
+      "displayLanguage": "ja",
+      "provisionalKo": "텝스터",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "テップスター의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000479",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000479",
+      "canonicalJp": "セネト",
+      "displayName": "セネト",
+      "displayLanguage": "ja",
+      "provisionalKo": "세네트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "セネト의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_dd14b649a77a",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000480",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000480",
+      "canonicalJp": "ネイファ",
+      "displayName": "ネイファ",
+      "displayLanguage": "ja",
+      "provisionalKo": "네이파",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ネイファ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000481",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000481",
+      "canonicalJp": "ティーエ",
+      "displayName": "ティーエ",
+      "displayLanguage": "ja",
+      "provisionalKo": "티에",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ティーエ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_714c48bd4483",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000482",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000482",
+      "canonicalJp": "エーゼンバッハ",
+      "displayName": "エーゼンバッハ",
+      "displayLanguage": "ja",
+      "provisionalKo": "에젠바하",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "エーゼンバッハ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_glossary_consistency_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_25c60e37e852",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000483",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000483",
+      "canonicalJp": "シグネス",
+      "displayName": "シグネス",
+      "displayLanguage": "ja",
+      "provisionalKo": "시그네스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "シグネス의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000484",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000484",
+      "canonicalJp": "カール",
+      "displayName": "カール",
+      "displayLanguage": "ja",
+      "provisionalKo": "카를",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "カール의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000485",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000485",
+      "canonicalJp": "ユニ",
+      "displayName": "ユニ",
+      "displayLanguage": "ja",
+      "provisionalKo": "유니",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ユニ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_220237dbe93e",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000486",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000486",
+      "canonicalJp": "アッシュ",
+      "displayName": "アッシュ",
+      "displayLanguage": "ja",
+      "provisionalKo": "애시",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "アッシュ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000487",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000487",
+      "canonicalJp": "ハーベル",
+      "displayName": "ハーベル",
+      "displayLanguage": "ja",
+      "provisionalKo": "하벨",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ハーベル의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000488",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000488",
+      "canonicalJp": "エリン",
+      "displayName": "エリン",
+      "displayLanguage": "ja",
+      "provisionalKo": "에린",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "エリン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000489",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000489",
+      "canonicalJp": "アルトラン",
+      "displayName": "アルトラン",
+      "displayLanguage": "ja",
+      "provisionalKo": "알트란",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "アルトラン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000490",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000490",
+      "canonicalJp": "モートン",
+      "displayName": "モートン",
+      "displayLanguage": "ja",
+      "provisionalKo": "모턴",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "モートン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000491",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000491",
+      "canonicalJp": "ウォレン",
+      "displayName": "ウォレン",
+      "displayLanguage": "ja",
+      "provisionalKo": "워렌",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ウォレン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000492",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000492",
+      "canonicalJp": "レディホーク",
+      "displayName": "レディホーク",
+      "displayLanguage": "ja",
+      "provisionalKo": "레이디호크",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "レディホーク의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000493",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000493",
+      "canonicalJp": "マーラ",
+      "displayName": "マーラ",
+      "displayLanguage": "ja",
+      "provisionalKo": "마라",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "マーラ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000494",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000494",
+      "canonicalJp": "スキンヘッド",
+      "displayName": "スキンヘッド",
+      "displayLanguage": "ja",
+      "provisionalKo": "스킨헤드",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "スキンヘッド의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000495",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000495",
+      "canonicalJp": "ジュリアス",
+      "displayName": "ジュリアス",
+      "displayLanguage": "ja",
+      "provisionalKo": "쥬리아스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ジュリアス의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_4a3b7e27b050",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000496",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000496",
+      "canonicalJp": "エドバン",
+      "displayName": "エドバン",
+      "displayLanguage": "ja",
+      "provisionalKo": "에드반",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "エドバン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000497",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000497",
+      "canonicalJp": "プラム",
+      "displayName": "プラム",
+      "displayLanguage": "ja",
+      "provisionalKo": "프람",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "プラム의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_8a5718e678ac",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000498",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000498",
+      "canonicalJp": "ボボ",
+      "displayName": "ボボ",
+      "displayLanguage": "ja",
+      "provisionalKo": "보보",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ボボ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000499",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000499",
+      "canonicalJp": "ナルカ",
+      "displayName": "ナルカ",
+      "displayLanguage": "ja",
+      "provisionalKo": "나르카",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ナルカ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000500",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000500",
+      "canonicalJp": "ロファール",
+      "displayName": "ロファール",
+      "displayLanguage": "ja",
+      "provisionalKo": "로파르",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ロファール의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_ae19b1bf708f",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000501",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000501",
+      "canonicalJp": "ヨーダ",
+      "displayName": "ヨーダ",
+      "displayLanguage": "ja",
+      "provisionalKo": "요다",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ヨーダ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000502",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000502",
+      "canonicalJp": "リベカ",
+      "displayName": "リベカ",
+      "displayLanguage": "ja",
+      "provisionalKo": "리베카",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "リベカ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000503",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000503",
+      "canonicalJp": "ヤコブ",
+      "displayName": "ヤコブ",
+      "displayLanguage": "ja",
+      "provisionalKo": "야코브",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ヤコブ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000504",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000504",
+      "canonicalJp": "エリシャ",
+      "displayName": "エリシャ",
+      "displayLanguage": "ja",
+      "provisionalKo": "엘리샤",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "エリシャ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_d377a3fd216a",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000505",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000505",
+      "canonicalJp": "ヴェーヌ",
+      "displayName": "ヴェーヌ",
+      "displayLanguage": "ja",
+      "provisionalKo": "베누",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ヴェーヌ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_5fb245bdc5c5",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000506",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000506",
+      "canonicalJp": "ラケル",
+      "displayName": "ラケル",
+      "displayLanguage": "ja",
+      "provisionalKo": "라켈",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ラケル의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_3e6953e8c7b4",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000507",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000507",
+      "canonicalJp": "リーリエ",
+      "displayName": "リーリエ",
+      "displayLanguage": "ja",
+      "provisionalKo": "리리에",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "リーリエ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_b2abf2557f1c",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000508",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000508",
+      "canonicalJp": "エストファーネ",
+      "displayName": "エストファーネ",
+      "displayLanguage": "ja",
+      "provisionalKo": "에스토파네",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "エストファーネ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_50cce2c54942",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000509",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000509",
+      "canonicalJp": "ハガル",
+      "displayName": "ハガル",
+      "displayLanguage": "ja",
+      "provisionalKo": "하갈",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ハガル의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000510",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000510",
+      "canonicalJp": "セオドラ",
+      "displayName": "セオドラ",
+      "displayLanguage": "ja",
+      "provisionalKo": "세오도라",
+      "status": "japanese-canonical",
+      "koreanStatus": "source_backed",
+      "introduction": "セオドラ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_c4edf3556e74",
+        "glossaryStatus": "source_backed"
+      }
+    },
+    {
+      "id": "trs1-character-fix000511",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000511",
+      "canonicalJp": "バルカ",
+      "displayName": "バルカ",
+      "displayLanguage": "ja",
+      "provisionalKo": "바르카",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "バルカ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_7cc1439fe289",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000512",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000512",
+      "canonicalJp": "レシエ",
+      "displayName": "レシエ",
+      "displayLanguage": "ja",
+      "provisionalKo": "레시에",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "レシエ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_118f82a24689",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000513",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000513",
+      "canonicalJp": "テムジン",
+      "displayName": "テムジン",
+      "displayLanguage": "ja",
+      "provisionalKo": "테무진",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "テムジン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000514",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000514",
+      "canonicalJp": "バルドル",
+      "displayName": "バルドル",
+      "displayLanguage": "ja",
+      "provisionalKo": "발도르",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "バルドル의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000515",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000515",
+      "canonicalJp": "アフリード",
+      "displayName": "アフリード",
+      "displayLanguage": "ja",
+      "provisionalKo": "아프리드",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "アフリード의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000516",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000516",
+      "canonicalJp": "サムソン",
+      "displayName": "サムソン",
+      "displayLanguage": "ja",
+      "provisionalKo": "삼손",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "サムソン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000517",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000517",
+      "canonicalJp": "アトロム",
+      "displayName": "アトロム",
+      "displayLanguage": "ja",
+      "provisionalKo": "아트롬",
+      "status": "japanese-canonical",
+      "koreanStatus": "source_backed",
+      "introduction": "アトロム의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_e233c7023831",
+        "glossaryStatus": "source_backed"
+      }
+    },
+    {
+      "id": "trs1-character-fix000518",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000518",
+      "canonicalJp": "エルコンドル",
+      "displayName": "エルコンドル",
+      "displayLanguage": "ja",
+      "provisionalKo": "엘콘도르",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "エルコンドル의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000519",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000519",
+      "canonicalJp": "クリシーヌ",
+      "displayName": "クリシーヌ",
+      "displayLanguage": "ja",
+      "provisionalKo": "크리시느",
+      "status": "japanese-canonical",
+      "koreanStatus": "source_backed",
+      "introduction": "クリシーヌ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_ui_glyph_reduction_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_29930a6cc63a",
+        "glossaryStatus": "source_backed"
+      }
+    },
+    {
+      "id": "trs1-character-fix000520",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000520",
+      "canonicalJp": "ザカリア",
+      "displayName": "ザカリア",
+      "displayLanguage": "ja",
+      "provisionalKo": "자카리아",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ザカリア의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_6586183a5ba9",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000521",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000521",
+      "canonicalJp": "サリア王",
+      "displayName": "サリア王",
+      "displayLanguage": "ja",
+      "provisionalKo": "사리아 왕",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "サリア王의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000522",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000522",
+      "canonicalJp": "ニーチェ",
+      "displayName": "ニーチェ",
+      "displayLanguage": "ja",
+      "provisionalKo": "니체",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ニーチェ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000523",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000523",
+      "canonicalJp": "レギオン",
+      "displayName": "レギオン",
+      "displayLanguage": "ja",
+      "provisionalKo": "레기온",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "レギオン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000524",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000524",
+      "canonicalJp": "ソロ",
+      "displayName": "ソロ",
+      "displayLanguage": "ja",
+      "provisionalKo": "솔로",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ソロ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000525",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000525",
+      "canonicalJp": "ガウス",
+      "displayName": "ガウス",
+      "displayLanguage": "ja",
+      "provisionalKo": "가우스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ガウス의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000526",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000526",
+      "canonicalJp": "カテリーヌ",
+      "displayName": "カテリーヌ",
+      "displayLanguage": "ja",
+      "provisionalKo": "카트린",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "カテリーヌ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000527",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000527",
+      "canonicalJp": "テッド",
+      "displayName": "テッド",
+      "displayLanguage": "ja",
+      "provisionalKo": "테드",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "テッド의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000528",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000528",
+      "canonicalJp": "サムウェル",
+      "displayName": "サムウェル",
+      "displayLanguage": "ja",
+      "provisionalKo": "사무웰",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "サムウェル의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000529",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000529",
+      "canonicalJp": "ウォッカ",
+      "displayName": "ウォッカ",
+      "displayLanguage": "ja",
+      "provisionalKo": "워카",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ウォッカ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000530",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000530",
+      "canonicalJp": "ちていのぬし",
+      "displayName": "ちていのぬし",
+      "displayLanguage": "ja",
+      "provisionalKo": "지하의 주인",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ちていのぬし의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000531",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000531",
+      "canonicalJp": "モース",
+      "displayName": "モース",
+      "displayLanguage": "ja",
+      "provisionalKo": "모스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "モース의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000532",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000532",
+      "canonicalJp": "エズレル",
+      "displayName": "エズレル",
+      "displayLanguage": "ja",
+      "provisionalKo": "에즈렐",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "エズレル의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000533",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000533",
+      "canonicalJp": "ペリシテ",
+      "displayName": "ペリシテ",
+      "displayLanguage": "ja",
+      "provisionalKo": "페리시테",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ペリシテ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000534",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000534",
+      "canonicalJp": "暗黒騎兵",
+      "displayName": "暗黒騎兵",
+      "displayLanguage": "ja",
+      "provisionalKo": "암흑 기병",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "暗黒騎兵의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000535",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000535",
+      "canonicalJp": "ばんぞく",
+      "displayName": "ばんぞく",
+      "displayLanguage": "ja",
+      "provisionalKo": "야만족",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ばんぞく의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000536",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000536",
+      "canonicalJp": "エリアル軍",
+      "displayName": "エリアル軍",
+      "displayLanguage": "ja",
+      "provisionalKo": "에리알군",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "エリアル軍의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_glossary_consistency_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000537",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000537",
+      "canonicalJp": "メーメルのぬし",
+      "displayName": "メーメルのぬし",
+      "displayLanguage": "ja",
+      "provisionalKo": "메멜의 주인",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "メーメルのぬし의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000538",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000538",
+      "canonicalJp": "暗黒神官",
+      "displayName": "暗黒神官",
+      "displayLanguage": "ja",
+      "provisionalKo": "암흑 신관",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "暗黒神官의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000539",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000539",
+      "canonicalJp": "ラズフォン",
+      "displayName": "ラズフォン",
+      "displayLanguage": "ja",
+      "provisionalKo": "라즈폰",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ラズフォン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000540",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000540",
+      "canonicalJp": "ロイド",
+      "displayName": "ロイド",
+      "displayLanguage": "ja",
+      "provisionalKo": "로이드",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ロイド의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000541",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000541",
+      "canonicalJp": "ファーガス",
+      "displayName": "ファーガス",
+      "displayLanguage": "ja",
+      "provisionalKo": "퍼거스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ファーガス의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000542",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000542",
+      "canonicalJp": "マクロイ",
+      "displayName": "マクロイ",
+      "displayLanguage": "ja",
+      "provisionalKo": "매크로이",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "マクロイ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000543",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000543",
+      "canonicalJp": "フィリップ",
+      "displayName": "フィリップ",
+      "displayLanguage": "ja",
+      "provisionalKo": "필립",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "フィリップ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000544",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000544",
+      "canonicalJp": "ジン",
+      "displayName": "ジン",
+      "displayLanguage": "ja",
+      "provisionalKo": "진",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ジン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000545",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000545",
+      "canonicalJp": "カイル",
+      "displayName": "カイル",
+      "displayLanguage": "ja",
+      "provisionalKo": "카일",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "カイル의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000546",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000546",
+      "canonicalJp": "サイス",
+      "displayName": "サイス",
+      "displayLanguage": "ja",
+      "provisionalKo": "사이스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "サイス의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000547",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000547",
+      "canonicalJp": "カルフ",
+      "displayName": "カルフ",
+      "displayLanguage": "ja",
+      "provisionalKo": "카르프",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "カルフ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000548",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000548",
+      "canonicalJp": "ゴルゴダ",
+      "displayName": "ゴルゴダ",
+      "displayLanguage": "ja",
+      "provisionalKo": "골고다",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ゴルゴダ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000549",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000549",
+      "canonicalJp": "エレノア",
+      "displayName": "エレノア",
+      "displayLanguage": "ja",
+      "provisionalKo": "엘레노아",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "エレノア의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000550",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000550",
+      "canonicalJp": "クワトロ",
+      "displayName": "クワトロ",
+      "displayLanguage": "ja",
+      "provisionalKo": "콰트로",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "クワトロ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000551",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000551",
+      "canonicalJp": "マリウス",
+      "displayName": "マリウス",
+      "displayLanguage": "ja",
+      "provisionalKo": "마리우스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "マリウス의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000552",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000552",
+      "canonicalJp": "ルパート",
+      "displayName": "ルパート",
+      "displayLanguage": "ja",
+      "provisionalKo": "루퍼트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ルパート의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000553",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000553",
+      "canonicalJp": "ジェスター",
+      "displayName": "ジェスター",
+      "displayLanguage": "ja",
+      "provisionalKo": "제스터",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ジェスター의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000554",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000554",
+      "canonicalJp": "マーロン",
+      "displayName": "マーロン",
+      "displayLanguage": "ja",
+      "provisionalKo": "마론",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "マーロン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_09b9410707a3",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000555",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000555",
+      "canonicalJp": "リィン",
+      "displayName": "リィン",
+      "displayLanguage": "ja",
+      "provisionalKo": "린",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "リィン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000556",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000556",
+      "canonicalJp": "はぐれきとうし",
+      "displayName": "はぐれきとうし",
+      "displayLanguage": "ja",
+      "provisionalKo": "떠돌이 기투사",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "はぐれきとうし의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000557",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000557",
+      "canonicalJp": "はぐれしんかん",
+      "displayName": "はぐれしんかん",
+      "displayLanguage": "ja",
+      "provisionalKo": "떠돌이 신관",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "はぐれしんかん의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000558",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000558",
+      "canonicalJp": "はぐれまじょ",
+      "displayName": "はぐれまじょ",
+      "displayLanguage": "ja",
+      "provisionalKo": "떠돌이 마녀",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "はぐれまじょ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_system_text_capacity_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000559",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000559",
+      "canonicalJp": "カティナ",
+      "displayName": "カティナ",
+      "displayLanguage": "ja",
+      "provisionalKo": "카티나",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "カティナ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_f029a3062c91",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000560",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000560",
+      "canonicalJp": "ガルコ",
+      "displayName": "ガルコ",
+      "displayLanguage": "ja",
+      "provisionalKo": "가르코",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ガルコ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000561",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000561",
+      "canonicalJp": "リチャード",
+      "displayName": "リチャード",
+      "displayLanguage": "ja",
+      "provisionalKo": "리처드",
+      "status": "japanese-canonical",
+      "koreanStatus": "source_backed",
+      "introduction": "リチャード의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_1d02a9aa6507",
+        "glossaryStatus": "source_backed"
+      }
+    },
+    {
+      "id": "trs1-character-fix000562",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000562",
+      "canonicalJp": "クラリス",
+      "displayName": "クラリス",
+      "displayLanguage": "ja",
+      "provisionalKo": "클라리스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "クラリス의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_4a5bfa94ff04",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000563",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000563",
+      "canonicalJp": "シルヴァ",
+      "displayName": "シルヴァ",
+      "displayLanguage": "ja",
+      "provisionalKo": "실바",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "シルヴァ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000564",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000564",
+      "canonicalJp": "ミラドナ",
+      "displayName": "ミラドナ",
+      "displayLanguage": "ja",
+      "provisionalKo": "미라도나",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ミラドナ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000565",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000565",
+      "canonicalJp": "シオン",
+      "displayName": "シオン",
+      "displayLanguage": "ja",
+      "provisionalKo": "시온",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "シオン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_29c924ec7ab0",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000566",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000566",
+      "canonicalJp": "シャルラン",
+      "displayName": "シャルラン",
+      "displayLanguage": "ja",
+      "provisionalKo": "샤를란",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "シャルラン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_ui_glyph_reduction_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000567",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000567",
+      "canonicalJp": "プラエバ",
+      "displayName": "プラエバ",
+      "displayLanguage": "ja",
+      "provisionalKo": "프라에바",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "プラエバ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000568",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000568",
+      "canonicalJp": "ビスマルク",
+      "displayName": "ビスマルク",
+      "displayLanguage": "ja",
+      "provisionalKo": "비스마르크",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ビスマルク의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000569",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000569",
+      "canonicalJp": "ヤーザム",
+      "displayName": "ヤーザム",
+      "displayLanguage": "ja",
+      "provisionalKo": "야잠",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ヤーザム의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000570",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000570",
+      "canonicalJp": "ダゴン",
+      "displayName": "ダゴン",
+      "displayLanguage": "ja",
+      "provisionalKo": "다곤",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ダゴン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_90db38760cc7",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000571",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000571",
+      "canonicalJp": "グエンカオス",
+      "displayName": "グエンカオス",
+      "displayLanguage": "ja",
+      "provisionalKo": "구엔카오스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "グエンカオス의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_770a0d0e2bd1",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000572",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000572",
+      "canonicalJp": "ドメス",
+      "displayName": "ドメス",
+      "displayLanguage": "ja",
+      "provisionalKo": "도메스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ドメス의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_9977c6562e39",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000573",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000573",
+      "canonicalJp": "コッダ",
+      "displayName": "コッダ",
+      "displayLanguage": "ja",
+      "provisionalKo": "코다",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "コッダ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_12c0c49f1517",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000574",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000574",
+      "canonicalJp": "レーニン",
+      "displayName": "レーニン",
+      "displayLanguage": "ja",
+      "provisionalKo": "레니",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "レーニン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_ui_glyph_reduction_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000575",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000575",
+      "canonicalJp": "エルンスト",
+      "displayName": "エルンスト",
+      "displayLanguage": "ja",
+      "provisionalKo": "엘스트",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "エルンスト의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_ui_glyph_reduction_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_134fc8f25931",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000576",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000576",
+      "canonicalJp": "パブロフ",
+      "displayName": "パブロフ",
+      "displayLanguage": "ja",
+      "provisionalKo": "파블로프",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "パブロフ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_55957abeb9f3",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000577",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000577",
+      "canonicalJp": "カーネル",
+      "displayName": "カーネル",
+      "displayLanguage": "ja",
+      "provisionalKo": "카넬",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "カーネル의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000578",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000578",
+      "canonicalJp": "メルヘン",
+      "displayName": "メルヘン",
+      "displayLanguage": "ja",
+      "provisionalKo": "메르헨",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "メルヘン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_742b1ec43f36",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000579",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000579",
+      "canonicalJp": "バルバロッサ",
+      "displayName": "バルバロッサ",
+      "displayLanguage": "ja",
+      "provisionalKo": "바르바로사",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "バルバロッサ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_52174a4b9772",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000580",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000580",
+      "canonicalJp": "パイク",
+      "displayName": "パイク",
+      "displayLanguage": "ja",
+      "provisionalKo": "파이크",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "パイク의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000581",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000581",
+      "canonicalJp": "みしよう2",
+      "displayName": "みしよう2",
+      "displayLanguage": "ja",
+      "provisionalKo": "미사용2",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "みしよう2의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000582",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000582",
+      "canonicalJp": "エリッツ",
+      "displayName": "エリッツ",
+      "displayLanguage": "ja",
+      "provisionalKo": "에리츠",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "エリッツ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000583",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000583",
+      "canonicalJp": "メリサール",
+      "displayName": "メリサール",
+      "displayLanguage": "ja",
+      "provisionalKo": "메리사르",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "メリサール의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000584",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000584",
+      "canonicalJp": "ルース",
+      "displayName": "ルース",
+      "displayLanguage": "ja",
+      "provisionalKo": "루스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ルース의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_ffdf11e8d76f",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000585",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000585",
+      "canonicalJp": "みしよう3",
+      "displayName": "みしよう3",
+      "displayLanguage": "ja",
+      "provisionalKo": "미사용3",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "みしよう3의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000586",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000586",
+      "canonicalJp": "パイロン",
+      "displayName": "パイロン",
+      "displayLanguage": "ja",
+      "provisionalKo": "파이론",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "パイロン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000587",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000587",
+      "canonicalJp": "アハブ",
+      "displayName": "アハブ",
+      "displayLanguage": "ja",
+      "provisionalKo": "아하브",
+      "status": "japanese-canonical",
+      "koreanStatus": "source_backed",
+      "introduction": "アハブ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_427e52d2fb10",
+        "glossaryStatus": "source_backed"
+      }
+    },
+    {
+      "id": "trs1-character-fix000588",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000588",
+      "canonicalJp": "シエラ",
+      "displayName": "シエラ",
+      "displayLanguage": "ja",
+      "provisionalKo": "시에라",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "シエラ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000589",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000589",
+      "canonicalJp": "みしよう4",
+      "displayName": "みしよう4",
+      "displayLanguage": "ja",
+      "provisionalKo": "미사용4",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "みしよう4의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000590",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000590",
+      "canonicalJp": "ケイモス",
+      "displayName": "ケイモス",
+      "displayLanguage": "ja",
+      "provisionalKo": "케이모스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ケイモス의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_e6c720ac4bed",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000591",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000591",
+      "canonicalJp": "みしよう5",
+      "displayName": "みしよう5",
+      "displayLanguage": "ja",
+      "provisionalKo": "미사용5",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "みしよう5의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000592",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000592",
+      "canonicalJp": "ベロム",
+      "displayName": "ベロム",
+      "displayLanguage": "ja",
+      "provisionalKo": "벨롬",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ベロム의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_2d263b6fd17f",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000593",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000593",
+      "canonicalJp": "クヌード",
+      "displayName": "クヌード",
+      "displayLanguage": "ja",
+      "provisionalKo": "크누드",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "クヌード의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_0d99b7de747c",
+        "glossaryStatus": "source_backed_candidate"
+      }
+    },
+    {
+      "id": "trs1-character-fix000594",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000594",
+      "canonicalJp": "カルラ",
+      "displayName": "カルラ",
+      "displayLanguage": "ja",
+      "provisionalKo": "카르라",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "カルラ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_e925cc9e5b75",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000595",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000595",
+      "canonicalJp": "マホバ",
+      "displayName": "マホバ",
+      "displayLanguage": "ja",
+      "provisionalKo": "마호바",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "マホバ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000596",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000596",
+      "canonicalJp": "ドルム",
+      "displayName": "ドルム",
+      "displayLanguage": "ja",
+      "provisionalKo": "도름",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ドルム의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000597",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000597",
+      "canonicalJp": "ヌバ",
+      "displayName": "ヌバ",
+      "displayLanguage": "ja",
+      "provisionalKo": "누바",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ヌバ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000598",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000598",
+      "canonicalJp": "タチアナ",
+      "displayName": "タチアナ",
+      "displayLanguage": "ja",
+      "provisionalKo": "타티아나",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "タチアナ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000599",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000599",
+      "canonicalJp": "ドルク",
+      "displayName": "ドルク",
+      "displayLanguage": "ja",
+      "provisionalKo": "도르크",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ドルク의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000600",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000600",
+      "canonicalJp": "ポエム",
+      "displayName": "ポエム",
+      "displayLanguage": "ja",
+      "provisionalKo": "포엠",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ポエム의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000601",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000601",
+      "canonicalJp": "ゼップ",
+      "displayName": "ゼップ",
+      "displayLanguage": "ja",
+      "provisionalKo": "제프",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ゼップ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_ui_glyph_reduction_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000602",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000602",
+      "canonicalJp": "シモン",
+      "displayName": "シモン",
+      "displayLanguage": "ja",
+      "provisionalKo": "시몬",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "シモン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000603",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000603",
+      "canonicalJp": "アンデレ",
+      "displayName": "アンデレ",
+      "displayLanguage": "ja",
+      "provisionalKo": "안드레",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "アンデレ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000604",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000604",
+      "canonicalJp": "ピリポ",
+      "displayName": "ピリポ",
+      "displayLanguage": "ja",
+      "provisionalKo": "필리포",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ピリポ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000605",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000605",
+      "canonicalJp": "トマス",
+      "displayName": "トマス",
+      "displayLanguage": "ja",
+      "provisionalKo": "토마스",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "トマス의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000606",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000606",
+      "canonicalJp": "マルコ",
+      "displayName": "マルコ",
+      "displayLanguage": "ja",
+      "provisionalKo": "마르코",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "マルコ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000607",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000607",
+      "canonicalJp": "レンツェン",
+      "displayName": "レンツェン",
+      "displayLanguage": "ja",
+      "provisionalKo": "렌첸",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "レンツェン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": "term.person.jp_2175474cbd77",
+        "glossaryStatus": "unresolved"
+      }
+    },
+    {
+      "id": "trs1-character-fix000608",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000608",
+      "canonicalJp": "ソドン",
+      "displayName": "ソドン",
+      "displayLanguage": "ja",
+      "provisionalKo": "소돈",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ソドン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000609",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000609",
+      "canonicalJp": "ゴラン",
+      "displayName": "ゴラン",
+      "displayLanguage": "ja",
+      "provisionalKo": "고란",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ゴラン의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000610",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000610",
+      "canonicalJp": "ブードゥ",
+      "displayName": "ブードゥ",
+      "displayLanguage": "ja",
+      "provisionalKo": "부두",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "ブードゥ의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    },
+    {
+      "id": "trs1-character-fix000611",
+      "game": "trs1",
+      "type": "character",
+      "sourceKey": "FIX000611",
+      "canonicalJp": "バハヌーク",
+      "displayName": "バハヌーク",
+      "displayLanguage": "ja",
+      "provisionalKo": "바하누크",
+      "status": "japanese-canonical",
+      "koreanStatus": "patch-review-pending",
+      "introduction": "バハヌーク의 이름과 대사 표기는 티어링 사가 한글패치 프로젝트의 일본어 원문 데이터를 기준으로 관리합니다.",
+      "evidence": {
+        "source": "src/translate/block/strings.jsonl",
+        "translationStatus": "agent_scene_draft",
+        "reviewStatus": "pending",
+        "glossaryTermId": null,
+        "glossaryStatus": null
+      }
+    }
+  ]
+}

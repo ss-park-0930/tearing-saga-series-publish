@@ -1,0 +1,1712 @@
+{
+  "generatedAt": "2026-07-15T13:11:52.932Z",
+  "count": 212,
+  "byCategory": {
+    "chapters": 119,
+    "characters": 25,
+    "classes": 11,
+    "data": 4,
+    "equipment": 35,
+    "getting-started": 6,
+    "secrets": 5,
+    "skills": 7
+  },
+  "targets": [
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "基本情報",
+      "url": "https://rrpg.jp/tear_ring_saga/basic.html",
+      "category": "getting-started"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "攻略のコツ",
+      "url": "https://rrpg.jp/tear_ring_saga/knack.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "リュナン軍",
+      "url": "https://rrpg.jp/tear_ring_saga/unit_1.html",
+      "category": "characters"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "ホームズ隊",
+      "url": "https://rrpg.jp/tear_ring_saga/unit_2.html",
+      "category": "characters"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "加入方法",
+      "url": "https://rrpg.jp/tear_ring_saga/join.html",
+      "category": "characters"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "初期ステータス",
+      "url": "https://rrpg.jp/tear_ring_saga/status.html",
+      "category": "characters"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "成長率",
+      "url": "https://rrpg.jp/tear_ring_saga/growth.html",
+      "category": "characters"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "支援効果",
+      "url": "https://rrpg.jp/tear_ring_saga/support.html",
+      "category": "characters"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "通り名",
+      "url": "https://rrpg.jp/tear_ring_saga/name.html",
+      "category": "characters"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "その他の登場人物",
+      "url": "https://rrpg.jp/tear_ring_saga/character.html",
+      "category": "characters"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "クラスチェンジ",
+      "url": "https://rrpg.jp/tear_ring_saga/cc.html",
+      "category": "classes"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "ステータス上限",
+      "url": "https://rrpg.jp/tear_ring_saga/maximum.html",
+      "category": "classes"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "ＭＡＰ１～８",
+      "url": "https://rrpg.jp/tear_ring_saga/map_1.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "ＭＡＰ９～１６",
+      "url": "https://rrpg.jp/tear_ring_saga/map_2.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "ＭＡＰ１７～２３",
+      "url": "https://rrpg.jp/tear_ring_saga/map_3.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "ＭＡＰ２４～３０",
+      "url": "https://rrpg.jp/tear_ring_saga/map_4.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "ＭＡＰ３１～３６",
+      "url": "https://rrpg.jp/tear_ring_saga/map_5.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "ＭＡＰ３７～４０",
+      "url": "https://rrpg.jp/tear_ring_saga/map_6.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "特殊イベント",
+      "url": "https://rrpg.jp/tear_ring_saga/event.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "武器",
+      "url": "https://rrpg.jp/tear_ring_saga/weapon.html",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "魔法",
+      "url": "https://rrpg.jp/tear_ring_saga/magic.html",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "杖",
+      "url": "https://rrpg.jp/tear_ring_saga/staff.html",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "道具",
+      "url": "https://rrpg.jp/tear_ring_saga/item.html",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "スキルの基礎",
+      "url": "https://rrpg.jp/tear_ring_saga/skill_b.html",
+      "category": "skills"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "スキル一覧",
+      "url": "https://rrpg.jp/tear_ring_saga/skill_l.html",
+      "category": "skills"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "スキル習得表",
+      "url": "https://rrpg.jp/tear_ring_saga/skill_r.html",
+      "category": "skills"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "部隊編成",
+      "url": "https://rrpg.jp/tear_ring_saga/organize.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "お店情報",
+      "url": "https://rrpg.jp/tear_ring_saga/shop.html",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "闘技場",
+      "url": "https://rrpg.jp/tear_ring_saga/colosseum.html",
+      "category": "data"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "アイテム合成",
+      "url": "https://rrpg.jp/tear_ring_saga/compose.html",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "ランダム宝箱",
+      "url": "https://rrpg.jp/tear_ring_saga/treasure.html",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "ランダムドロップ",
+      "url": "https://rrpg.jp/tear_ring_saga/drop.html",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "rrpg-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "裏技・小ネタ",
+      "url": "https://rrpg.jp/tear_ring_saga/other.html",
+      "category": "secrets"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "物語の背景",
+      "url": "https://www.pegasusknight.com/mb/ts1/bg_story",
+      "category": "getting-started"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "システム概要",
+      "url": "https://www.pegasusknight.com/mb/ts1/bg_system",
+      "category": "getting-started"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP1",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map1.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP2",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map2.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP3",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map3.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP4",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map4.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP5",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map5.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP6",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map6.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP7",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map7.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP8",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map8.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "編成1",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_party1.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP9",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map9.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP10",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map10.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "遭遇戦1",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_happen1.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP11",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map11.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP12",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map12.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP13",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map13.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP14",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map14.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP15",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map15.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "遭遇戦2",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_happen2.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP16",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map16.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP17",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map17.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP18",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map18.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP19",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map19.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "遭遇戦3",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_happen3.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP20",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map20.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP21",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map21.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP22",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map22.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP23",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map23.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "遭遇戦4",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_happen4.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "編成2",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_party2.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP24",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map24.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP25",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map25.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP26A",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map26.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP27",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map27.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP28",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map28.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP29",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map29.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP30",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map30.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "遭遇戦5",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_happen5.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "編成3",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_party3.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP31",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map31.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP32",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map32.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP33",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map33.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP34",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map34.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP35",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map35.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP36",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map36.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP37",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map37.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP38",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map38.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP39",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map39.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP40",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_map40.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "レティーナイベント",
+      "url": "https://www.pegasusknight.com/mb/ts1/tc_event1",
+      "category": "secrets"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "対戦に向けたプレイ",
+      "url": "https://www.pegasusknight.com/mb/ts1/vs_prepare",
+      "category": "getting-started"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "軍団編成",
+      "url": "https://www.pegasusknight.com/mb/ts1/vs_party",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "仲間にする方法",
+      "url": "https://www.pegasusknight.com/mb/ts1/ud_party",
+      "category": "characters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "初期パラメータ",
+      "url": "https://www.pegasusknight.com/mb/ts1/ud_param",
+      "category": "characters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "初期アイテム",
+      "url": "https://www.pegasusknight.com/mb/ts1/ud_item",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "パラメータ成長率",
+      "url": "https://www.pegasusknight.com/mb/ts1/ud_pergrow",
+      "category": "characters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "習得スキル",
+      "url": "https://www.pegasusknight.com/mb/ts1/ud_skill",
+      "category": "skills"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "クラスチェンジ",
+      "url": "https://www.pegasusknight.com/mb/ts1/ud_classcg",
+      "category": "classes"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "支援効果",
+      "url": "https://www.pegasusknight.com/mb/ts1/ud_aid",
+      "category": "characters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "エンディング",
+      "url": "https://www.pegasusknight.com/mb/ts1/ud_ending",
+      "category": "characters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "とおり名",
+      "url": "https://www.pegasusknight.com/mb/ts1/ud_nic",
+      "category": "characters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "基本パラメータ",
+      "url": "https://www.pegasusknight.com/mb/ts1/cd_param",
+      "category": "classes"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "最大パラメータ",
+      "url": "https://www.pegasusknight.com/mb/ts1/cd_maxparam",
+      "category": "classes"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "パラメータ変化",
+      "url": "https://www.pegasusknight.com/mb/ts1/cd_prmvary",
+      "category": "classes"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "地形移動コスト",
+      "url": "https://www.pegasusknight.com/mb/ts1/cd_field",
+      "category": "classes"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "デモ",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_demo.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "オープニング",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_opening.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP1",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map1.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP2",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map2.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP3",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map3.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP4",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map4.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP5",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map5.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP6",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map6.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP7",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map7.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP8",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map8.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP9",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map9.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP10",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map10.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "遭遇戦1",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_happen1.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP11",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map11.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP12",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map12.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP13",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map13.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP14",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map14.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP15",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map15.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "遭遇戦2",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_happen2.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP16",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map16.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP17",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map17.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP18",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map18.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP19",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map19.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "遭遇戦3",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_happen3.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP20",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map20.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP21",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map21.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP22",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map22.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP23",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map23.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "遭遇戦4",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_happen4.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP24",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map24.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP25",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map25.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP26A",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map26a.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP26B",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map26b.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP27",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map27.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP28",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map28.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP29",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map29.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP30",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map30.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "遭遇戦5〜6",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_happen5.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP31",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map31.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP32",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map32.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP33",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map33.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP34",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map34.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP35",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map35.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP36",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map36.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP37",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map37.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP38",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map38.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP39",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map39.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "MAP40",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_map40.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "エンディング1",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_ending1.html",
+      "category": "characters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "エンディング2",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_ending2.html",
+      "category": "characters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "エンディング3",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_ending3.html",
+      "category": "characters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "エンディング4",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_ending4.html",
+      "category": "characters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "散り際の言葉",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_death.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "ボス戦（初戦時）",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_boss1.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "ボス戦（撃破時）",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_boss2.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "魔法の詠唱文",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_magic.html",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "アイテムの説明文",
+      "url": "https://www.pegasusknight.com/mb/ts1/st_item.html",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "武器（剣）",
+      "url": "https://www.pegasusknight.com/mb/ts1/dt_item1",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "武器（槍）",
+      "url": "https://www.pegasusknight.com/mb/ts1/dt_item2",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "武器（斧）",
+      "url": "https://www.pegasusknight.com/mb/ts1/dt_item3",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "武器（弓）",
+      "url": "https://www.pegasusknight.com/mb/ts1/dt_item4",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "武器（魔法）",
+      "url": "https://www.pegasusknight.com/mb/ts1/dt_item5",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "武器（杖）",
+      "url": "https://www.pegasusknight.com/mb/ts1/dt_item6",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "道具",
+      "url": "https://www.pegasusknight.com/mb/ts1/dt_item7",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "ショップ",
+      "url": "https://www.pegasusknight.com/mb/ts1/dt_shop",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "職人",
+      "url": "https://www.pegasusknight.com/mb/ts1/dt_itemmkr",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "ランダム入手",
+      "url": "https://www.pegasusknight.com/mb/ts1/dt_randitem",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "アイテム入手場所",
+      "url": "https://www.pegasusknight.com/mb/ts1/dt_getitems",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "計算式",
+      "url": "https://www.pegasusknight.com/mb/ts1/dt_form",
+      "category": "data"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "スキル",
+      "url": "https://www.pegasusknight.com/mb/ts1/dt_skill",
+      "category": "skills"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "地形効果",
+      "url": "https://www.pegasusknight.com/mb/ts1/dt_field",
+      "category": "data"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "闘技場",
+      "url": "https://www.pegasusknight.com/mb/ts1/et_coloseum",
+      "category": "data"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "裏技・バグ",
+      "url": "https://www.pegasusknight.com/mb/ts1/et_tips",
+      "category": "secrets"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "コイントス",
+      "url": "https://www.pegasusknight.com/mb/ts1/et_cointos",
+      "category": "secrets"
+    },
+    {
+      "sourceId": "pegasus-trs1",
+      "language": "ja",
+      "trustTier": 2,
+      "label": "よくある質問とその回答",
+      "url": "https://www.pegasusknight.com/mb/ts1/et_faq",
+      "category": "secrets"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Introduction",
+      "url": "https://serenesforest.net/tearring-saga/general/introduction/",
+      "category": "getting-started"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Walkthrough",
+      "url": "https://serenesforest.net/tearring-saga/general/walkthrough/",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Introduction",
+      "url": "https://serenesforest.net/tearring-saga/characters/introduction/",
+      "category": "characters"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Recruitment",
+      "url": "https://serenesforest.net/tearring-saga/characters/recruitment/",
+      "category": "characters"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Base Stats",
+      "url": "https://serenesforest.net/tearring-saga/characters/base-stats/",
+      "category": "characters"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Starting Items",
+      "url": "https://serenesforest.net/tearring-saga/characters/starting-items/",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Growth Rates",
+      "url": "https://serenesforest.net/tearring-saga/characters/growth-rates/",
+      "category": "characters"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Learnt Skills",
+      "url": "https://serenesforest.net/tearring-saga/characters/learnt-skills/",
+      "category": "skills"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Class Change",
+      "url": "https://serenesforest.net/tearring-saga/characters/class-change/",
+      "category": "classes"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Introduction",
+      "url": "https://serenesforest.net/tearring-saga/classes/introduction/",
+      "category": "classes"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Base Stats",
+      "url": "https://serenesforest.net/tearring-saga/classes/base-stats/",
+      "category": "classes"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Maximum Stats",
+      "url": "https://serenesforest.net/tearring-saga/classes/maximum-stats/",
+      "category": "classes"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Swords",
+      "url": "https://serenesforest.net/tearring-saga/inventory/swords/",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Lances",
+      "url": "https://serenesforest.net/tearring-saga/inventory/lances/",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Axes",
+      "url": "https://serenesforest.net/tearring-saga/inventory/axes/",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Bows",
+      "url": "https://serenesforest.net/tearring-saga/inventory/bows/",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Fire / Thunder / Wind",
+      "url": "https://serenesforest.net/tearring-saga/inventory/fire-thunder-wind/",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Light / Dark / Breath",
+      "url": "https://serenesforest.net/tearring-saga/inventory/light-dark-breath/",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Staves",
+      "url": "https://serenesforest.net/tearring-saga/inventory/staves/",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Items",
+      "url": "https://serenesforest.net/tearring-saga/inventory/items/",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Item Locations",
+      "url": "https://serenesforest.net/tearring-saga/miscellaneous/item-locations/",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Rare Item Locations",
+      "url": "https://serenesforest.net/tearring-saga/miscellaneous/rare-item-locations/",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "Skills",
+      "url": "https://serenesforest.net/tearring-saga/miscellaneous/skills/",
+      "category": "skills"
+    },
+    {
+      "sourceId": "serenes-trs1",
+      "language": "en",
+      "trustTier": 3,
+      "label": "World Map",
+      "url": "https://serenesforest.net/tearring-saga/miscellaneous/world-map/",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "kouryaku-red-trs1",
+      "language": "ja",
+      "trustTier": 3,
+      "label": "基本事項",
+      "url": "https://tear-ring-saga.kouryaku.red/entry1.html",
+      "category": "getting-started"
+    },
+    {
+      "sourceId": "kouryaku-red-trs1",
+      "language": "ja",
+      "trustTier": 3,
+      "label": "攻略チャート MAP1～5",
+      "url": "https://tear-ring-saga.kouryaku.red/entry2.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "kouryaku-red-trs1",
+      "language": "ja",
+      "trustTier": 3,
+      "label": "攻略チャート MAP6～10",
+      "url": "https://tear-ring-saga.kouryaku.red/entry3.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "kouryaku-red-trs1",
+      "language": "ja",
+      "trustTier": 3,
+      "label": "攻略チャート MAP11～15",
+      "url": "https://tear-ring-saga.kouryaku.red/entry4.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "kouryaku-red-trs1",
+      "language": "ja",
+      "trustTier": 3,
+      "label": "攻略チャート MAP16～20",
+      "url": "https://tear-ring-saga.kouryaku.red/entry5.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "kouryaku-red-trs1",
+      "language": "ja",
+      "trustTier": 3,
+      "label": "攻略チャート MAP21～25",
+      "url": "https://tear-ring-saga.kouryaku.red/entry6.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "kouryaku-red-trs1",
+      "language": "ja",
+      "trustTier": 3,
+      "label": "攻略チャート MAP26～30",
+      "url": "https://tear-ring-saga.kouryaku.red/entry7.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "kouryaku-red-trs1",
+      "language": "ja",
+      "trustTier": 3,
+      "label": "攻略チャート MAP31～35",
+      "url": "https://tear-ring-saga.kouryaku.red/entry8.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "kouryaku-red-trs1",
+      "language": "ja",
+      "trustTier": 3,
+      "label": "攻略チャート MAP36～40",
+      "url": "https://tear-ring-saga.kouryaku.red/entry9.html",
+      "category": "chapters"
+    },
+    {
+      "sourceId": "kouryaku-red-trs1",
+      "language": "ja",
+      "trustTier": 3,
+      "label": "ユニットその１",
+      "url": "https://tear-ring-saga.kouryaku.red/entry10.html",
+      "category": "characters"
+    },
+    {
+      "sourceId": "kouryaku-red-trs1",
+      "language": "ja",
+      "trustTier": 3,
+      "label": "ユニットその２",
+      "url": "https://tear-ring-saga.kouryaku.red/entry11.html",
+      "category": "characters"
+    },
+    {
+      "sourceId": "kouryaku-red-trs1",
+      "language": "ja",
+      "trustTier": 3,
+      "label": "ユニットその３",
+      "url": "https://tear-ring-saga.kouryaku.red/entry12.html",
+      "category": "characters"
+    },
+    {
+      "sourceId": "kouryaku-red-trs1",
+      "language": "ja",
+      "trustTier": 3,
+      "label": "ショップデータ",
+      "url": "https://tear-ring-saga.kouryaku.red/entry13.html",
+      "category": "equipment"
+    },
+    {
+      "sourceId": "kouryaku-red-trs1",
+      "language": "ja",
+      "trustTier": 3,
+      "label": "サイトマップ",
+      "url": "https://tear-ring-saga.kouryaku.red/sitemap.html",
+      "category": "equipment"
+    }
+  ]
+}

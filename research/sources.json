@@ -1,0 +1,77 @@
+{
+  "version": 1,
+  "updatedAt": "2026-07-15",
+  "policy": {
+    "userAgent": "TRS-KR-GuideResearch/0.1",
+    "storageMode": "metadata-only",
+    "defaultDelayMs": 1500,
+    "notes": "원문 본문은 저장하지 않고 색인용 제목·소제목·링크만 저장한다. 상세 문서는 사실을 교차 검증한 뒤 새로 서술한다."
+  },
+  "sources": [
+    {
+      "id": "korean-magazine",
+      "name": "국내 게임잡지 스캔 공략",
+      "language": "ko",
+      "role": "future-korean-terminology-reference",
+      "trustTier": 1,
+      "homepage": "https://blog.naver.com/ssukyang/120205984605",
+      "crawl": false,
+      "localReference": "D:/dev/tear-ring-saga-korean/source/reference/naver_ssukyang_120205984605",
+      "usage": "검수된 한국어 장 제목에는 사용한다. 엔티티 명칭은 패치 완료 전까지 참고값으로만 보존하며, OCR만으로 표기를 확정하지 않고 스캔 이미지는 재배포하지 않는다."
+    },
+    {
+      "id": "rrpg-trs1",
+      "name": "RRPG 티어링 사가 공략",
+      "language": "ja",
+      "role": "structured-walkthrough-and-data",
+      "trustTier": 2,
+      "homepage": "https://rrpg.jp/tear_ring_saga/",
+      "crawl": true,
+      "indexUrls": ["https://rrpg.jp/tear_ring_saga/"],
+      "allowedPrefixes": ["https://rrpg.jp/tear_ring_saga/"]
+    },
+    {
+      "id": "pegasus-trs1",
+      "name": "게임 공략 천마기사단 티어링 사가",
+      "language": "ja",
+      "role": "canonical-structured-data",
+      "trustTier": 2,
+      "homepage": "https://www.pegasusknight.com/mb/ts1/",
+      "crawl": true,
+      "indexUrls": ["https://www.pegasusknight.com/mb/ts1/"],
+      "allowedPrefixes": ["https://www.pegasusknight.com/mb/ts1/"]
+    },
+    {
+      "id": "serenes-trs1",
+      "name": "Serenes Forest TearRing Saga",
+      "language": "en",
+      "role": "english-cross-check",
+      "trustTier": 3,
+      "homepage": "https://serenesforest.net/tearring-saga/",
+      "crawl": true,
+      "indexUrls": ["https://serenesforest.net/tearring-saga/"],
+      "allowedPrefixes": ["https://serenesforest.net/tearring-saga/"]
+    },
+    {
+      "id": "kouryaku-red-trs1",
+      "name": "티어링 사가 공략 kouryaku.red",
+      "language": "ja",
+      "role": "secondary-walkthrough-cross-check",
+      "trustTier": 3,
+      "homepage": "https://tear-ring-saga.kouryaku.red/",
+      "crawl": true,
+      "indexUrls": ["https://tear-ring-saga.kouryaku.red/"],
+      "allowedPrefixes": ["https://tear-ring-saga.kouryaku.red/"]
+    },
+    {
+      "id": "neoseeker-trs1",
+      "name": "Neoseeker / GameFAQs FAQ",
+      "language": "en",
+      "role": "manual-secondary-reference",
+      "trustTier": 4,
+      "homepage": "https://www.neoseeker.com/tearring-saga/faqs/",
+      "crawl": false,
+      "usage": "자동 요청이 403으로 차단되어 수집 대상에서 제외한다. 필요한 경우 브라우저에서 수동 대조만 한다."
+    }
+  ]
+}

@@ -1,0 +1,132 @@
+{
+  "game": "trs1",
+  "subjectId": "trs1-chapter-02",
+  "generatedAt": "2026-07-15",
+  "relatedEntityIds": [
+    "trs1-character-fix000440",
+    "trs1-character-fix000441",
+    "trs1-character-fix000442",
+    "trs1-character-fix000471",
+    "trs1-character-fix000497",
+    "trs1-weapon-fix000077",
+    "trs1-weapon-fix000140",
+    "trs1-item-fix000153",
+    "trs1-item-fix000176",
+    "trs1-item-fix000192",
+    "trs1-item-fix000225"
+  ],
+  "facts": [
+    {
+      "id": "trs1-chapter-02-terrain-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-02",
+      "field": "map.terrain",
+      "kind": "factual",
+      "value": "山岳",
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map2.html", "locator": "マップ: トーラス村", "checkedAt": "2026-07-15" },
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "MAP2 heading", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "cross-checked", "agreementCount": 2, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-02-key-allies-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-02",
+      "field": "units.initialAllies",
+      "kind": "factual",
+      "value": ["ジュリア", "エンテ", "バーツ"],
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map2.html", "locator": "初期配置 8-10", "checkedAt": "2026-07-15" },
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "MAP2 加入", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "cross-checked", "agreementCount": 2, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-02-victory-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-02",
+      "field": "objective.victory",
+      "kind": "factual",
+      "value": "ボス撃破後、リュナンが拠点を制圧",
+      "sources": [
+        { "sourceId": "serenes-trs1", "url": "https://serenesforest.net/tearring-saga/general/walkthrough/part-1/", "locator": "Chapter 2 ending", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "collected", "agreementCount": 1, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-02-reinforcements-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-02",
+      "field": "enemy.reinforcementTurns",
+      "kind": "factual",
+      "value": [4, 5],
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map2.html", "locator": "敵増援（4～5ターン目）", "checkedAt": "2026-07-15" },
+        { "sourceId": "serenes-trs1", "url": "https://serenesforest.net/tearring-saga/general/walkthrough/part-1/", "locator": "Chapter 2 western reinforcements", "checkedAt": "2026-07-15", "note": "증원 존재와 방향만 확인되며 턴 수는 명시하지 않음" }
+      ],
+      "verification": { "status": "collected", "agreementCount": 1, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-02-plum-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-02",
+      "field": "recruitment.plum",
+      "kind": "factual",
+      "value": { "firstVisitor": "バーツ", "secondVisitor": "エンテ", "house": "민가 c", "joins": "プラム", "priorReward": "ポールアクス" },
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map2.html", "locator": "イベント: 民家c", "checkedAt": "2026-07-15" },
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "MAP2 right-lower house", "checkedAt": "2026-07-15" },
+        { "sourceId": "kouryaku-red-trs1", "url": "https://tear-ring-saga.kouryaku.red/entry2.html", "locator": "MAP02 steps 2-3", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "cross-checked", "agreementCount": 3, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-02-mirror-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-02",
+      "field": "rewards.lansMirror",
+      "kind": "factual",
+      "value": { "visitorOrder": ["バーツ", "エンテ", "プラム"], "reward": "ランのてかがみ" },
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map2.html", "locator": "イベント: 民家b 製品版", "checkedAt": "2026-07-15" },
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "MAP2 left-lower house", "checkedAt": "2026-07-15" },
+        { "sourceId": "kouryaku-red-trs1", "url": "https://tear-ring-saga.kouryaku.red/entry2.html", "locator": "MAP02 step 4", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "cross-checked", "agreementCount": 3, "reviewedByHuman": false }
+    },
+    {
+      "id": "trs1-chapter-02-defence-staff-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-02",
+      "field": "postMap.defenceStaffCondition",
+      "kind": "factual",
+      "value": { "required": ["リー", "プラム"], "possibleAdditionalRequirement": "ランのてかがみ", "reward": "☆まもりの杖" },
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map2.html", "locator": "クリア後: 貴重な杖", "checkedAt": "2026-07-15" },
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "MAP2 clear event", "checkedAt": "2026-07-15" },
+        { "sourceId": "serenes-trs1", "url": "https://serenesforest.net/tearring-saga/general/walkthrough/part-1/", "locator": "Chapter 2 ending", "checkedAt": "2026-07-15" }
+      ],
+      "verification": {
+        "status": "conflict",
+        "agreementCount": 2,
+        "reviewedByHuman": false,
+        "conflictNote": "RRPG는 ランのてかがみ 입수를 추가 조건으로 명시하지만 Pegasus Knight와 Serenes Forest는 リー와プラム의 존재만 명시한다."
+      }
+    },
+    {
+      "id": "trs1-chapter-02-post-reward-01",
+      "game": "trs1",
+      "subjectId": "trs1-chapter-02",
+      "field": "postMap.gold",
+      "kind": "factual",
+      "value": 10000,
+      "context": "ヴェルジェ 귀환 후 マーロン伯에게 받는 군자금",
+      "sources": [
+        { "sourceId": "pegasus-trs1", "url": "https://www.pegasusknight.com/mb/ts1/tc_map2.html", "locator": "クリア後: ヴェルジェへ帰還", "checkedAt": "2026-07-15" },
+        { "sourceId": "rrpg-trs1", "url": "https://rrpg.jp/tear_ring_saga/map_1.html", "locator": "MAP2 ヴェルジェ", "checkedAt": "2026-07-15" }
+      ],
+      "verification": { "status": "cross-checked", "agreementCount": 2, "reviewedByHuman": false }
+    }
+  ]
+}

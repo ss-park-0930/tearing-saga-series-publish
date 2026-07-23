@@ -1,0 +1,767 @@
+{
+  "sourceId": "pegasus-trs1",
+  "name": "게임 공략 천마기사단 티어링 사가",
+  "language": "ja",
+  "role": "canonical-structured-data",
+  "trustTier": 2,
+  "pages": [
+    {
+      "fetchedAt": "2026-07-15T13:11:55.057Z",
+      "status": 200,
+      "robots": {
+        "allowed": true,
+        "robotsUrl": "https://www.pegasusknight.com/robots.txt",
+        "status": 200,
+        "matchedRule": null
+      },
+      "url": "https://www.pegasusknight.com/mb/ts1/",
+      "title": "ティアリングサーガ ユトナ英雄戦記",
+      "description": "ファイアーエムブレムなどの攻略Wiki",
+      "headings": [
+        {
+          "level": 1,
+          "text": "ティアリングサーガ ユトナ英雄戦記"
+        },
+        {
+          "level": 2,
+          "text": "基礎知識"
+        },
+        {
+          "level": 2,
+          "text": "攻略のポイント"
+        },
+        {
+          "level": 2,
+          "text": "対戦のポイント"
+        },
+        {
+          "level": 2,
+          "text": "ユニット"
+        },
+        {
+          "level": 2,
+          "text": "クラス"
+        },
+        {
+          "level": 2,
+          "text": "物語"
+        },
+        {
+          "level": 2,
+          "text": "アイテム"
+        },
+        {
+          "level": 2,
+          "text": "その他"
+        }
+      ],
+      "links": [
+        {
+          "label": "物語の背景",
+          "url": "https://www.pegasusknight.com/mb/ts1/bg_story",
+          "category": "getting-started"
+        },
+        {
+          "label": "システム概要",
+          "url": "https://www.pegasusknight.com/mb/ts1/bg_system",
+          "category": "getting-started"
+        },
+        {
+          "label": "MAP1",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map1.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP2",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map2.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP3",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map3.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP4",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map4.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP5",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map5.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP6",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map6.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP7",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map7.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP8",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map8.html",
+          "category": "chapters"
+        },
+        {
+          "label": "編成1",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_party1.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP9",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map9.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP10",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map10.html",
+          "category": "chapters"
+        },
+        {
+          "label": "遭遇戦1",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_happen1.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP11",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map11.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP12",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map12.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP13",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map13.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP14",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map14.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP15",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map15.html",
+          "category": "chapters"
+        },
+        {
+          "label": "遭遇戦2",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_happen2.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP16",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map16.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP17",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map17.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP18",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map18.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP19",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map19.html",
+          "category": "chapters"
+        },
+        {
+          "label": "遭遇戦3",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_happen3.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP20",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map20.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP21",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map21.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP22",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map22.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP23",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map23.html",
+          "category": "chapters"
+        },
+        {
+          "label": "遭遇戦4",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_happen4.html",
+          "category": "chapters"
+        },
+        {
+          "label": "編成2",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_party2.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP24",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map24.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP25",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map25.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP26A",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map26.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP27",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map27.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP28",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map28.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP29",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map29.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP30",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map30.html",
+          "category": "chapters"
+        },
+        {
+          "label": "遭遇戦5",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_happen5.html",
+          "category": "chapters"
+        },
+        {
+          "label": "編成3",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_party3.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP31",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map31.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP32",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map32.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP33",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map33.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP34",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map34.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP35",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map35.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP36",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map36.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP37",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map37.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP38",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map38.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP39",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map39.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP40",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_map40.html",
+          "category": "chapters"
+        },
+        {
+          "label": "レティーナイベント",
+          "url": "https://www.pegasusknight.com/mb/ts1/tc_event1",
+          "category": "secrets"
+        },
+        {
+          "label": "対戦に向けたプレイ",
+          "url": "https://www.pegasusknight.com/mb/ts1/vs_prepare",
+          "category": "getting-started"
+        },
+        {
+          "label": "軍団編成",
+          "url": "https://www.pegasusknight.com/mb/ts1/vs_party",
+          "category": "chapters"
+        },
+        {
+          "label": "仲間にする方法",
+          "url": "https://www.pegasusknight.com/mb/ts1/ud_party",
+          "category": "characters"
+        },
+        {
+          "label": "初期パラメータ",
+          "url": "https://www.pegasusknight.com/mb/ts1/ud_param",
+          "category": "characters"
+        },
+        {
+          "label": "初期アイテム",
+          "url": "https://www.pegasusknight.com/mb/ts1/ud_item",
+          "category": "equipment"
+        },
+        {
+          "label": "パラメータ成長率",
+          "url": "https://www.pegasusknight.com/mb/ts1/ud_pergrow",
+          "category": "characters"
+        },
+        {
+          "label": "習得スキル",
+          "url": "https://www.pegasusknight.com/mb/ts1/ud_skill",
+          "category": "skills"
+        },
+        {
+          "label": "クラスチェンジ",
+          "url": "https://www.pegasusknight.com/mb/ts1/ud_classcg",
+          "category": "classes"
+        },
+        {
+          "label": "支援効果",
+          "url": "https://www.pegasusknight.com/mb/ts1/ud_aid",
+          "category": "characters"
+        },
+        {
+          "label": "エンディング",
+          "url": "https://www.pegasusknight.com/mb/ts1/ud_ending",
+          "category": "characters"
+        },
+        {
+          "label": "とおり名",
+          "url": "https://www.pegasusknight.com/mb/ts1/ud_nic",
+          "category": "characters"
+        },
+        {
+          "label": "基本パラメータ",
+          "url": "https://www.pegasusknight.com/mb/ts1/cd_param",
+          "category": "classes"
+        },
+        {
+          "label": "最大パラメータ",
+          "url": "https://www.pegasusknight.com/mb/ts1/cd_maxparam",
+          "category": "classes"
+        },
+        {
+          "label": "パラメータ変化",
+          "url": "https://www.pegasusknight.com/mb/ts1/cd_prmvary",
+          "category": "classes"
+        },
+        {
+          "label": "地形移動コスト",
+          "url": "https://www.pegasusknight.com/mb/ts1/cd_field",
+          "category": "classes"
+        },
+        {
+          "label": "デモ",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_demo.html",
+          "category": "chapters"
+        },
+        {
+          "label": "オープニング",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_opening.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP1",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map1.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP2",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map2.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP3",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map3.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP4",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map4.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP5",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map5.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP6",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map6.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP7",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map7.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP8",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map8.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP9",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map9.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP10",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map10.html",
+          "category": "chapters"
+        },
+        {
+          "label": "遭遇戦1",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_happen1.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP11",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map11.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP12",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map12.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP13",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map13.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP14",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map14.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP15",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map15.html",
+          "category": "chapters"
+        },
+        {
+          "label": "遭遇戦2",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_happen2.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP16",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map16.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP17",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map17.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP18",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map18.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP19",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map19.html",
+          "category": "chapters"
+        },
+        {
+          "label": "遭遇戦3",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_happen3.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP20",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map20.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP21",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map21.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP22",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map22.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP23",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map23.html",
+          "category": "chapters"
+        },
+        {
+          "label": "遭遇戦4",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_happen4.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP24",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map24.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP25",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map25.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP26A",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map26a.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP26B",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map26b.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP27",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map27.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP28",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map28.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP29",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map29.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP30",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map30.html",
+          "category": "chapters"
+        },
+        {
+          "label": "遭遇戦5〜6",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_happen5.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP31",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map31.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP32",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map32.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP33",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map33.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP34",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map34.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP35",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map35.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP36",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map36.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP37",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map37.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP38",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map38.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP39",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map39.html",
+          "category": "chapters"
+        },
+        {
+          "label": "MAP40",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_map40.html",
+          "category": "chapters"
+        },
+        {
+          "label": "エンディング1",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_ending1.html",
+          "category": "characters"
+        },
+        {
+          "label": "エンディング2",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_ending2.html",
+          "category": "characters"
+        },
+        {
+          "label": "エンディング3",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_ending3.html",
+          "category": "characters"
+        },
+        {
+          "label": "エンディング4",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_ending4.html",
+          "category": "characters"
+        },
+        {
+          "label": "散り際の言葉",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_death.html",
+          "category": "chapters"
+        },
+        {
+          "label": "ボス戦（初戦時）",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_boss1.html",
+          "category": "chapters"
+        },
+        {
+          "label": "ボス戦（撃破時）",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_boss2.html",
+          "category": "chapters"
+        },
+        {
+          "label": "魔法の詠唱文",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_magic.html",
+          "category": "equipment"
+        },
+        {
+          "label": "アイテムの説明文",
+          "url": "https://www.pegasusknight.com/mb/ts1/st_item.html",
+          "category": "equipment"
+        },
+        {
+          "label": "武器（剣）",
+          "url": "https://www.pegasusknight.com/mb/ts1/dt_item1",
+          "category": "equipment"
+        },
+        {
+          "label": "武器（槍）",
+          "url": "https://www.pegasusknight.com/mb/ts1/dt_item2",
+          "category": "equipment"
+        },
+        {
+          "label": "武器（斧）",
+          "url": "https://www.pegasusknight.com/mb/ts1/dt_item3",
+          "category": "equipment"
+        },
+        {
+          "label": "武器（弓）",
+          "url": "https://www.pegasusknight.com/mb/ts1/dt_item4",
+          "category": "equipment"
+        },
+        {
+          "label": "武器（魔法）",
+          "url": "https://www.pegasusknight.com/mb/ts1/dt_item5",
+          "category": "equipment"
+        },
+        {
+          "label": "武器（杖）",
+          "url": "https://www.pegasusknight.com/mb/ts1/dt_item6",
+          "category": "equipment"
+        },
+        {
+          "label": "道具",
+          "url": "https://www.pegasusknight.com/mb/ts1/dt_item7",
+          "category": "equipment"
+        },
+        {
+          "label": "ショップ",
+          "url": "https://www.pegasusknight.com/mb/ts1/dt_shop",
+          "category": "equipment"
+        },
+        {
+          "label": "職人",
+          "url": "https://www.pegasusknight.com/mb/ts1/dt_itemmkr",
+          "category": "equipment"
+        },
+        {
+          "label": "ランダム入手",
+          "url": "https://www.pegasusknight.com/mb/ts1/dt_randitem",
+          "category": "equipment"
+        },
+        {
+          "label": "アイテム入手場所",
+          "url": "https://www.pegasusknight.com/mb/ts1/dt_getitems",
+          "category": "equipment"
+        },
+        {
+          "label": "計算式",
+          "url": "https://www.pegasusknight.com/mb/ts1/dt_form",
+          "category": "data"
+        },
+        {
+          "label": "スキル",
+          "url": "https://www.pegasusknight.com/mb/ts1/dt_skill",
+          "category": "skills"
+        },
+        {
+          "label": "地形効果",
+          "url": "https://www.pegasusknight.com/mb/ts1/dt_field",
+          "category": "data"
+        },
+        {
+          "label": "闘技場",
+          "url": "https://www.pegasusknight.com/mb/ts1/et_coloseum",
+          "category": "data"
+        },
+        {
+          "label": "裏技・バグ",
+          "url": "https://www.pegasusknight.com/mb/ts1/et_tips",
+          "category": "secrets"
+        },
+        {
+          "label": "コイントス",
+          "url": "https://www.pegasusknight.com/mb/ts1/et_cointos",
+          "category": "secrets"
+        },
+        {
+          "label": "よくある質問とその回答",
+          "url": "https://www.pegasusknight.com/mb/ts1/et_faq",
+          "category": "secrets"
+        }
+      ]
+    }
+  ]
+}

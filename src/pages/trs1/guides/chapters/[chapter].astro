@@ -1,0 +1,103 @@
+---
+import { getCollection, render, type CollectionEntry } from 'astro:content';
+import GuideLayout from '../../../../layouts/GuideLayout.astro';
+import { entitiesById, entityHref, entityTypeLabels } from '../../../../lib/entities';
+
+export async function getStaticPaths() {
+  const entries = (await getCollection('trs1Chapters')).sort((a, b) =>
+    a.data.chapter.localeCompare(b.data.chapter, undefined, { numeric: true }) ||
+    a.data.route.localeCompare(b.data.route),
+  );
+
+  return entries.map((entry, index) => ({
+    params: { chapter: entry.data.slug.split('/').at(-1)?.toLowerCase() },
+    props: {
+      entry,
+      previous: entries[index - 1] ?? null,
+      next: entries[index + 1] ?? null,
+    },
+  }));
+}
+
+interface Props {
+  entry: CollectionEntry<'trs1Chapters'>;
+  previous: CollectionEntry<'trs1Chapters'> | null;
+  next: CollectionEntry<'trs1Chapters'> | null;
+}
+
+const { entry, previous, next } = Astro.props;
+const { Content, headings } = await render(entry);
+const base = import.meta.env.BASE_URL;
+const related = entry.data.relatedIds
+  .map((id) => entitiesById.get(id))
+  .filter((entity) => entity !== undefined);
+const statusLabel = {
+  outline: '목차 준비',
+  draft: '초안',
+  review: '검수 중',
+  published: '검수 완료',
+};
+---
+
+<GuideLayout title={entry.data.title} description={`${entry.data.title} 장별 공략`}>
+  <div class="guide-shell detail-shell">
+    <nav class="breadcrumb" aria-label="현재 위치">
+      <a href={`${base}trs1/guides/`}>1편 공략</a><span aria-hidden="true">/</span><span>{entry.data.title}</span>
+    </nav>
+
+    <header class="detail-header">
+      <div>
+        <p class="eyebrow">Chapter {entry.data.chapter}</p>
+        <h1>{entry.data.title}</h1>
+        <p class="japanese-title" lang="ja">{entry.data.titleJp}</p>
+      </div>
+      <div class="detail-meta">
+        <span class:list={['status-badge', `status-${entry.data.status}`]}>{statusLabel[entry.data.status]}</span>
+        {entry.data.lastVerified && <time datetime={entry.data.lastVerified}>확인 {entry.data.lastVerified}</time>}
+      </div>
+    </header>
+
+    <div class="detail-grid">
+      <article class="guide-prose">
+        <Content />
+
+        {related.length > 0 && (
+          <section class="related-section" aria-labelledby="related-title">
+            <h2 id="related-title">관련 데이터</h2>
+            <div class="entity-grid">
+              {related.map((entity) => (
+                <a class="entity-card" href={entityHref(entity.id, base)}>
+                  <small>{entityTypeLabels[entity.type]}</small>
+                  <strong lang="ja">{entity.displayName}</strong>
+                  {entity.provisionalKo && <span>{entity.provisionalKo} · 임시 표기</span>}
+                </a>
+              ))}
+            </div>
+          </section>
+        )}
+      </article>
+
+      <aside class="toc-panel" aria-label="이 페이지 목차">
+        <p class="panel-label">이 페이지에서</p>
+        <ol>
+          {headings.filter(({ depth }) => depth === 2).map((heading) => (
+            <li><a href={`#${heading.slug}`}>{heading.text}</a></li>
+          ))}
+        </ol>
+      </aside>
+    </div>
+
+    <nav class="chapter-pagination" aria-label="장 이동">
+      {previous ? (
+        <a href={`${base}trs1/${previous.data.slug.toLowerCase()}/`} rel="prev">
+          <small>이전 장</small><strong>{previous.data.title}</strong>
+        </a>
+      ) : <span></span>}
+      {next ? (
+        <a href={`${base}trs1/${next.data.slug.toLowerCase()}/`} rel="next">
+          <small>다음 장</small><strong>{next.data.title}</strong>
+        </a>
+      ) : <span></span>}
+    </nav>
+  </div>
+</GuideLayout>

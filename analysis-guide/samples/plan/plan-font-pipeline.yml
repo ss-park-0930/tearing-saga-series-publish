@@ -1,0 +1,53 @@
+schema_version: 1
+id: plan.font_pipeline
+title: "폰트 파이프라인"
+status: blocked
+progress: 20
+owner: replace-owner
+phase: 3
+current_step: step.metrics
+created_at: 2026-07-14T00:00:00+09:00
+updated_at: 2026-07-16T00:00:00+09:00
+summary: "baseline 값 확인 대기"
+depends_on: [plan.text_pipeline]
+related_results: [analytics/result/formats/font-block.md]
+steps:
+  - id: step.decode
+    title: "원본 glyph decode"
+    status: completed
+    progress: 100
+    weight: 20
+    required: true
+    depends_on: []
+    acceptance_criteria: ["원본 glyph bitmap hash가 fixture와 일치한다."]
+    evidence: [build/reports/font-decode.json]
+    blockers: []
+    started_at: 2026-07-14T00:00:00+09:00
+    updated_at: 2026-07-15T00:00:00+09:00
+    completed_at: 2026-07-15T00:00:00+09:00
+  - id: step.metrics
+    title: "cell metric 확정"
+    status: blocked
+    progress: 0
+    weight: 40
+    required: true
+    depends_on: [step.decode]
+    acceptance_criteria: ["baseline과 width 계산이 런타임 화면과 일치한다."]
+    evidence: []
+    blockers: ["대표 장면 screenshot과 runtime capture 필요"]
+    started_at: 2026-07-16T00:00:00+09:00
+    updated_at: 2026-07-16T00:00:00+09:00
+    completed_at: null
+  - id: step.encode
+    title: "한글 font encode"
+    status: not_started
+    progress: 0
+    weight: 40
+    required: true
+    depends_on: [step.metrics]
+    acceptance_criteria: ["전체 glyph coverage와 block budget이 통과한다."]
+    evidence: []
+    blockers: []
+    started_at: null
+    updated_at: 2026-07-16T00:00:00+09:00
+    completed_at: null

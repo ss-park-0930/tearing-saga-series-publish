@@ -1,0 +1,17 @@
+---
+import SiteLayout from './SiteLayout.astro';
+
+interface Props {
+  title: string;
+  description?: string;
+}
+
+const {
+  title,
+  description = '티어링 사가 - 유토나 영웅전기의 장별 공략과 데이터',
+} = Astro.props;
+---
+
+<SiteLayout title={title} description={description} active="trs1">
+  <slot />
+</SiteLayout>

@@ -1,0 +1,44 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tear-ring-saga.local/schemas/fact.schema.json",
+  "title": "Sourced guide fact",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "game", "subjectId", "field", "kind", "value", "sources", "verification"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^trs[12]-[a-z0-9-]+$" },
+    "game": { "enum": ["trs1", "trs2"] },
+    "subjectId": { "type": "string", "pattern": "^trs[12]-[a-z0-9-]+$" },
+    "field": { "type": "string", "pattern": "^[a-z][a-zA-Z0-9.]*$" },
+    "kind": { "enum": ["factual", "strategy-opinion"] },
+    "value": {},
+    "context": { "type": "string" },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["sourceId", "locator", "checkedAt"],
+        "properties": {
+          "sourceId": { "type": "string", "minLength": 1 },
+          "url": { "type": "string" },
+          "locator": { "type": "string", "minLength": 1 },
+          "checkedAt": { "type": "string", "pattern": "^\\d{4}-\\d{2}-\\d{2}$" },
+          "note": { "type": "string" }
+        }
+      }
+    },
+    "verification": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["status", "agreementCount", "reviewedByHuman"],
+      "properties": {
+        "status": { "enum": ["collected", "cross-checked", "conflict", "reviewed"] },
+        "agreementCount": { "type": "integer", "minimum": 0 },
+        "reviewedByHuman": { "type": "boolean" },
+        "conflictNote": { "type": "string" }
+      }
+    }
+  }
+}

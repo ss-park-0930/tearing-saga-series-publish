@@ -1,0 +1,15 @@
+schema_version: 1
+assets:
+  - id: asset.font.dialogue
+    name: "Replace Font Name"
+    type: font
+    source_url: "https://example.invalid/font"
+    author: "Replace Author"
+    version: "Replace Version"
+    sha256: "REPLACE_WITH_64_HEX_SHA256"
+    license: "REPLACE_SPDX_OR_LICENSE_NAME"
+    modified: false
+    repository_allowed: false
+    release_allowed: false
+    notice_file: null
+    notes: "라이선스를 확인한 뒤 배포 가능 여부를 변경한다."

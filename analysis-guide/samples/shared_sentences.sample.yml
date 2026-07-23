@@ -1,0 +1,18 @@
+schema_version: 2
+entries:
+  sentence.obtain-item.0001:
+    original_preview: "アイテムを手に入れた。"
+    original_tokens:
+      - {type: variable, name: item, value_type: term}
+      - {type: text, value: "を手に入れた。"}
+      - {type: terminator, code_id: ctrl.end}
+    translation_preview: "아이템을 손에 넣었다."
+    translation_tokens:
+      - {variable: item, value_type: term}
+      - {value: "을 손에 넣었다."}
+      - {code_id: ctrl.end}
+    variables:
+      item:
+        type: term
+    status: reviewed
+    notes: ""

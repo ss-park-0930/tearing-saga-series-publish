@@ -1,0 +1,231 @@
+{
+  "sourceId": "rrpg-trs1",
+  "name": "RRPG 티어링 사가 공략",
+  "language": "ja",
+  "role": "structured-walkthrough-and-data",
+  "trustTier": 2,
+  "pages": [
+    {
+      "fetchedAt": "2026-07-15T13:11:53.182Z",
+      "status": 200,
+      "robots": {
+        "allowed": true,
+        "robotsUrl": "https://rrpg.jp/robots.txt",
+        "status": 200,
+        "matchedRule": null
+      },
+      "url": "https://rrpg.jp/tear_ring_saga/",
+      "title": "ティアリングサーガ ユトナ英雄戦記 攻略 | RRPG",
+      "description": "PS「ティアリングサーガ ユトナ英雄戦記」の攻略サイト。味方ユニット、支援効果、マップ攻略、スキルの一覧と習得表、部隊編成、闘技場、ランダムドロップなどの情報を掲載しています。",
+      "headings": [
+        {
+          "level": 1,
+          "text": "ティアリングサーガ ユトナ英雄戦記 攻略"
+        },
+        {
+          "level": 2,
+          "text": "基本情報"
+        },
+        {
+          "level": 2,
+          "text": "登場人物"
+        },
+        {
+          "level": 2,
+          "text": "クラス"
+        },
+        {
+          "level": 2,
+          "text": "攻略"
+        },
+        {
+          "level": 2,
+          "text": "アイテム"
+        },
+        {
+          "level": 2,
+          "text": "スキル"
+        },
+        {
+          "level": 2,
+          "text": "その他"
+        },
+        {
+          "level": 2,
+          "text": "タイトル情報"
+        },
+        {
+          "level": 3,
+          "text": "簡易報告"
+        }
+      ],
+      "links": [
+        {
+          "label": "基本情報",
+          "url": "https://rrpg.jp/tear_ring_saga/basic.html",
+          "category": "getting-started"
+        },
+        {
+          "label": "攻略のコツ",
+          "url": "https://rrpg.jp/tear_ring_saga/knack.html",
+          "category": "chapters"
+        },
+        {
+          "label": "リュナン軍",
+          "url": "https://rrpg.jp/tear_ring_saga/unit_1.html",
+          "category": "characters"
+        },
+        {
+          "label": "ホームズ隊",
+          "url": "https://rrpg.jp/tear_ring_saga/unit_2.html",
+          "category": "characters"
+        },
+        {
+          "label": "加入方法",
+          "url": "https://rrpg.jp/tear_ring_saga/join.html",
+          "category": "characters"
+        },
+        {
+          "label": "初期ステータス",
+          "url": "https://rrpg.jp/tear_ring_saga/status.html",
+          "category": "characters"
+        },
+        {
+          "label": "成長率",
+          "url": "https://rrpg.jp/tear_ring_saga/growth.html",
+          "category": "characters"
+        },
+        {
+          "label": "支援効果",
+          "url": "https://rrpg.jp/tear_ring_saga/support.html",
+          "category": "characters"
+        },
+        {
+          "label": "通り名",
+          "url": "https://rrpg.jp/tear_ring_saga/name.html",
+          "category": "characters"
+        },
+        {
+          "label": "その他の登場人物",
+          "url": "https://rrpg.jp/tear_ring_saga/character.html",
+          "category": "characters"
+        },
+        {
+          "label": "クラスチェンジ",
+          "url": "https://rrpg.jp/tear_ring_saga/cc.html",
+          "category": "classes"
+        },
+        {
+          "label": "ステータス上限",
+          "url": "https://rrpg.jp/tear_ring_saga/maximum.html",
+          "category": "classes"
+        },
+        {
+          "label": "ＭＡＰ１～８",
+          "url": "https://rrpg.jp/tear_ring_saga/map_1.html",
+          "category": "chapters"
+        },
+        {
+          "label": "ＭＡＰ９～１６",
+          "url": "https://rrpg.jp/tear_ring_saga/map_2.html",
+          "category": "chapters"
+        },
+        {
+          "label": "ＭＡＰ１７～２３",
+          "url": "https://rrpg.jp/tear_ring_saga/map_3.html",
+          "category": "chapters"
+        },
+        {
+          "label": "ＭＡＰ２４～３０",
+          "url": "https://rrpg.jp/tear_ring_saga/map_4.html",
+          "category": "chapters"
+        },
+        {
+          "label": "ＭＡＰ３１～３６",
+          "url": "https://rrpg.jp/tear_ring_saga/map_5.html",
+          "category": "chapters"
+        },
+        {
+          "label": "ＭＡＰ３７～４０",
+          "url": "https://rrpg.jp/tear_ring_saga/map_6.html",
+          "category": "chapters"
+        },
+        {
+          "label": "特殊イベント",
+          "url": "https://rrpg.jp/tear_ring_saga/event.html",
+          "category": "chapters"
+        },
+        {
+          "label": "武器",
+          "url": "https://rrpg.jp/tear_ring_saga/weapon.html",
+          "category": "equipment"
+        },
+        {
+          "label": "魔法",
+          "url": "https://rrpg.jp/tear_ring_saga/magic.html",
+          "category": "equipment"
+        },
+        {
+          "label": "杖",
+          "url": "https://rrpg.jp/tear_ring_saga/staff.html",
+          "category": "equipment"
+        },
+        {
+          "label": "道具",
+          "url": "https://rrpg.jp/tear_ring_saga/item.html",
+          "category": "equipment"
+        },
+        {
+          "label": "スキルの基礎",
+          "url": "https://rrpg.jp/tear_ring_saga/skill_b.html",
+          "category": "skills"
+        },
+        {
+          "label": "スキル一覧",
+          "url": "https://rrpg.jp/tear_ring_saga/skill_l.html",
+          "category": "skills"
+        },
+        {
+          "label": "スキル習得表",
+          "url": "https://rrpg.jp/tear_ring_saga/skill_r.html",
+          "category": "skills"
+        },
+        {
+          "label": "部隊編成",
+          "url": "https://rrpg.jp/tear_ring_saga/organize.html",
+          "category": "chapters"
+        },
+        {
+          "label": "お店情報",
+          "url": "https://rrpg.jp/tear_ring_saga/shop.html",
+          "category": "equipment"
+        },
+        {
+          "label": "闘技場",
+          "url": "https://rrpg.jp/tear_ring_saga/colosseum.html",
+          "category": "data"
+        },
+        {
+          "label": "アイテム合成",
+          "url": "https://rrpg.jp/tear_ring_saga/compose.html",
+          "category": "equipment"
+        },
+        {
+          "label": "ランダム宝箱",
+          "url": "https://rrpg.jp/tear_ring_saga/treasure.html",
+          "category": "equipment"
+        },
+        {
+          "label": "ランダムドロップ",
+          "url": "https://rrpg.jp/tear_ring_saga/drop.html",
+          "category": "equipment"
+        },
+        {
+          "label": "裏技・小ネタ",
+          "url": "https://rrpg.jp/tear_ring_saga/other.html",
+          "category": "secrets"
+        }
+      ]
+    }
+  ]
+}

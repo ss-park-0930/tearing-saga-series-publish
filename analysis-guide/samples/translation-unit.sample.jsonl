@@ -1,0 +1,1 @@
+{"schema_version":2,"id":"menu.item.0001.name","domain":"menu","source":{"block_id":"block.menu.9002.0001","line_id":"line.menu.9002.0001.0001","source_order":0},"original_preview":"ポーション","translation":{"pages":[{"lines":["포션"]}]},"terms":[],"status":"draft","notes":"일반 모드 예시: compiler가 block의 원본 control skeleton과 translation을 결합한다."}

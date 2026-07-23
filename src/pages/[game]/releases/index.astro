@@ -1,0 +1,75 @@
+---
+import SiteLayout from '../../../layouts/SiteLayout.astro';
+import {
+  releaseDetailHref,
+  releaseGames,
+  releases,
+  type ReleaseGame,
+  type ReleaseRecord,
+} from '../../../lib/releases';
+import type { GameId } from '../../../lib/entities';
+
+export function getStaticPaths() {
+  return (Object.values(releaseGames) as ReleaseGame[]).map((game) => ({
+    params: { game: game.id },
+    props: {
+      game,
+      releases: releases.filter((release) => release.id === game.id),
+    },
+  }));
+}
+
+interface Props {
+  game: ReleaseGame;
+  releases: ReleaseRecord[];
+}
+
+const { game, releases: gameReleases } = Astro.props;
+const base = import.meta.env.BASE_URL;
+const formatDate = (date: string) =>
+  new Intl.DateTimeFormat('ko-KR', { dateStyle: 'long', timeZone: 'Asia/Seoul' }).format(
+    new Date(`${date}T00:00:00+09:00`),
+  );
+---
+
+<SiteLayout
+  title={`${game.shortTitle} 릴리즈`}
+  description={`${game.title} 한국어 패치 릴리즈 목록`}
+  active={game.id}
+>
+  <div class="page-shell">
+    <nav class="breadcrumb" aria-label="현재 위치">
+      <a href={base}>홈</a><span>/</span><span>{game.shortTitle} 릴리즈</span>
+    </nav>
+    <header class="page-header">
+      <p class="overline">{game.platform}</p>
+      <h1>{game.shortTitle} 릴리즈</h1>
+      <p>{game.title} 한국어 패치의 배포 버전과 상태를 확인할 수 있습니다.</p>
+    </header>
+
+    {gameReleases.length > 0 ? (
+      <div class="release-list">
+        {gameReleases.map((release) => (
+          <a class="release-list-item" href={releaseDetailHref(release, base)}>
+            <div>
+              <span class="status-label">{release.releaseLabel}</span>
+              <h2>{release.title}</h2>
+              <p>
+                {release.version} · {formatDate(release.releasedAt)} 배포 · 첨부 파일 {release.assets.length}개
+              </p>
+            </div>
+            <span class="plain-link-label">상세 보기</span>
+          </a>
+        ))}
+      </div>
+    ) : (
+      <section class="empty-state">
+        <h2>준비중입니다.</h2>
+      </section>
+    )}
+
+    <div class="page-actions">
+      <a class="secondary-button" href={`${base}${game.id}/patch-guide/`}>패치 가이드</a>
+    </div>
+  </div>
+</SiteLayout>

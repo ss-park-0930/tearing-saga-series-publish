@@ -1,0 +1,662 @@
+{
+  "game": "trs1",
+  "count": 41,
+  "chapters": [
+    {
+      "id": "trs1-chapter-01",
+      "key": "1",
+      "number": 1,
+      "route": null,
+      "titleKo": "웰트 상륙",
+      "titleJp": "ウェルト上陸",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 187,
+        "scanFile": "page_011.jpg",
+        "regionTop": 0,
+        "regionBottom": 649,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-02",
+      "key": "2",
+      "number": 2,
+      "route": null,
+      "titleKo": "산적토벌",
+      "titleJp": "山賊討伐",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 187,
+        "scanFile": "page_011.jpg",
+        "regionTop": 650,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-03",
+      "key": "3",
+      "number": 3,
+      "route": null,
+      "titleKo": "조우전",
+      "titleJp": "遭遇戦",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 188,
+        "scanFile": "page_012.jpg",
+        "regionTop": 0,
+        "regionBottom": 579,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-04",
+      "key": "4",
+      "number": 4,
+      "route": null,
+      "titleKo": "슬픈 전사들",
+      "titleJp": "悲しき戦士たち",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 188,
+        "scanFile": "page_012.jpg",
+        "regionTop": 580,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-05",
+      "key": "5",
+      "number": 5,
+      "route": null,
+      "titleKo": "전설의 저편에서",
+      "titleJp": "伝説の彼方に",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 189,
+        "scanFile": "page_013.jpg",
+        "regionTop": 0,
+        "regionBottom": 619,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-06",
+      "key": "6",
+      "number": 6,
+      "route": null,
+      "titleKo": "도하작전",
+      "titleJp": "渡河作戦",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 189,
+        "scanFile": "page_013.jpg",
+        "regionTop": 620,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-07",
+      "key": "7",
+      "number": 7,
+      "route": null,
+      "titleKo": "왕도해방",
+      "titleJp": "王都解放",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 190,
+        "scanFile": "page_014.jpg",
+        "regionTop": 0,
+        "regionBottom": 579,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-08",
+      "key": "8",
+      "number": 8,
+      "route": null,
+      "titleKo": "성룡 네우론",
+      "titleJp": "聖竜ネウロン",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 190,
+        "scanFile": "page_014.jpg",
+        "regionTop": 580,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-09",
+      "key": "9",
+      "number": 9,
+      "route": null,
+      "titleKo": "두 개의 길",
+      "titleJp": "二つの道",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 191,
+        "scanFile": "page_015.jpg",
+        "regionTop": 0,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-10",
+      "key": "10",
+      "number": 10,
+      "route": null,
+      "titleKo": "자유와 정의",
+      "titleJp": "自由と正義",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 192,
+        "scanFile": "page_016.jpg",
+        "regionTop": 0,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-11",
+      "key": "11",
+      "number": 11,
+      "route": null,
+      "titleKo": "레더의 마도사",
+      "titleJp": "レダの魔道士",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 193,
+        "scanFile": "page_017.jpg",
+        "regionTop": 0,
+        "regionBottom": 599,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-12",
+      "key": "12",
+      "number": 12,
+      "route": null,
+      "titleKo": "브라드의 소년",
+      "titleJp": "ブラードの少年",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 193,
+        "scanFile": "page_017.jpg",
+        "regionTop": 600,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-13",
+      "key": "13",
+      "number": 13,
+      "route": null,
+      "titleKo": "세네의 바다뱀",
+      "titleJp": "セネーの海蛇",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 194,
+        "scanFile": "page_018.jpg",
+        "regionTop": 0,
+        "regionBottom": 589,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-14",
+      "key": "14",
+      "number": 14,
+      "route": null,
+      "titleKo": "용사 홈즈",
+      "titleJp": "勇者ホームズ",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 194,
+        "scanFile": "page_018.jpg",
+        "regionTop": 590,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-15",
+      "key": "15",
+      "number": 15,
+      "route": null,
+      "titleKo": "오아시스의 마을",
+      "titleJp": "オアシスの街",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 195,
+        "scanFile": "page_019.jpg",
+        "regionTop": 0,
+        "regionBottom": 569,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-16",
+      "key": "16",
+      "number": 16,
+      "route": null,
+      "titleKo": "암흑의 마수",
+      "titleJp": "闇の魔手",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 195,
+        "scanFile": "page_019.jpg",
+        "regionTop": 570,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-17",
+      "key": "17",
+      "number": 17,
+      "route": null,
+      "titleKo": "초원의 전사들",
+      "titleJp": "草原の戦士たち",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 196,
+        "scanFile": "page_020.jpg",
+        "regionTop": 0,
+        "regionBottom": 579,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-18",
+      "key": "18",
+      "number": 18,
+      "route": null,
+      "titleKo": "검은 숲",
+      "titleJp": "黒い森",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 196,
+        "scanFile": "page_020.jpg",
+        "regionTop": 580,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-19",
+      "key": "19",
+      "number": 19,
+      "route": null,
+      "titleKo": "해후",
+      "titleJp": "巡り合い",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 197,
+        "scanFile": "page_021.jpg",
+        "regionTop": 0,
+        "regionBottom": 579,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-20",
+      "key": "20",
+      "number": 20,
+      "route": null,
+      "titleKo": "변경의 싸움",
+      "titleJp": "辺境の戦い",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 197,
+        "scanFile": "page_021.jpg",
+        "regionTop": 580,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-21",
+      "key": "21",
+      "number": 21,
+      "route": null,
+      "titleKo": "마룡 크라니온",
+      "titleJp": "魔竜クラニオン",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 198,
+        "scanFile": "page_022.jpg",
+        "regionTop": 0,
+        "regionBottom": 534,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-22",
+      "key": "22",
+      "number": 22,
+      "route": null,
+      "titleKo": "노장 자카리아",
+      "titleJp": "老将ザカリア",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 198,
+        "scanFile": "page_022.jpg",
+        "regionTop": 535,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-23",
+      "key": "23",
+      "number": 23,
+      "route": null,
+      "titleKo": "소녀의 눈물",
+      "titleJp": "少女の涙",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 199,
+        "scanFile": "page_023.jpg",
+        "regionTop": 0,
+        "regionBottom": 534,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-24",
+      "key": "24",
+      "number": 24,
+      "route": null,
+      "titleKo": "리베의 큰 강",
+      "titleJp": "リーヴェの大河",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 199,
+        "scanFile": "page_023.jpg",
+        "regionTop": 535,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-25",
+      "key": "25",
+      "number": 25,
+      "route": null,
+      "titleKo": "사막의 폭풍",
+      "titleJp": "砂漠の嵐",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 200,
+        "scanFile": "page_024.jpg",
+        "regionTop": 0,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-26a",
+      "key": "26A",
+      "number": 26,
+      "route": "A",
+      "titleKo": "유령작전",
+      "titleJp": "幽霊作戦",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 201,
+        "scanFile": "page_025.jpg",
+        "regionTop": 0,
+        "regionBottom": 524,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-26b",
+      "key": "26B",
+      "number": 26,
+      "route": "B",
+      "titleKo": "흑의 공자",
+      "titleJp": "黒の公子",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 201,
+        "scanFile": "page_025.jpg",
+        "regionTop": 525,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-27",
+      "key": "27",
+      "number": 27,
+      "route": null,
+      "titleKo": "바다 사자",
+      "titleJp": "シーライオン",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 202,
+        "scanFile": "page_026.jpg",
+        "regionTop": 0,
+        "regionBottom": 569,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-28",
+      "key": "28",
+      "number": 28,
+      "route": null,
+      "titleKo": "그라나다 해전",
+      "titleJp": "グラナダ海戦",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 202,
+        "scanFile": "page_026.jpg",
+        "regionTop": 570,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-29",
+      "key": "29",
+      "number": 29,
+      "route": null,
+      "titleKo": "바다 사자의 깃발",
+      "titleJp": "海獅子の旗",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 203,
+        "scanFile": "page_027.jpg",
+        "regionTop": 0,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-30",
+      "key": "30",
+      "number": 30,
+      "route": null,
+      "titleKo": "전설의 검사",
+      "titleJp": "伝説の剣士",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 204,
+        "scanFile": "page_028.jpg",
+        "regionTop": 0,
+        "regionBottom": 589,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-31",
+      "key": "31",
+      "number": 31,
+      "route": null,
+      "titleKo": "배신자…",
+      "titleJp": "裏切り者…",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 204,
+        "scanFile": "page_028.jpg",
+        "regionTop": 590,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-32",
+      "key": "32",
+      "number": 32,
+      "route": null,
+      "titleKo": "사리아의 신전",
+      "titleJp": "サリアの神殿",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 205,
+        "scanFile": "page_029.jpg",
+        "regionTop": 0,
+        "regionBottom": 539,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-33",
+      "key": "33",
+      "number": 33,
+      "route": null,
+      "titleKo": "성검 사리아",
+      "titleJp": "聖剣サリア",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 205,
+        "scanFile": "page_029.jpg",
+        "regionTop": 540,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-34",
+      "key": "34",
+      "number": 34,
+      "route": null,
+      "titleKo": "총력전",
+      "titleJp": "総力戦",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 206,
+        "scanFile": "page_030.jpg",
+        "regionTop": 0,
+        "regionBottom": 589,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-35",
+      "key": "35",
+      "number": 35,
+      "route": null,
+      "titleKo": "쥬리아스…",
+      "titleJp": "ジュリアス…",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 206,
+        "scanFile": "page_030.jpg",
+        "regionTop": 590,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-36",
+      "key": "36",
+      "number": 36,
+      "route": null,
+      "titleKo": "사랑과 슬픔의 거리",
+      "titleJp": "愛と悲しみの街",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 207,
+        "scanFile": "page_031.jpg",
+        "regionTop": 0,
+        "regionBottom": 534,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-37",
+      "key": "37",
+      "number": 37,
+      "route": null,
+      "titleKo": "성검 리베",
+      "titleJp": "聖剣リーヴェ",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 207,
+        "scanFile": "page_031.jpg",
+        "regionTop": 535,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-38",
+      "key": "38",
+      "number": 38,
+      "route": null,
+      "titleKo": "사라져 가는 생명",
+      "titleJp": "消えゆく命",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 208,
+        "scanFile": "page_032.jpg",
+        "regionTop": 0,
+        "regionBottom": 534,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-39",
+      "key": "39",
+      "number": 39,
+      "route": null,
+      "titleKo": "어둠 속에서…",
+      "titleJp": "闇の中に…",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 208,
+        "scanFile": "page_032.jpg",
+        "regionTop": 535,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    },
+    {
+      "id": "trs1-chapter-40",
+      "key": "40",
+      "number": 40,
+      "route": null,
+      "titleKo": "사신과 여신",
+      "titleJp": "邪神と女神",
+      "source": {
+        "id": "korean-magazine",
+        "magazinePage": 209,
+        "scanFile": "page_033.jpg",
+        "regionTop": 0,
+        "regionBottom": 1149,
+        "reviewStatus": "image_reviewed"
+      }
+    }
+  ]
+}

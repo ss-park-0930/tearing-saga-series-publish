@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "command": "verify",
+  "status": "passed",
+  "started_at": "2026-07-16T20:00:00+09:00",
+  "finished_at": "2026-07-16T20:01:00+09:00",
+  "toolchain_profile": "windows-x86_64",
+  "inputs": [
+    {"id": "disc-1", "algorithm": "sha256-disc-set-v1", "hash": "REPLACE_WITH_64_HEX_SHA256"}
+  ],
+  "checks": [
+    {"id": "write_set_overlap", "status": "passed", "release_blocking": true},
+    {"id": "diff_allowlist", "status": "passed", "release_blocking": true}
+  ],
+  "metrics": {
+    "translation_units_checked": 100,
+    "write_regions_checked": 20,
+    "write_set_overlaps": 0,
+    "diff_allowlist_violations": 0,
+    "max_slot_usage_percent": 82.5
+  },
+  "artifacts": [
+    {"path": "build/integration/disc-1.bin", "sha256": "REPLACE_WITH_64_HEX_SHA256"}
+  ],
+  "warnings": [],
+  "errors": []
+}

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://tear-ring-saga.local/schemas/guide.schema.json",
+  "title": "Guide Markdown front matter",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["id", "game", "category", "slug", "title", "status", "sourceIds", "relatedIds"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^trs[12]-[a-z0-9-]+$" },
+    "game": { "enum": ["trs1", "trs2"] },
+    "category": { "enum": ["getting-started", "chapters", "characters", "equipment", "skills", "classes", "secrets", "data"] },
+    "chapter": { "type": "string" },
+    "route": { "type": "string" },
+    "slug": { "type": "string", "pattern": "^[a-z0-9][a-z0-9/-]*$" },
+    "title": { "type": "string", "minLength": 1 },
+    "titleJp": { "type": "string" },
+    "status": { "enum": ["outline", "draft", "reviewed", "published"] },
+    "sourceIds": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+    "relatedIds": { "type": "array", "uniqueItems": true, "items": { "type": "string" } },
+    "lastVerified": { "type": ["string", "null"], "pattern": "^\\d{4}-\\d{2}-\\d{2}$" }
+  }
+}
