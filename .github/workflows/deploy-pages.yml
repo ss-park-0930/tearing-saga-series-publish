@@ -30,6 +30,8 @@ jobs:
         uses: withastro/action@v6
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BASE_PATH: /
+          SITE_URL: https://ts.soaptree.dev
 
   deploy:
     environment:
