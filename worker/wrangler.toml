@@ -2,6 +2,11 @@ name = "trs-bug-report"
 main = "worker.js"
 compatibility_date = "2024-11-01"
 
+# Serve on the workers.dev URL (this is the form's endpoint) but skip the
+# per-version preview URLs. Both are set explicitly to silence deploy warnings.
+workers_dev = true
+preview_urls = false
+
 # --- Non-secret vars (safe to commit) ---
 # ALLOWED_ORIGIN must exactly match the site origin (scheme + host, no path,
 # no trailing slash). CORS + the origin allowlist depend on it.
