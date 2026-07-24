@@ -86,10 +86,17 @@ const homeHref = game === 'trs1' ? `${base}trs1/guides/` : `${base}trs2/`;
             data-search={`${entity.displayName} ${entity.canonicalJp} ${entity.provisionalKo ?? ''}`.toLowerCase()}
           >
             <small>{entityTypeLabels[entity.type]}</small>
-            <strong lang={entity.displayLanguage}>{entity.displayName}</strong>
-            {game === 'trs1'
-              ? entity.provisionalKo && <span>한국어 후보 · {entity.provisionalKo}</span>
-              : <span lang="ja">{entity.canonicalJp}</span>}
+            {game === 'trs1' ? (
+              <>
+                <strong>{entity.provisionalKo ?? entity.displayName}</strong>
+                {entity.provisionalKo && <span lang="ja">{entity.displayName}</span>}
+              </>
+            ) : (
+              <>
+                <strong lang={entity.displayLanguage}>{entity.displayName}</strong>
+                <span lang="ja">{entity.canonicalJp}</span>
+              </>
+            )}
           </a>
         ))}
       </div>

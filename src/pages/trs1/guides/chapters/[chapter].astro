@@ -68,8 +68,8 @@ const statusLabel = {
               {related.map((entity) => (
                 <a class="entity-card" href={entityHref(entity.id, base)}>
                   <small>{entityTypeLabels[entity.type]}</small>
-                  <strong lang="ja">{entity.displayName}</strong>
-                  {entity.provisionalKo && <span>{entity.provisionalKo} · 임시 표기</span>}
+                  <strong>{entity.provisionalKo ?? entity.displayName}</strong>
+                  {entity.provisionalKo && <span lang="ja">{entity.displayName}</span>}
                 </a>
               ))}
             </div>

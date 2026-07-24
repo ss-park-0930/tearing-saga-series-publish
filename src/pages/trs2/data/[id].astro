@@ -44,7 +44,6 @@ const category = entity.type === 'character' ? 'characters' : 'items';
         <div><dt>일본어 원문</dt><dd lang="ja">{entity.canonicalJp}</dd></div>
         <div><dt>검수 상태</dt><dd>{entity.koreanStatus}</dd></div>
         {entity.profile?.utteranceCount && <div><dt>말투 분석 대사</dt><dd>{entity.profile.utteranceCount}개</dd></div>}
-        <div><dt>원문 키</dt><dd><code>{entity.sourceKey}</code></dd></div>
       </dl>
     </article>
   </div>
