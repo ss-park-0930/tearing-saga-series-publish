@@ -41,7 +41,7 @@ const formatDate = (date: string) =>
     </nav>
 
     <header class="page-header">
-      <span class="status-label">{release.releaseLabel}</span>
+      {release.prerelease && <span class="status-label">{release.releaseLabel}</span>}
       <h1>{release.title}</h1>
       <p>{game.title} · {game.platform} · {game.serial} · {formatDate(release.releasedAt)} 배포</p>
     </header>
@@ -98,14 +98,18 @@ const formatDate = (date: string) =>
       <dl class="simple-data-list">
         <div><dt>패치 제작</dt><dd>비누나무(soaptree)</dd></div>
         <div>
+          <dt>버그 제보</dt>
+          <dd><a href={`${base}report/`}>버그 제보 폼 열기</a></dd>
+        </div>
+        <div>
           <dt>문의</dt>
           <dd><a href="mailto:soaptree45@gmail.com">soaptree45@gmail.com</a></dd>
         </div>
       </dl>
       <p class="contact-help">
-        버그 제보나 패치 관련 문의는 이메일
-        <a href="mailto:soaptree45@gmail.com">soaptree45@gmail.com</a>으로 보내 주세요. 버그를
-        제보할 때는 작품명, 패치 버전, 발생한 증상과 재현 방법을 함께 적어 주세요.
+        버그는 <a href={`${base}report/`}>버그 제보 폼</a>에서 로그인 없이 접수할 수 있습니다.
+        제보할 때는 작품명, 패치 버전, 발생한 증상과 재현 방법을 함께 적어 주세요. 패치 관련
+        문의는 이메일 <a href="mailto:soaptree45@gmail.com">soaptree45@gmail.com</a>도 이용할 수 있습니다.
       </p>
     </section>
 

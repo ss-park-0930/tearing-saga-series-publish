@@ -29,7 +29,8 @@ const formatDate = (date: string) =>
         <h2>{releaseGames.trs1.title}</h2>
         {trs1Release ? (
           <p>
-            현재 배포: {trs1Release.version} · {trs1Release.releaseLabel}
+            현재 배포: {trs1Release.version}
+            {trs1Release.prerelease && ` · ${trs1Release.releaseLabel}`}
             {` · ${formatDate(trs1Release.releasedAt)}`}
           </p>
         ) : (
@@ -53,7 +54,8 @@ const formatDate = (date: string) =>
         <h2>{releaseGames.trs2.title}</h2>
         {trs2Release ? (
           <p>
-            현재 배포: {trs2Release.version} · {trs2Release.releaseLabel}
+            현재 배포: {trs2Release.version}
+            {trs2Release.prerelease && ` · ${trs2Release.releaseLabel}`}
             {` · ${formatDate(trs2Release.releasedAt)}`}
           </p>
         ) : (

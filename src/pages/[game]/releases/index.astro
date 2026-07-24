@@ -52,7 +52,7 @@ const formatDate = (date: string) =>
         {gameReleases.map((release) => (
           <a class="release-list-item" href={releaseDetailHref(release, base)}>
             <div>
-              <span class="status-label">{release.releaseLabel}</span>
+              {release.prerelease && <span class="status-label">{release.releaseLabel}</span>}
               <h2>{release.title}</h2>
               <p>
                 {release.version} · {formatDate(release.releasedAt)} 배포 · 첨부 파일 {release.assets.length}개
