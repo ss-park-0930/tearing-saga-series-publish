@@ -333,6 +333,48 @@ code { font-family: "Cascadia Mono", Consolas, monospace; }
 .guide-section p { color: #4d5156; line-height: 1.8; }
 .contact-help { margin: 1rem 0 0; color: #4d5156; line-height: 1.8; }
 .notice-text { padding: .9rem; background: var(--warning-bg); color: var(--warning) !important; }
+
+/* Bug report form */
+.report-form { display: grid; gap: 1.5rem; max-width: 640px; margin-top: 1.5rem; }
+.report-field { display: grid; gap: .45rem; }
+.report-field > label, .report-radios legend {
+  font-size: .84rem;
+  font-weight: 700;
+  color: var(--text);
+}
+.report-field .req { color: var(--warning); }
+.report-optional { color: var(--muted); font-weight: 400; font-size: .78rem; }
+.report-help { margin: 0; color: var(--muted); font-size: .76rem; line-height: 1.6; }
+.report-form input[type="text"],
+.report-form select,
+.report-form textarea {
+  width: 100%;
+  padding: .7rem .8rem;
+  border: 1px solid var(--border);
+  border-radius: 5px;
+  background: var(--surface);
+  color: var(--text);
+}
+.report-form textarea { resize: vertical; line-height: 1.6; }
+.report-form input[type="text"]:focus,
+.report-form select:focus,
+.report-form textarea:focus {
+  border-color: var(--accent);
+  outline: 3px solid rgba(36, 91, 138, .12);
+}
+.report-form input[type="file"] { font-size: .82rem; color: #45484d; }
+.report-radios { border: 0; padding: 0; margin: 0; }
+.report-radios legend { padding: 0; margin-bottom: .45rem; }
+.report-radios { display: flex; flex-wrap: wrap; gap: 1.25rem; }
+.report-radio { display: inline-flex; align-items: center; gap: .4rem; font-size: .84rem; font-weight: 400; }
+.report-radio input { min-height: 0; }
+.report-hp { position: absolute; left: -9999px; width: 1px; height: 1px; overflow: hidden; }
+.report-actions { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem; }
+.report-status { margin: 0; font-size: .82rem; }
+.report-status[data-kind="success"] { color: #2f7d46; }
+.report-status[data-kind="error"] { color: var(--warning); }
+.report-status[data-kind="pending"] { color: var(--muted); }
+.cf-turnstile { min-height: 65px; }
 .guide-section pre {
   overflow-x: auto;
   padding: 1rem;

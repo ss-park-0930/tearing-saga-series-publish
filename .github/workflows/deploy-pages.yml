@@ -32,6 +32,12 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           BASE_PATH: /
           SITE_URL: https://ts.soaptree.dev
+          # Bug-report form wiring. Set these as repository Variables
+          # (Settings → Secrets and variables → Actions → Variables).
+          # Both are non-secret; if empty the form renders disabled with an
+          # email fallback. See worker/README.md.
+          PUBLIC_REPORT_ENDPOINT: ${{ vars.PUBLIC_REPORT_ENDPOINT }}
+          PUBLIC_TURNSTILE_SITEKEY: ${{ vars.PUBLIC_TURNSTILE_SITEKEY }}
 
   deploy:
     environment:

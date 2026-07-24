@@ -1,0 +1,251 @@
+---
+import SiteLayout from '../layouts/SiteLayout.astro';
+import { releaseGames } from '../lib/releases';
+
+const base = import.meta.env.BASE_URL;
+
+// Public build-time configuration. Both values are non-secret by design:
+// the Turnstile site key is meant to ship in HTML, and the endpoint is a
+// public URL. Fill them in the Pages deploy workflow (see worker/README.md).
+const reportEndpoint = import.meta.env.PUBLIC_REPORT_ENDPOINT ?? '';
+const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITEKEY ?? '';
+const contactEmail = 'soaptree45@gmail.com';
+
+const environments = ['실기(PS1/PS2)', 'DuckStation', 'PCSX2', 'PPSSPP', '기타'];
+const frequencies = [
+  { value: 'always', label: '항상' },
+  { value: 'sometimes', label: '가끔' },
+  { value: 'once', label: '한 번만' },
+];
+// 30MB per file, mirrored by the Worker. Keep in sync with worker/worker.js.
+const maxFileBytes = 30 * 1024 * 1024;
+---
+
+<SiteLayout
+  title="버그 제보"
+  description="티어링 사가 시리즈 한국어 패치의 버그를 로그인 없이 제보할 수 있습니다."
+  active="home"
+>
+  <div class="page-shell">
+    <nav class="breadcrumb" aria-label="현재 위치">
+      <a href={base}>홈</a><span>/</span><span>버그 제보</span>
+    </nav>
+    <header class="page-header">
+      <p class="overline">Bug report</p>
+      <h1>버그 제보</h1>
+      <p>
+        패치 적용 중 발견한 문제를 알려주세요. GitHub 로그인 없이 제보할 수 있으며,
+        연락처는 선택 사항입니다. 접수된 내용은 검토 후 처리합니다.
+      </p>
+    </header>
+
+    {reportEndpoint === '' && (
+      <p class="notice-text">
+        제보 접수 서버가 아직 연결되지 않았습니다. 그동안은
+        <a href={`mailto:${contactEmail}`}>{contactEmail}</a>으로 알려주세요.
+      </p>
+    )}
+
+    <form
+      id="report-form"
+      class="report-form"
+      novalidate
+      data-endpoint={reportEndpoint}
+      data-max-bytes={String(maxFileBytes)}
+    >
+      <div class="report-field">
+        <label for="game">작품 <span class="req" aria-hidden="true">*</span></label>
+        <select id="game" name="game" required>
+          <option value="" selected disabled>선택하세요</option>
+          <option value="trs1">{releaseGames.trs1.title}</option>
+          <option value="trs2">{releaseGames.trs2.title}</option>
+        </select>
+        <p class="report-help">어떤 작품의 패치인지 선택하면 담당 저장소로 접수됩니다.</p>
+      </div>
+
+      <div class="report-field">
+        <label for="version">패치 버전 <span class="req" aria-hidden="true">*</span></label>
+        <input
+          id="version"
+          name="version"
+          type="text"
+          required
+          maxlength="60"
+          placeholder="예: v1.2.0 (릴리즈 페이지에서 확인)"
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="report-field">
+        <label for="environment">사용 환경 <span class="req" aria-hidden="true">*</span></label>
+        <select id="environment" name="environment" required>
+          <option value="" selected disabled>선택하세요</option>
+          {environments.map((env) => <option value={env}>{env}</option>)}
+        </select>
+      </div>
+
+      <div class="report-field">
+        <label for="summary">증상 요약 <span class="req" aria-hidden="true">*</span></label>
+        <input
+          id="summary"
+          name="summary"
+          type="text"
+          required
+          maxlength="120"
+          placeholder="한 줄 요약 (제보 제목이 됩니다)"
+          autocomplete="off"
+        />
+      </div>
+
+      <div class="report-field">
+        <label for="steps">재현 경로 <span class="req" aria-hidden="true">*</span></label>
+        <textarea
+          id="steps"
+          name="steps"
+          required
+          rows="6"
+          maxlength="4000"
+          placeholder="어디서 → 무엇을 하면 → 무엇이 일어나는지 순서대로 적어주세요."
+        ></textarea>
+      </div>
+
+      <fieldset class="report-field report-radios">
+        <legend>발생 빈도</legend>
+        {frequencies.map((freq) => (
+          <label class="report-radio">
+            <input type="radio" name="frequency" value={freq.value} />
+            <span>{freq.label}</span>
+          </label>
+        ))}
+      </fieldset>
+
+      <div class="report-field">
+        <label for="screenshots">스크린샷 <span class="report-optional">(선택)</span></label>
+        <input id="screenshots" name="screenshots" type="file" accept="image/*" multiple />
+        <p class="report-help">이미지 파일. 여러 장 첨부할 수 있습니다.</p>
+      </div>
+
+      <div class="report-field">
+        <label for="savefiles">세이브 파일 <span class="report-optional">(선택)</span></label>
+        <input id="savefiles" name="savefiles" type="file" multiple />
+        <p class="report-help">메모리카드·세이브 파일 등. 형식 제한은 없습니다. (파일당 최대 30MB)</p>
+      </div>
+
+      <div class="report-field">
+        <label for="contact">연락처 <span class="report-optional">(선택)</span></label>
+        <input
+          id="contact"
+          name="contact"
+          type="text"
+          maxlength="200"
+          placeholder="이메일 등. 익명 제보를 원하면 비워 두세요."
+          autocomplete="off"
+        />
+      </div>
+
+      {/* Honeypot: hidden from humans, tempting to naive bots. Filled = dropped. */}
+      <div class="report-hp" aria-hidden="true">
+        <label for="website">Website</label>
+        <input id="website" name="website" type="text" tabindex="-1" autocomplete="off" />
+      </div>
+
+      {turnstileSiteKey !== '' && (
+        <div class="report-field">
+          <div class="cf-turnstile" data-sitekey={turnstileSiteKey} data-theme="light"></div>
+        </div>
+      )}
+
+      <div class="report-actions">
+        <button type="submit" class="primary-button" id="report-submit">제보 보내기</button>
+        <p id="report-status" class="report-status" role="status" aria-live="polite"></p>
+      </div>
+    </form>
+
+    <noscript>
+      <p class="notice-text">
+        이 폼은 JavaScript가 필요합니다. 사용이 어려우면
+        <a href={`mailto:${contactEmail}`}>{contactEmail}</a>으로 제보해 주세요.
+      </p>
+    </noscript>
+  </div>
+
+  {turnstileSiteKey !== '' && (
+    <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
+  )}
+
+  <script is:inline define:vars={{ maxFileBytes }}>
+    const form = document.getElementById('report-form');
+    const statusEl = document.getElementById('report-status');
+    const submitBtn = document.getElementById('report-submit');
+    const endpoint = form?.dataset.endpoint ?? '';
+
+    function setStatus(message, kind) {
+      statusEl.textContent = message;
+      statusEl.dataset.kind = kind ?? '';
+    }
+
+    function totalFileBytes() {
+      let total = 0;
+      for (const input of form.querySelectorAll('input[type="file"]')) {
+        for (const file of input.files) total += file.size;
+      }
+      return total;
+    }
+
+    form?.addEventListener('submit', async (event) => {
+      event.preventDefault();
+      if (!endpoint) {
+        setStatus('제보 서버가 아직 연결되지 않았습니다. 이메일로 보내주세요.', 'error');
+        return;
+      }
+      if (!form.reportValidity()) return;
+
+      // Enforce the size cap client-side too, so users get instant feedback.
+      const oversize = [];
+      for (const input of form.querySelectorAll('input[type="file"]')) {
+        for (const file of input.files) {
+          if (file.size > maxFileBytes) oversize.push(file.name);
+        }
+      }
+      if (oversize.length) {
+        setStatus(`파일이 30MB를 초과했습니다: ${oversize.join(', ')}`, 'error');
+        return;
+      }
+      if (totalFileBytes() > maxFileBytes * 4) {
+        setStatus('첨부 파일 전체 용량이 너무 큽니다. 일부만 첨부해 주세요.', 'error');
+        return;
+      }
+
+      const turnstile = window.turnstile;
+      const token = form.querySelector('[name="cf-turnstile-response"]')?.value;
+      if (typeof turnstile !== 'undefined' && !token) {
+        setStatus('사람인지 확인하는 절차를 완료해 주세요.', 'error');
+        return;
+      }
+
+      submitBtn.disabled = true;
+      setStatus('제보를 보내는 중입니다…', 'pending');
+
+      try {
+        const response = await fetch(endpoint, { method: 'POST', body: new FormData(form) });
+        const data = await response.json().catch(() => ({}));
+        if (response.ok && data.ok) {
+          setStatus('제보가 접수되었습니다. 감사합니다!', 'success');
+          form.reset();
+          if (typeof turnstile !== 'undefined') turnstile.reset();
+        } else if (response.status === 429) {
+          setStatus('요청이 너무 많습니다. 잠시 후 다시 시도해 주세요.', 'error');
+          if (typeof turnstile !== 'undefined') turnstile.reset();
+        } else {
+          setStatus(data.error ?? '제보 전송에 실패했습니다. 잠시 후 다시 시도해 주세요.', 'error');
+          if (typeof turnstile !== 'undefined') turnstile.reset();
+        }
+      } catch (error) {
+        setStatus('네트워크 오류로 전송하지 못했습니다. 잠시 후 다시 시도해 주세요.', 'error');
+        if (typeof turnstile !== 'undefined') turnstile.reset();
+      } finally {
+        submitBtn.disabled = false;
+      }
+    });
+  </script>
+</SiteLayout>

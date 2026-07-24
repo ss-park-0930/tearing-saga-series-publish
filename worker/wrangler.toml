@@ -1,0 +1,27 @@
+name = "trs-bug-report"
+main = "worker.js"
+compatibility_date = "2024-11-01"
+
+# --- Non-secret vars (safe to commit) ---
+# ALLOWED_ORIGIN must exactly match the site origin (scheme + host, no path,
+# no trailing slash). CORS + the origin allowlist depend on it.
+[vars]
+ALLOWED_ORIGIN = "https://ts.soaptree.dev"
+R2_PUBLIC_BASE = "https://pub-52680c3e160e4cf7a78eb2b551eee357.r2.dev"
+GH_REPO_TRS1 = "ss-park-0930/tearing-saga-release"
+GH_REPO_TRS2 = "ss-park-0930/berwick-saga-release"
+
+# --- R2 bucket for attachments ---
+[[r2_buckets]]
+binding = "BUCKET"
+bucket_name = "ts-series"
+
+# --- KV namespace for per-IP rate limiting ---
+# Replace `id` with the value from: wrangler kv namespace create RATE_LIMIT
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "07c305044ac9433f9ccf2e328e4dd79e"
+
+# Secrets are NOT set here. Use:
+#   wrangler secret put TURNSTILE_SECRET
+#   wrangler secret put GH_TOKEN
