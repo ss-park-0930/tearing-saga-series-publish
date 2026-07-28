@@ -375,6 +375,81 @@ code { font-family: "Cascadia Mono", Consolas, monospace; }
 .report-status[data-kind="error"] { color: var(--warning); }
 .report-status[data-kind="pending"] { color: var(--muted); }
 .cf-turnstile { min-height: 65px; }
+.link-button {
+  padding: 0;
+  border: 0;
+  background: none;
+  color: var(--accent);
+  font-size: .76rem;
+  font-weight: 700;
+  text-decoration: underline;
+  cursor: pointer;
+}
+.link-button:hover, .link-button:focus-visible { color: var(--accent-hover); }
+
+/* Save-file location guide dialog */
+.save-guide {
+  width: min(620px, calc(100% - 2rem));
+  max-height: min(80vh, 720px);
+  overflow: auto;
+  padding: 0;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+  color: var(--text);
+}
+.save-guide::backdrop { background: rgba(32, 33, 36, .45); }
+.save-guide-head {
+  position: sticky;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 1.1rem 1.25rem;
+  border-bottom: 1px solid var(--border);
+  background: var(--surface);
+}
+.save-guide-head h2 { margin: 0; font-size: 1.05rem; }
+.save-guide-close {
+  min-height: 34px;
+  min-width: 34px;
+  border: 1px solid var(--border);
+  border-radius: 6px;
+  background: var(--surface);
+  color: var(--muted);
+  cursor: pointer;
+}
+.save-guide-close:hover, .save-guide-close:focus-visible {
+  border-color: #999d9f;
+  color: var(--text);
+}
+.save-guide-body { padding: 1.25rem; }
+.save-guide-body p { margin: 0 0 1rem; color: #4d5156; font-size: .84rem; line-height: 1.8; }
+.save-guide-body h3 {
+  margin: 1.6rem 0 .5rem;
+  font-size: .9rem;
+}
+.save-guide-body h3:first-of-type { margin-top: 1.2rem; }
+.save-guide-body ul { margin: 0; padding-left: 1.15rem; }
+.save-guide-body li { margin-bottom: .45rem; color: #4d5156; font-size: .82rem; line-height: 1.75; }
+.save-guide-body code {
+  padding: .1rem .3rem;
+  border-radius: 4px;
+  background: var(--surface-muted);
+  font-size: .76rem;
+  word-break: break-all;
+}
+.save-guide-note { color: var(--muted); }
+.save-guide-actions {
+  position: sticky;
+  bottom: 0;
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem 1.25rem;
+  border-top: 1px solid var(--border);
+  background: var(--surface);
+}
 .guide-section pre {
   overflow-x: auto;
   padding: 1rem;

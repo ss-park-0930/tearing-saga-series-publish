@@ -11,7 +11,7 @@ const reportEndpoint = import.meta.env.PUBLIC_REPORT_ENDPOINT ?? '';
 const turnstileSiteKey = import.meta.env.PUBLIC_TURNSTILE_SITEKEY ?? '';
 const contactEmail = 'soaptree45@gmail.com';
 
-const environments = ['실기(PS1/PS2)', 'DuckStation', 'PCSX2', 'PPSSPP', '기타'];
+const environments = ['실기(PS1/PS2)', 'DuckStation', 'ePSXe', 'PCSX2', '기타'];
 const frequencies = [
   { value: 'always', label: '항상' },
   { value: 'sometimes', label: '가끔' },
@@ -128,7 +128,18 @@ const maxFileBytes = 30 * 1024 * 1024;
       <div class="report-field">
         <label for="savefiles">세이브 파일 <span class="report-optional">(선택)</span></label>
         <input id="savefiles" name="savefiles" type="file" multiple />
-        <p class="report-help">메모리카드·세이브 파일 등. 형식 제한은 없습니다. (파일당 최대 30MB)</p>
+        <p class="report-help">
+          문제가 발생한 시점의 <strong>게임 내 세이브 파일</strong>(메모리 카드 파일)을 함께 보내주시면
+          같은 상황을 그대로 재현해 볼 수 있어 원인 분석에 큰 도움이 됩니다.
+          세이브 스테이트(중간 저장)는 에뮬레이터 종류와 버전이 다르면 열리지 않는 경우가 많아,
+          가능하면 게임에서 저장한 세이브 파일을 첨부해 주세요.
+        </p>
+        <p class="report-help">형식 제한은 없습니다. (파일당 최대 30MB)</p>
+        <p class="report-help">
+          <button type="button" class="link-button" id="save-guide-open">
+            세이브 파일이 어디에 있나요?
+          </button>
+        </p>
       </div>
 
       <div class="report-field">
@@ -167,11 +178,148 @@ const maxFileBytes = 30 * 1024 * 1024;
         <a href={`mailto:${contactEmail}`}>{contactEmail}</a>으로 제보해 주세요.
       </p>
     </noscript>
+
+    <dialog id="save-guide" class="save-guide" aria-labelledby="save-guide-title">
+      <div class="save-guide-head">
+        <h2 id="save-guide-title">세이브 파일 위치 안내</h2>
+        <button type="button" class="save-guide-close" id="save-guide-close" aria-label="닫기">✕</button>
+      </div>
+      <div class="save-guide-body">
+        <p>
+          여기서 말하는 세이브 파일은 <strong>게임 안에서 저장한 데이터</strong>, 즉 메모리 카드 파일입니다.
+          에뮬레이터의 세이브 스테이트(중간 저장)와는 다른 파일입니다.
+        </p>
+        <p class="notice-text">
+          세이브 스테이트는 에뮬레이터와 버전, 패치 적용 상태까지 일치해야 열리는 경우가 많습니다.
+          두 가지가 모두 있다면 게임 내 세이브 파일을 우선 첨부해 주세요.
+        </p>
+
+        <h3>DuckStation (PS1)</h3>
+        <ul>
+          <li>
+            Windows: <code>%USERPROFILE%\Documents\DuckStation\memcards\</code>
+            <span class="save-guide-note">
+              (파일 탐색기 주소창에 그대로 붙여넣으면 열립니다)
+            </span>
+          </li>
+          <li>macOS: <code>~/Library/Application Support/DuckStation/memcards/</code></li>
+          <li>Linux: <code>~/.local/share/duckstation/memcards/</code></li>
+          <li>
+            파일 확장자는 <code>.mcd</code>이며, 게임별 메모리 카드를 쓰는 경우
+            <code>SLPS-03050_1.mcd</code>처럼 디스크 코드가 이름에 들어갑니다.
+          </li>
+          <li>
+            메뉴에서 확인하려면 <strong>설정 → 메모리 카드</strong>에서 슬롯 1의 파일 경로를 보면 됩니다.
+          </li>
+          <li>
+            포터블 모드로 쓰고 있다면 실행 파일이 있는 폴더 아래 <code>memcards</code> 폴더를 확인하세요.
+          </li>
+          <li>
+            <code>savestates</code> 폴더의 파일은 세이브 스테이트이므로 대상이 아닙니다.
+          </li>
+        </ul>
+
+        <h3>ePSXe (PS1)</h3>
+        <ul>
+          <li>
+            Windows: ePSXe를 설치(압축 해제)한 폴더 아래 <code>memcards\</code>
+          </li>
+          <li>Linux: <code>~/.epsxe/memcards/</code></li>
+          <li>
+            기본 파일 이름은 <code>epsxe000.mcr</code>(슬롯 1), <code>epsxe001.mcr</code>(슬롯 2)입니다.
+          </li>
+          <li>
+            메뉴에서 확인하려면 <strong>Config → Memory Cards</strong>에서 슬롯별 파일 경로를 보면 됩니다.
+          </li>
+          <li>
+            <code>sstates</code> 폴더의 파일은 세이브 스테이트이므로 대상이 아닙니다.
+          </li>
+        </ul>
+
+        <h3>PCSX2 (PS2)</h3>
+        <ul>
+          <li>
+            Windows (1.7 이상 · 2.x): <code>%USERPROFILE%\Documents\PCSX2\memcards\</code>
+          </li>
+          <li>
+            Windows (1.6 이하): 설치 폴더 아래 <code>memcards\</code>
+          </li>
+          <li>macOS: <code>~/Library/Application Support/PCSX2/memcards/</code></li>
+          <li>Linux: <code>~/.config/PCSX2/memcards/</code></li>
+          <li>
+            기본 파일 이름은 <code>Mcd001.ps2</code>(슬롯 1), <code>Mcd002.ps2</code>(슬롯 2)입니다.
+          </li>
+          <li>
+            메뉴에서는 <strong>설정 → 메모리 카드</strong>에서 사용 중인 카드와 폴더를 확인할 수 있습니다.
+          </li>
+          <li>
+            폴더형 메모리 카드(<span lang="en">Folder Memory Card</span>)를 쓰고 있다면 파일 하나가 아니라
+            폴더로 되어 있습니다. 그 폴더를 통째로 ZIP으로 압축해서 첨부해 주세요.
+          </li>
+          <li>
+            <code>savestates</code> 폴더의 <code>.p2s</code> 파일은 세이브 스테이트이므로 대상이 아닙니다.
+          </li>
+        </ul>
+
+        <h3>실기 (PS1 / PS2)</h3>
+        <ul>
+          <li>
+            실제 메모리 카드에 저장된 데이터는 PC로 바로 복사할 수 없습니다. 메모리 카드 리더기나
+            PS3의 메모리 카드 어댑터 등 별도 장비가 있어야 파일로 뽑아낼 수 있습니다.
+          </li>
+          <li>
+            추출이 어렵다면 세이브 파일 없이 보내주셔도 됩니다. 대신 문제 장면의 스크린샷과
+            그 직전에 무엇을 했는지 자세히 적어주시면 도움이 됩니다.
+          </li>
+        </ul>
+
+        <h3>공통</h3>
+        <ul>
+          <li>
+            어디에 있는지 모르겠다면, 에뮬레이터에서 <strong>메모리 카드</strong> 관련 설정 화면을 열어
+            표시된 경로를 확인하는 방법이 가장 확실합니다.
+          </li>
+          <li>
+            여러 파일을 보내야 하거나 폴더 형태라면 ZIP으로 묶어서 첨부해 주세요. (파일당 최대 30MB)
+          </li>
+          <li>
+            세이브 파일에는 플레이 기록만 들어 있으며, 개인 정보는 포함되지 않습니다.
+          </li>
+        </ul>
+      </div>
+      <div class="save-guide-actions">
+        <button type="button" class="primary-button" id="save-guide-done">닫기</button>
+      </div>
+    </dialog>
   </div>
 
   {turnstileSiteKey !== '' && (
     <script is:inline src="https://challenges.cloudflare.com/turnstile/v0/api.js" async defer></script>
   )}
+
+  <script is:inline>
+    // Save-file location guide. Falls back to plain visibility toggling on
+    // browsers without <dialog> support.
+    const saveGuide = document.getElementById('save-guide');
+    const openSaveGuide = document.getElementById('save-guide-open');
+
+    function closeSaveGuide() {
+      if (typeof saveGuide.close === 'function') saveGuide.close();
+      else saveGuide.removeAttribute('open');
+      openSaveGuide?.focus();
+    }
+
+    openSaveGuide?.addEventListener('click', () => {
+      if (typeof saveGuide.showModal === 'function') saveGuide.showModal();
+      else saveGuide.setAttribute('open', '');
+    });
+    document.getElementById('save-guide-close')?.addEventListener('click', closeSaveGuide);
+    document.getElementById('save-guide-done')?.addEventListener('click', closeSaveGuide);
+    // Click on the backdrop (i.e. outside the dialog box) closes it.
+    saveGuide?.addEventListener('click', (event) => {
+      if (event.target === saveGuide) closeSaveGuide();
+    });
+  </script>
 
   <script is:inline define:vars={{ maxFileBytes }}>
     const form = document.getElementById('report-form');
